@@ -1,0 +1,16 @@
+{
+	"appContent": {
+		"mobileView": "Mobil",
+		"desktopView": "Asztali"
+	},
+	"variableToolbox": {
+		"title": "Változó szerkesztése",
+		"nameLabel": "Név",
+		"valueLabel": "Érték",
+		"buttons": {
+			"save": "Mentés",
+			"cancel": "Mégse"
+		},
+		"inputRequired": "Kötelező mező"
+	}
+}

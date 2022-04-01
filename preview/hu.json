@@ -1,0 +1,10 @@
+{
+	"previewHeader": {
+		"darkMode": "Sötét nézet (Outlook)",
+		"lightMode": "Világos nézet"
+	},
+	"previewBody": {
+			"mobileView": "Mobil",
+			"desktopView": "Asztali"
+	}
+}

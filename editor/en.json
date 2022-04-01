@@ -1,0 +1,698 @@
+{
+	"app": {
+		"loading": "Loading tree..."
+	},
+	"editorMain": {
+		"contentHeader": {
+			"altText": "Alternative text",
+			"imageSource": "Image src",
+			"addMergeTag": "Add a merge tag",
+			"addVariable": "Add variable",
+			"rightPanelLabel": "Details",
+			"disabled": "Settings are not available for this element",
+			"enabled": "Toggle settings",
+			"selectedVariable": "Selected variable",
+			"contentHeaderBlockLockTooltip": {
+				"lockMsg": "You cannot edit the content of this element because the selected block is locked."
+			},
+			"contentHeaderImageActions": {
+				"selectNewImage": "Select new image",
+				"srcVariable": "Src variable",
+				"moreOptions": "More options",
+				"selectVariable": "Select a variable",
+				"unlinkVariable": "Unlink variable",
+				"editImage": "Edit image"
+			},
+			"contentHeaderLinkInput": {
+				"linkVariable": "Link variable",
+				"link": "Link",
+				"title": "Title",
+				"unlinkVariable": "Unlink variable",
+				"removeLink": "Remove link",
+				"addLink": "Add link",
+				"protocol": "Protocol",
+				"emailAddress": "Email",
+				"subject": "Subject",
+				"message": "Message",
+				"url": "Url",
+				"addMergeTag": "Add a merge tag",
+				"addVariable": "Add variable",
+				"selectVariable": "Select a variable",
+				"cancel": "Cancel",
+				"save": "Save",
+				"mandatoryField": "Mandatory field",
+				"invalidEmail": "Invalid email address",
+				"openLinkMenu": "Open the menu to edit the link url"
+			}
+		},
+		"newElement": {
+			"dontShow": "Don’t show this hint again.",
+			"blockElement": {
+				"delete": "DELETE"
+			},
+			"logicalTreeviewDrawer": {
+				"logicalStructure": "Logical structure",
+				"hideLogicalStructure": "Hide logical structure",
+				"labels": {
+					"conditional": "Conditional",
+					"block-level-conditional": "Block Level Conditional",
+					"else": "Else",
+					"emptyExpression": "Empty expression"
+				}
+			},
+			"elements": "Elements",
+			"brand": "Brand",
+			"body": "Body",
+			"text": "Text",
+			"image": "Image",
+			"button": "Button",
+			"divider": "Divider",
+			"social": "Social",
+			"code": "Code",
+			"video": "Video",
+			"fullwidth": "Block",
+			"column": "Column",
+			"moreThanFive": "...",
+			"hidden": ".",
+			"box": "Box",
+			"BOX": "Box",
+			"multicolumn": "Multicolumn",
+			"COLUMNS": "COLUMNS",
+			"BLOCK": "BLOCK",
+			"columns": "COLUMNS",
+			"block": "Block",
+			"loop": "Loop",
+			"block-level-loop": "Block Level Loop",
+			"conditional": "Conditional",
+			"block-level-conditional": "Block Level Conditional",
+			"dynamic-image": "Dynamic Image",
+			"dragAndDropElementIntoTheEditorArea": "Drag and drop elements into the editor area",
+			"advanced": "Advanced",
+			"content": "Content",
+			"structure": "Structure",
+			"close": "Close",
+			"blocks": "Blocks",
+			"search": "Search in blocks",
+			"libraries": "Block libraries",
+			"hiddenWarning": "Blocks are temporarily hidden while the drag-and-drop is in progress to avoid perfomance issues in a recent buggy Google Chrome version.",
+			"noResult": "No results. :( Refine your search. ;)"
+		},
+		"sharedComponents": {
+			"superColorPicker": {},
+			"toolboxHeader": {
+				"lockMsg": "You cannot edit the settings of this element because the selected block is locked.",
+				"subscriptionLockMsg": "To use this feature please upgrade your subscription plan"
+			}
+		},
+		"statusBar": {
+			"breadcrumbs": {},
+			"userListItem": {}
+		},
+		"toolboxes": {
+			"alignment": {
+				"labels": {
+					"title": "Element align",
+					"left": "Left",
+					"center": "Center",
+					"right": "Right"
+				}
+			},
+			"appliedExpressions": {
+				"title": "Applied expressions",
+				"else": "Else",
+				"emptyExpression": "Empty expression"
+			},
+			"background": {
+				"labels": {
+					"title": "Element background",
+					"colorPickerLabel": "Background color",
+					"bgImageText": "Background image",
+					"btnSelect": "CHANGE",
+					"btnEdit": "EDIT",
+					"bgImagePosition": "Position",
+					"bgImageRepeat": "Repeat",
+					"bgImageSize": "Size",
+					"selectVariable": "Select a variable",
+					"unlinkVariable": "Unlink variable",
+					"bgVariable": "Background image variable",
+					"hoverStyling": "Hover styling",
+					"bgHoverColor": "Hover background color"
+				}
+			},
+			"blockLock": {
+				"labels": {
+					"title": "Block lock"
+				},
+				"noPermission": "You don't have permission to lock or unlock blocks.",
+				"editEnabled": "Editing enabled",
+				"editEnabledInfo": "Both the design and content of the block are fully editable.",
+				"lockedDesign": "Locked design",
+				"lockedDesignInfo": "The design of the block cannot be modified but texts, images, and URLs can be updated.",
+				"lockedDesignContent": "Locked design & content",
+				"lockedDesignContentInfo": "Neither the design nor the content of the block can be modified."
+			},
+			"blockSaveDrawer": {
+				"title": "Untitled block",
+				"notSaved": "BLOCK NOT SAVED",
+				"saveTo": "Save to...",
+				"save": "SAVE"
+			},
+			"border": {
+				"title": "Border",
+				"separate": "Separate",
+				"borderRadius": "Border radius",
+				"top": "Top",
+				"right": "Right",
+				"bottom": "Bottom",
+				"left": "Left",
+				"labels": {
+					"title": "Border",
+					"borderSize": "Width",
+					"borderStyle": "Style",
+					"borderColor": "Border color"
+				}
+			},
+			"branchManagement": {
+				"title": "Branches",
+				"addNewBranch": "Add new branch",
+				"moveDownByOne": "Move down by one",
+				"moveUpByOne": "Move up by one",
+				"elseMustBeAtBottom": "The else branch must be at the bottom. Turn it into an Else If to move it.",
+				"selectYourExpression": "Select your expression",
+				"duplicateBranch": "Duplicate branch",
+				"deleteBranch": "Delete branch",
+				"expression": "Expression",
+				"types": {
+					"if": "If",
+					"else-if": "Else If",
+					"else": "Else"
+				},
+				"showLogicalStructure": "Show logical structure",
+				"hideLogicalStructure": "Hide logical structure"
+			},
+			"buttonSize": {
+				"mobileFluid": "Fluid on Mobile",
+				"labels": {
+					"title": "Element size",
+					"fitToText": "Fit to text",
+					"fixed": "Fixed",
+					"width": "Width"
+				}
+			},
+			"code": {
+				"labels": {
+					"inputLabel": "Title",
+					"inputHint": "Custom name for your code element",
+					"title": "Code",
+					"editHTML": "Edit Code",
+					"warning": "This code will appear untouched in the exported email HTML. Use this feature at your own risk, as it can affect other parts of the HTML and cause rendering issues. Additional note: Code added here will not render in the editor or preview.",
+					"isAmp": "AMP mode",
+					"amp": {
+						"inputLabel": "Title",
+						"inputHint": "Custom name for your AMP code element",
+						"editHTML": "Edit AMP HTML code",
+						"editCSS": "Edit AMP CSS code",
+						"ampCSS": "AMP CSS",
+						"warning": "This code will only appear in the AMP generator mode and it's going to be untouched in the exported email HTML. Use this feature at your own risk, as it can affect other parts of the HTML and cause rendering issues. Additional note: Code added here will not render in the editor or preview."
+					}
+				}
+			},
+			"column": {
+				"column": "Column",
+				"showMobile": "Show on mobile",
+				"showMobileInfo": "The \"Show on mobile\" switch is disabled on individual columns because the stacking is \"None\" on the parent Multicolumn element.",
+				"lockWidth": "Lock width",
+				"width": "Width",
+				"labels": {
+					"title": "Columns"
+				}
+			},
+			"dynamicImageSize": {
+				"title": "Element size",
+				"width": "Width",
+				"height": "Height",
+				"fluidOnMobile": "Fluid on mobile"
+			},
+			"expression": {
+				"titles": {
+					"loop": "Loop",
+					"block-level-loop": "Block Level Loop"
+				},
+				"inputLabel": "Expression",
+				"inputHint": "Enter your expression here",
+				"selectYourExpression": "Select your expression",
+				"showLogicalStructure": "Show logical structure",
+				"hideLogicalStructure": "Hide logical structure",
+				"outputPreview": {
+					"output": "Output",
+					"inTemplatingLanguage": "in {0}",
+					"mightBeOutdated": "Might be outdated. Reload the page to update the templating language.",
+					"youCanChooseDifferentIn": "You can choose a different templating language in {0}",
+					"content": "Content"
+				}
+			},
+			"imageSize": {
+				"title": "Element size",
+				"width": "Width",
+				"height": "Height",
+				"slider": "Image size",
+				"fluidOnMobile": "Fluid on mobile"
+			},
+			"line": {
+				"lineColor": "Line color",
+				"lineStyles": "Line styles",
+				"labels": {
+					"title": "Line",
+					"height": "Line height",
+					"transparent": "Transparent"
+				},
+				"lineStylesChoices": [
+					{
+						"text": "solid",
+						"value": "solid"
+					},
+					{
+						"text": "dotted",
+						"value": "dotted"
+					},
+					{
+						"text": "dashed",
+						"value": "dashed"
+					},
+					{
+						"text": "double",
+						"value": "double"
+					}
+				]
+			},
+			"marker": {
+				"labels": {
+					"title": "Marker",
+					"inputLabel": "Marker",
+					"inputHint": "Enter your marker here"
+				}
+			},
+			"multicol": {
+				"title": "Multicol",
+				"addColumn": "Add column",
+				"equalize": "Equalize",
+				"desktopSpacings": "Desktop spacings",
+				"left": "Left",
+				"inBetween": "In-between",
+				"right": "Right",
+				"leftRight": "Left to right",
+				"rightLeft": "Right to left",
+				"dontReorder": "Don't reorder columns",
+				"columnStackingMobile": "Column stacking order on mobile",
+				"mobileSpacings": "Mobile spacings",
+				"infoLine1": "Left and right spacings are not rendered on mobile in order to make your content wider on smaller screens.",
+				"infoLine2": "If you would like to use the same spacings on desktop and mobile views, please add a Box,",
+				"infoLine3": "adjust its paddings/margins, and drop your multicolumn into that Box.",
+				"top": "Top",
+				"bottom": "Bottom"
+			},
+			"positioningToolbox": {
+				"labels": {
+					"top": "Top",
+					"left": "Left",
+					"bottom": "Bottom",
+					"right": "Right",
+					"Paddings": "Paddings",
+					"Margins": "Margins",
+					"separate": "Separate"
+				}
+			},
+			"social": {
+				"title": "Social",
+				"labels": {
+					"title": "Social",
+					"iconSet": "Icon set",
+					"colorScheme": "Color scheme",
+					"url": "URL",
+					"addIcon": "Add new icon",
+					"layout": "Layout",
+					"align": {
+						"text": "Align",
+						"left": "Left",
+						"center": "Center",
+						"right": "Right"
+					},
+					"size": {
+						"text": "Size",
+						"s": "S",
+						"m": "M",
+						"l": "L",
+						"xl": "XL"
+					},
+					"iconSpacing": "Icon spacing",
+					"protocol": "Protocol"
+				},
+				"icons": "Icons",
+				"iconTypes": [
+					{
+						"text": "circle",
+						"value": 4
+					},
+					{
+						"text": "circle (transparent)",
+						"value": 5
+					},
+					{
+						"text": "flat",
+						"value": 1
+					},
+					{
+						"text": "square",
+						"value": 2
+					},
+					{
+						"text": "square (rounded)",
+						"value": 3
+					}
+				],
+				"colorSchemes": [
+					{
+						"text": "colorful",
+						"value": "colorful"
+					},
+					{
+						"text": "black",
+						"value": "black"
+					},
+					{
+						"text": "grey",
+						"value": "grey"
+					},
+					{
+						"text": "white",
+						"value": "white"
+					}
+				]
+			},
+			"textLink": {
+				"labels": {
+					"title": "Link",
+					"underline": "Underline",
+					"linkColor": "Link color"
+				}
+			},
+			"typography": {
+				"labels": {
+					"fontFamily": "Font family",
+					"fontSize": "Size",
+					"lineHeight": "Line height",
+					"fontColor": "Text settings",
+					"startTyping": "Start typing to search",
+					"letterSpacing": "Letter spacing",
+					"customLetterSpacing": "Custom letter spacing"
+				}
+			},
+			"typographyEditor": {
+				"title": "Body text settings",
+				"h1": "Heading 1",
+				"h2": "Heading 2",
+				"h3": "Heading 3"
+			},
+			"visibility": {
+				"labels": {
+					"title": "Element visibility",
+					"showOnMobile": "Show on mobile",
+					"showOnDesktop": "Show on desktop",
+					"showInAmp": "Show in AMP"
+				}
+			},
+			"width": {
+				"labels": {
+					"title": "Width"
+				},
+				"warning": "This will change the width of the content in this block.",
+				"warningBox": {
+					"line1": "600 px is still the safest email width these days.",
+					"line2": "Emails that are wider than 600-650 px might not fit into your subscribers' email reading pane in Outlook or Yahoo Mail on smaller screen sizes like 1366x768."
+				}
+			},
+			"video": {
+				"labels": {
+					"title": "Video properties",
+					"src": "Video src",
+					"altText": "Alt text",
+					"iconColor": "Icon color",
+					"iconType": "Icon type",
+					"iconSize": "Icon size"
+				},
+				"rules": {
+					"src": "Unsupported video provider or it's a broken video link"
+				}
+			},
+			"title": "Email content width",
+			"bodyBackground": "Body background",
+			"block": "Block",
+			"content": "Content",
+			"blockBackGround": "Block background",
+			"blockContentWidth": "Block content width",
+			"blockContentBackground": "Block content background",
+			"textBackground": "Text background",
+			"buttonProperties": "Button properties",
+			"boxBackground": "Box background",
+			"multicolumnBackground": "Multicolumn background",
+			"imageAlignment": "Image alignment",
+			"thumbnailAlignment": "Thumbnail alignment",
+			"imageBackground": "Image background",
+			"dividerBackground": "Divider background",
+			"columnBackground": "Column background",
+			"dynamicImageAlignment": "Dynamic image alignment",
+			"dynamicImageBackground": "Dynamic image background"
+		},
+		"titleInputLabel": "Title",
+		"titleInputHint": "Custom name for your code element",
+		"connectionLost": "Your device lost it's internet connection.",
+		"welcome": "Welcome back!",
+		"costumCode": "#Custom Code",
+		"pasteCodeHere": "Paste code here",
+		"cancel": "Cancel",
+		"update": "Update",
+		"plsSaveBeforeChangingPic": "Please save the email before changing pictures.",
+		"close": "Close"
+	},
+	"header": {
+		"signUpForFree": "SIGN UP FOR FREE",
+		"share": "Share",
+		"preview": "Preview",
+		"export": "Export",
+		"zoom": "Zoom"
+	},
+	"preview": {},
+	"variable": {
+		"variableModal": {
+			"color": "Color",
+			"fontStack": "Font Stack",
+			"image": "Image",
+			"link": "Link",
+			"text": "Text",
+			"how_to_use": "How to use",
+			"preview": "Preview",
+			"editVariable": "Edit variable",
+			"changedProps": "Successfully replaced {0} matching value(s) with the variable.",
+			"selectVariable": "Select variable",
+			"brandVariable": "Brand variable",
+			"actions": {
+				"use": "Use",
+				"addNew": "Add new",
+				"save": "Save",
+				"update": "Update",
+				"cancel": "Cancel"
+			}
+		},
+		"variableList": {
+			"name": "Name",
+			"value": "Value",
+			"size": "Size",
+			"aspectRatio": "Aspect ratio",
+			"actions": "Actions",
+			"canEdit": "Update variable",
+			"canNotEdit": "You don't have permission to update this variable",
+			"canDelete": "Delete variable",
+			"canNotDelete": "You don't have permission to delete this variable",
+			"noVariableOfType": "To create your first {0} variable, hit the \"Add New\" button.",
+			"deleteWarning": "{0} element(s) still use(s) this variable. Are you sure you want to delete it?",
+			"findAndRemove": "Remove the variable from everywhere but keep the values",
+			"findAndReplace": "Find matching values and replace them with the variable"
+		},
+		"variablePreview": {
+			"selectToPreview": "Select a variable to see a more detailed preview of it."
+		},
+		"variableInputName": {
+			"label": "Variable name*",
+			"rules": {
+				"required": "Name is required",
+				"noSpecialChar": "No space or special character allowed!",
+				"tooShort": "The variable name is too short",
+				"tooLong": "The variable name is too long",
+				"unique": "Variable already exists as type {0}"
+			}
+		},
+		"variableInputDescription": {
+			"label": "Description (optional)",
+			"rules": {
+				"maxLength90": "The description is too long"
+			}
+		},
+		"variableContentMenuWrapper": {
+			"clearVariables": "Remove",
+			"changeVariables": "Change"
+		},
+		"howToUse": {
+			"color": {
+				"line1": "Thanks to the color variables, changing the color theme of your email becomes a breeze.",
+				"line2": "As a best practice, we would advise you to define your most-used brand and text colors, at least.",
+				"line3": "Once you have the color variables defined and associated with every desired element, you will be able to update their colors together."
+			},
+			"fontStack": {
+				"line1": "Typography is an essential element in any brand identity, and it all starts with the font family.",
+				"line2": "As a best practice, we advise you to use a maximum of two different font families in your email: one for headings and one for paragraphs.",
+				"line3": "Once you have the font variables defined and associated with every desired element, you will be able to update them together."
+			},
+			"image": {
+				"line1": "The image variables can help you replace brand-specific image elements in your email template conveniently.",
+				"line2": "As a best practice, we advise you to define the company logo, custom icons, image backgrounds, or other repetitive decorator elements as image variables.",
+				"line3": "Once you have the image variables defined and associated with every desired element, you will be able to update them together."
+			},
+			"link": {
+				"line1": "The link variables can help you replace brand-specific links in your email template conveniently.",
+				"line2": "Any link that's not being added via a merge tag but is necessary multiple times in an email, for example, a link to your homepage, should be defined as a link variable instead of a regular URL.",
+				"line3": "This way, if you wish to reuse the email with a different brand or need to update it, you'll be able to replace those links in it together."
+			},
+			"text": {
+				"line1": "Text variables were born to let you customize the written content of multiple text values just like, buttons, ALT texts, or titles together.",
+				"line2": "For example, instead of writing \"Read more\" on every button in your email template, you could create a \"button-text-1\" variable and assign it to each of them. ",
+				"line3": "Later, if you need to replace the call-to-action on the buttons, you will only need to modify the value of your text variable once."
+			}
+		},
+		"addTextVariable": {
+			"label": "Text",
+			"rules": {
+				"required": "Name is required"
+			}
+		},
+		"addLinkVariable": {
+			"label": "Link",
+			"rules": {
+				"required": "Link url is required"
+			}
+		},
+		"addImageVariable": {
+			"label": "Image source URL",
+			"rules": {
+				"required": "Image url is required",
+				"error": "Not valid url"
+			}
+		},
+		"addFontStackVariable": {
+			"label": "Link"
+		},
+		"addColorVariable": {
+			"label": "Hexadecimal color code",
+			"rules": {
+				"notValidColor": "Not a valid color"
+			}
+		}
+	},
+	"actionButtons": {},
+	"colorPicker": {
+		"clearVariables": "Remove",
+		"changeVariables": "Change",
+		"notAvailable": "It's available in another plan.",
+		"openVariableSelector": "Open variable selector"
+	},
+	"cursorWrapper": {},
+	"demoGalleryDialog": {
+		"registeredOnly": "The image gallery is currently available for registered users only.",
+		"onBoardingBouble": "Upload your images, logos, and GIFs to the Gallery. Create folders to manage your visual assets, and share them with your team. Edit, crop, and resize images in the embedded image editor.",
+		"continueDesigning": "Continue Designing",
+		"register": "Register"
+	},
+	"editorDropZoneBlockLevelBottom": {
+		"move": "Move {0}",
+		"new": "New {0}",
+		"newBlock": "New Block",
+		"newBlockInside": "New block inside {0}",
+		"types": {
+			"fullwidth": "Block",
+			"loop": "Block Level Loop",
+			"block-level-loop": "Block Level Loop",
+			"conditional": "Block Level Conditional",
+			"block-level-conditional": "Block Level Conditional"
+		}
+	},
+	"editorDropZoneBlockLevelTop": {
+		"move": "Move {0}",
+		"new": "New {0}",
+		"newBlock": "New Block",
+		"newBlockInside": "New block inside {0}",
+		"types": {
+			"fullwidth": "Block",
+			"loop": "Block Level Loop",
+			"block-level-loop": "Block Level Loop",
+			"conditional": "Block Level Conditional",
+			"block-level-conditional": "Block Level Conditional"
+		}
+	},
+	"editorDropZoneButton": {},
+	"editorDropZoneColumnLeft": {},
+	"editorDropZoneColumnRight": {},
+	"editorDropZoneEmpty": {},
+	"editorDropZoneLeft": {},
+	"editorDropZoneRight": {},
+	"editorDropZoneRoot": {
+		"dragDrop": "Drag & drop an element here",
+		"dropElement": "Drop the element here"
+	},
+	"editorDropZoneTop": {},
+	"editorElementBlockLevelConditional": {},
+	"editorElementBlockLevelLoop": {},
+	"editorElementBody": {},
+	"editorElementBox": {},
+	"editorElementBranch": {},
+	"editorElementButton": {},
+	"editorElementCode": {},
+	"editorElementColumn": {},
+	"editorElementConditional": {},
+	"editorElementDivider": {},
+	"editorElementDynamicImage": {},
+	"editorElementFullWidth": {
+		"blockLock": "Block lock {0}",
+		"dragBlock": "Drag block {0}",
+		"saveBlock": "Save block {0}",
+		"duplicateBlock": "Duplicate block {0}",
+		"deleteBlock": "Delete block {0}",
+		"types": {
+			"fullwidth": "",
+			"block-level-conditional": "(Block Level Conditional)",
+			"block-level-loop": "(Block Level Loop)"
+		}
+	},
+	"editorElementFullWidthLockIcon": {},
+	"editorElementImage": {},
+	"editorElementLoop": {},
+	"editorElementMultiColumn": {},
+	"editorElementSocial": {},
+	"editorElementText": {},
+	"editorPlaceHolderEmpty": {
+		"dragDrop": "Drag & drop an element here",
+		"dropElement": "Drop the element here"
+	},
+	"close": "Close",
+	"onBoardingBouble": {},
+	"onBoardingDialog": {},
+	"onBoardingReminder": {
+		"justInCase": "Just in case",
+		"tutorial": "You can always view this tutorial in the email editor by clicking on “User Guide” in the {icon} drop-down menu on the upper right-hand corner.",
+		"close": "Close"
+	},
+	"enterApply": "Hit ENTER to apply",
+	"errors": {
+		"supportedFileTypes": "Supported file types: jpg, jpeg, png and gif only!",
+		"httpsMissing": "Invalid URL. Please serve the image from HTTPS.",
+		"invalidImageUrl": "This is not a valid URL"
+	}
+}

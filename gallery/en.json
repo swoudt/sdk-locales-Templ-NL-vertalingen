@@ -1,0 +1,93 @@
+{
+	"defaultEditorImageTitle": "Edit an image from editor",
+	"app": {
+		"headerTitle": "Gallery",
+		"myImages": "My Images", 
+		"stockPhotos": "Browse stock photos" 
+	},
+	"fileList": {
+		"searchNoResult": "No images.",
+		"imageCardActions": {
+			"save": "Add to library",
+			"pick": "Choose",
+			"crop": "Crop to fit",
+			"edit": "Edit",
+			"delete": "Delete"
+		},
+		"imageRemoved": "Image removed successfully!"
+	},
+	"fileListItem": {
+		"smallImageWarning": "Too small",
+		"size": "Size: {imageWidth} x {imageHeight}",
+		"ratio": "Aspect ratio: {aspectRatio}",
+		"saved": "{0} is saved"
+	},
+	"fileUploadDropZone": {
+		"dropImage": "Drop images here\nor {action} to upload\n(Max file size: {maxFileSize} MB.)",
+		"browseAction": "browse",
+		"or": "or",
+		"pasteUrl": "Save image from an URL",
+		"browseStockPhotos": "Browse stock photos"
+	},
+	"fileUploadUrlZone": {
+		"urlUploadInfo": "Uploading from 'http://' protocol is not supported. Please serve the image on 'https://' protocol or save it onto your computer and upload it from your files.",
+		"urlUploadSupportedImages": "We support the following image formats: {supportedImageFormats}",
+		"urlUploadSubmit": "Add to library"
+	},
+	"folderTreeView": {},
+	"photoEditor": {},
+	"photoEditorPane": {
+		"cropToFit": "Crop to fit"
+	},
+	"searchZone": {
+		"search": "Search",
+		"arrangeSearch": "Order by",
+		"searchOptions": {
+			"A-Z": "A - Z",
+			"Z-A": "Z - A",
+			"newest": "Newest",
+			"oldest": "Oldest"
+		}
+	},
+	"stockPhotoListItem": {
+		"pexelImport": "Add to library"
+	},
+	"stockPhotosModal": {
+		"stockPhotos": "Stock Photos",
+		"size": "Image size",
+		"search": "Search",
+		"noResultRefine": "No results. Please refine your search!",
+		"pexelChooseFrom": "Choose from millions of high-quality images for free",
+		"pexelLicense": "Pexels license",
+		"pexelPoweredBy": "Powered by",
+		"pexelLicenseInfo": "All images are published under the {license}",
+		"imageSizes": {
+				"tiny": "Tiny",
+				"landscape": "Landscape",
+				"portrait": "Portrait",
+				"small": "Small",
+				"medium": "medium",
+				"large": "Large",
+				"large2x": "Large 2x",
+				"original": "Original"
+		}
+	},
+	"uploadModal": {
+		"uploadModalTitle": "Warning",
+		"uploadModalText": "Are you sure you want to cancel the uploading process?",
+		"uploadModalContinue": "Keep uploading",
+		"uploadModalCancel": "Cancel process",
+		"uploadingInProgress": "Uploading images...",
+		"uploadingInFinished": "Upload finished"
+	},
+	"uploadModalFileList": {},
+	"uploadModalFileListItem": {},
+	"errors": {
+		"supportedFileTypes": "Supported file types: {0}, {1}, {2} and {3} only!",
+		"notImage": "It's not an image file!",
+		"tooLargeSize": "Your file is too large. Max.: {maxFileSize} MB",
+		"httpsMissing": "Invalid URL. Please serve the image from HTTPS.",
+		"invalidImageUrl": "This is not a valid URL",
+		"editImage": "Error while loading image for edit."
+	}
+}

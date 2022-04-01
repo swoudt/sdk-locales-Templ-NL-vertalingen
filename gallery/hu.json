@@ -1,0 +1,93 @@
+{
+	"defaultEditorImageTitle": "Szerkesztett kép",
+	"app": {
+		"headerTitle": "Galéria",
+		"myImages": "Képeim", 
+		"stockPhotos": "Stock fotó keresése" 
+	},
+	"fileList": {
+		"searchNoResult": "Még nincs feltöltve egy kép sem.",
+		"imageCardActions": {
+			"save": "Hozzáadás",
+			"pick": "Kiválaszt",
+			"crop": "Méretre vágás",
+			"edit": "Szerkesztés",
+			"delete": "Törlés"
+		},
+		"imageRemoved": "A kép sikeresen eltávolítva!"
+	},
+	"fileListItem": {
+		"smallImageWarning": "Túl kicsi kép",
+		"size": "Méret: {imageWidth} x {imageHeight}",
+		"ratio": "Képarány: {aspectRatio}",
+		"saved": "{0} mentve!"
+	},
+	"fileUploadDropZone": {
+		"dropImage": "Dobd ide a képeidet\nvagy {action} a feltöltéshez\n(A maximális fájlméret: {maxFileSize} MB.)",
+		"browseAction": "válaszd ki őket",
+		"or": "vagy",
+		"pasteUrl": "Illeszd be az URL-t",
+		"browseStockPhotos": "Válassz stock fotót"
+	},
+	"fileUploadUrlZone": {
+		"urlUploadInfo": "Feltöltés 'http://' protokollról nem támogatott. Kérjük használjon 'https://' protokollt vagy mentés után használja a képfeltöltés funkciót",
+		"urlUploadSupportedImages": "A következő formátumokat támogatjuk: {supportedImageFormats}",
+		"urlUploadSubmit": "Hozzáadás"
+	},
+	"folderTreeView": {},
+	"photoEditor": {},
+	"photoEditorPane": {
+		"cropToFit": "Méretre vágás"
+	},
+	"searchZone": {
+		"search": "Keresés",
+		"arrangeSearch": "Rendezés",
+		"searchOptions": {
+			"A-Z": "A - Z",
+			"Z-A": "Z - A",
+			"newest": "Legújabb",
+			"oldest": "Legrégebbi"
+		}
+	},
+	"stockPhotoListItem": {
+		"pexelImport": "Betöltés"
+	},
+	"stockPhotosModal": {
+		"stockPhotos": "Stock fotók",
+		"search": "Keresés",
+		"size": "Kép méret",
+		"noResultRefine": "Nincs találat. Indíts újabb keresést!",
+		"pexelChooseFrom": "Válassz a több millió minőségi kép közzül ingyenesen",
+		"pexelLicense": "Pexels feltételek",
+		"pexelPoweredBy": "Lehetővé tette",
+		"pexelLicenseInfo": "A képek {license} alatt jelentek meg",
+		"imageSizes": {
+			"tiny": "Apró",
+			"landscape": "Széles",
+			"portrait": "Portré",
+			"small": "Kicsi",
+			"medium": "Közepes",
+			"large": "Nagy",
+			"large2x": "Extra nagy",
+			"original": "Eredeti"
+		}
+	},
+	"uploadModal": {
+		"uploadModalTitle": "Figyelmeztetés",
+		"uploadModalText": "Biztosan megszakítja a feltöltést?",
+		"uploadModalContinue": "Folytatás",
+		"uploadModalCancel": "A folyamat megszakítása",
+		"uploadingInProgress": "Feltöltés...",
+		"uploadingInFinished": "Feltöltés befejezve"
+	},
+	"uploadModalFileList": {},
+	"uploadModalFileListItem": {},
+	"errors": {
+		"supportedFileTypes": "Támogatott formátumok: {0}, {1}, {2} és {3}!",
+		"notImage": "Ez nem egy kép fájl!",
+		"tooLargeSize": "A kép túl nagy. Maximális méret: {maxFileSize} MB",
+		"httpsMissing": "Hibás cím. Kérkük használjon HTTPS protokollt.",
+		"invalidImageUrl": "Ez egy hibás URL",
+		"editImage": "Hiba a kép betöltésénél."
+	}
+}
