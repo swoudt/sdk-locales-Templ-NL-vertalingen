@@ -1,0 +1,698 @@
+{
+	"app": {
+		"loading": "Загрузка..."
+	},
+	"editorMain": {
+		"contentHeader": {
+			"altText": "Альтернативный текст",
+			"imageSource": "Адрес изображения",
+			"addMergeTag": "Добавить тег",
+			"addVariable": "Добавить переменную",
+			"rightPanelLabel": "Настройки",
+			"disabled": "Настройки недоступны для данного элемента",
+			"enabled": "Задать настройки",
+			"selectedVariable": "Выбранная переменная",
+			"contentHeaderBlockLockTooltip": {
+				"lockMsg": "Вы не можете редактировать содержимое этого элемента, так как выбранный блок заблокирован."
+			},
+			"contentHeaderImageActions": {
+				"selectNewImage": "Выбрать новую картинку",
+				"srcVariable": "Адрес переменной",
+				"moreOptions": "Больше настроек",
+				"selectVariable": "Выберите переменную",
+				"unlinkVariable": "Отключить переменную",
+				"editImage": "Редактировать картинку"
+			},
+			"contentHeaderLinkInput": {
+				"linkVariable": "Подключить переменную",
+				"link": "Ссылка",
+				"title": "Заголовок",
+				"unlinkVariable": "Отключить переменную",
+				"removeLink": "Удалить ссылку",
+				"addLink": "Добавить ссылку",
+				"protocol": "Протокол",
+				"emailAddress": "Email",
+				"subject": "Тема",
+				"message": "Текст письма",
+				"url": "Ссылка",
+				"addMergeTag": "Добавить тег",
+				"addVariable": "Добавить переменную",
+				"selectVariable": "Выбрать переменную",
+				"cancel": "Отмена",
+				"save": "Сохранить",
+				"mandatoryField": "Обязательное поле",
+				"invalidEmail": "Неверный email-адрес",
+				"openLinkMenu": "Откройте меню, чтобы отредактировать URL-адрес ссылки"
+			}
+		},
+		"newElement": {
+			"dontShow": "Не показывать эту подсказку снова",
+			"blockElement": {
+				"delete": "УДАЛИТЬ"
+			},
+			"logicalTreeviewDrawer": {
+				"logicalStructure": "Структура",
+				"hideLogicalStructure": "Скрыть структуру",
+				"labels": {
+					"conditional": "Условная",
+					"block-level-conditional": "Block Level Conditional",
+					"else": "Else",
+					"emptyExpression": "Пустое выражение"
+				}
+			},
+			"elements": "Элементы",
+			"brand": "Бренд",
+			"body": "Тело",
+			"text": "Текст",
+			"image": "Картинка",
+			"button": "Кнопка",
+			"divider": "Разделитель",
+			"social": "Социальный",
+			"code": "HTML-код",
+			"video": "Видео",
+			"fullwidth": "Полоса",
+			"column": "Колонка",
+			"moreThanFive": "...",
+			"hidden": ".",
+			"box": "Контейнер",
+			"BOX": "Контейнер",
+			"multicolumn": "Колонки",
+			"COLUMNS": "КОЛОНКИ",
+			"BLOCK": "БЛОК",
+			"columns": "КОЛОНКИ",
+			"block": "Блок",
+			"loop": "Цикл",
+			"block-level-loop": "Block Level Loop",
+			"conditional": "Условный",
+			"block-level-conditional": "Block Level Conditional",
+			"dynamic-image": "Динамическое изображение",
+			"dragAndDropElementIntoTheEditorArea": "Перетаскивайте элементы в область редактора",
+			"advanced": "Дополнительно",
+			"content": "Контент",
+			"structure": "Структура",
+			"close": "Закрыть",
+			"blocks": "Блоки",
+			"search": "Искать в блоках",
+			"libraries": "Библиотека блоков",
+			"hiddenWarning": "Блоки временно скрыты во время перетаскивания, чтобы избежать проблем с производительностью в последней версии Google Chrome.",
+			"noResult": "Нет результатов. :( Уточните поиск ;)"
+		},
+		"sharedComponents": {
+			"superColorPicker": {},
+			"toolboxHeader": {
+				"lockMsg": "Вы не можете редактировать настройки этого элемента, так как выбранный блок заблокирован.",
+				"subscriptionLockMsg": "Чтобы использовать эту функцию, пожалуйста, обновите свой тарифный план подписки"
+			}
+		},
+		"statusBar": {
+			"breadcrumbs": {},
+			"userListItem": {}
+		},
+		"toolboxes": {
+			"alignment": {
+				"labels": {
+					"title": "Выравнивание",
+					"left": "Слева",
+					"center": "Центр",
+					"right": "Справа"
+				}
+			},
+			"appliedExpressions": {
+				"title": "Applied expressions",
+				"else": "Else",
+				"emptyExpression": "Empty expression"
+			},
+			"background": {
+				"labels": {
+					"title": "Фон элемента",
+					"colorPickerLabel": "Цвет фона",
+					"bgImageText": "Картинка в фоне",
+					"btnSelect": "ИЗМЕНИТЬ",
+					"btnEdit": "РЕДАКТИРОВАТЬ",
+					"bgImagePosition": "Позиция",
+					"bgImageRepeat": "Повторить",
+					"bgImageSize": "Размер",
+					"selectVariable": "Выбрать переменную",
+					"unlinkVariable": "Отключить переменную",
+					"bgVariable": "Переменная фонового изображения",
+					"hoverStyling": "Стиль наведения курсора",
+					"bgHoverColor": "Цвет фона при наведении"
+				}
+			},
+			"blockLock": {
+				"labels": {
+					"title": "Блокировка контейнера"
+				},
+				"noPermission": "У вас нет разрешения на блокировку или разблокировку блоков.",
+				"editEnabled": "Редактирование включено",
+				"editEnabledInfo": "Как дизайн, так и содержимое блока полностью доступны для редактирования.",
+				"lockedDesign": "Дизайн заблокирован",
+				"lockedDesignInfo": "Дизайн блока не может быть изменен, но тексты, изображения и URL-адреса могут быть обновлены.",
+				"lockedDesignContent": "Заблокированный дизайн и контент",
+				"lockedDesignContentInfo": "Ни дизайн, ни содержание блока не могут быть изменены."
+			},
+			"blockSaveDrawer": {
+				"title": "Контейнер без названия",
+				"notSaved": "Контейнер не сохранен",
+				"saveTo": "Сохранить к...",
+				"save": "СОХРАНИТЬ"
+			},
+			"border": {
+				"title": "Обводка",
+				"separate": "Separate",
+				"borderRadius": "Закругление",
+				"top": "Сверху",
+				"right": "Справа",
+				"bottom": "Снизу",
+				"left": "Слева",
+				"labels": {
+					"title": "Обводка",
+					"borderSize": "Ширина",
+					"borderStyle": "Стиль",
+					"borderColor": "Цвет обводки"
+				}
+			},
+			"branchManagement": {
+				"title": "Ветки",
+				"addNewBranch": "Добавить новую ветку",
+				"moveDownByOne": "Move down by one",
+				"moveUpByOne": "Move up by one",
+				"elseMustBeAtBottom": "The else branch must be at the bottom. Turn it into an Else If to move it.",
+				"selectYourExpression": "Select your expression",
+				"duplicateBranch": "Duplicate branch",
+				"deleteBranch": "Delete branch",
+				"expression": "Expression",
+				"types": {
+					"if": "If",
+					"else-if": "Else If",
+					"else": "Else"
+				},
+				"showLogicalStructure": "Show logical structure",
+				"hideLogicalStructure": "Hide logical structure"
+			},
+			"buttonSize": {
+				"mobileFluid": "Адаптивность на мобильном",
+				"labels": {
+					"title": "Размер элемента",
+					"fitToText": "Подгонка к тексту",
+					"fixed": "Фиксированная",
+					"width": "Ширина"
+				}
+			},
+			"code": {
+				"labels": {
+					"inputLabel": "Заголовок",
+					"inputHint": "Задайте название элемента",
+					"title": "Код",
+					"editHTML": "Редактировать код",
+					"warning": "Этот код будет отображаться нетронутым в экспортированном HTML-коде письма. Используйте эту функцию на свой страх и риск, так как она может повлиять на другие части HTML-кода и вызвать проблемы с рендерингом. Дополнительное примечание: Добавленный здесь код не будет отображаться в редакторе или предварительном просмотре.",
+					"isAmp": "AMP режим",
+					"amp": {
+						"inputLabel": "Заголовок",
+						"inputHint": "Название для элемента AMP кода",
+						"editHTML": "Edit AMP HTML code",
+						"editCSS": "Edit AMP CSS code",
+						"ampCSS": "AMP CSS",
+						"warning": "This code will only appear in the AMP generator mode and it's going to be untouched in the exported email HTML. Use this feature at your own risk, as it can affect other parts of the HTML and cause rendering issues. Additional note: Code added here will not render in the editor or preview."
+					}
+				}
+			},
+			"column": {
+				"column": "Колонка",
+				"showMobile": "Показывать на мобильном",
+				"showMobileInfo": "Опция \"Показывать на мобильномe\" отключена на отде on individual columns because the stacking is \"None\" on the parent Multicolumn element.",
+				"lockWidth": "Lock width",
+				"width": "Width",
+				"labels": {
+					"title": "Columns"
+				}
+			},
+			"dynamicImageSize": {
+				"title": "Размер элемента",
+				"width": "Ширина",
+				"height": "Высота",
+				"fluidOnMobile": "Адаптивность"
+			},
+			"expression": {
+				"titles": {
+					"loop": "Loop",
+					"block-level-loop": "Block Level Loop"
+				},
+				"inputLabel": "Expression",
+				"inputHint": "Enter your expression here",
+				"selectYourExpression": "Select your expression",
+				"showLogicalStructure": "Show logical structure",
+				"hideLogicalStructure": "Hide logical structure",
+				"outputPreview": {
+					"output": "Output",
+					"inTemplatingLanguage": "in {0}",
+					"mightBeOutdated": "Might be outdated. Reload the page to update the templating language.",
+					"youCanChooseDifferentIn": "You can choose a different templating language in {0}",
+					"content": "Content"
+				}
+			},
+			"imageSize": {
+				"title": "Размер элемента",
+				"width": "Ширина",
+				"height": "Высота",
+				"slider": "Размер картинки",
+				"fluidOnMobile": "Адаптивность"
+			},
+			"line": {
+				"lineColor": "Цвет линии",
+				"lineStyles": "Стиль линии",
+				"labels": {
+					"title": "Линия",
+					"height": "Высота линии",
+					"transparent": "Прозрачность"
+				},
+				"lineStylesChoices": [
+					{
+						"text": "сплошная",
+						"value": "solid"
+					},
+					{
+						"text": "точка",
+						"value": "dotted"
+					},
+					{
+						"text": "пунктир",
+						"value": "dashed"
+					},
+					{
+						"text": "двойная",
+						"value": "double"
+					}
+				]
+			},
+			"marker": {
+				"labels": {
+					"title": "Метка",
+					"inputLabel": "Метка",
+					"inputHint": "Введите вашу метку здесь"
+				}
+			},
+			"multicol": {
+				"title": "Колонки",
+				"addColumn": "Добавить колонку",
+				"equalize": "Уравнять",
+				"desktopSpacings": "Разрывы на десктопе",
+				"left": "Слева",
+				"inBetween": "Между",
+				"right": "Справа",
+				"leftRight": "Слева направо",
+				"rightLeft": "Справа налево",
+				"dontReorder": "Не менять порядок",
+				"columnStackingMobile": "Закрепить порядок на мобильном",
+				"mobileSpacings": "",
+				"infoLine1": "Интервалы слева и справа не отображаются на мобильных устройствах, чтобы сделать ваш контент шире на небольших экранах.",
+				"infoLine2": "Если вы хотите использовать одинаковые интервалы для настольных и мобильных представлений, пожалуйста, добавьте контейнер,",
+				"infoLine3": "отрегулируйте его отступы / поля и поместите колонки в этот контейнер.",
+				"top": "Сверху",
+				"bottom": "Снизу"
+			},
+			"positioningToolbox": {
+				"labels": {
+					"top": "Сверху",
+					"left": "Слева",
+					"bottom": "Снизу",
+					"right": "Справа",
+					"Paddings": "Отступы",
+					"Margins": "Поля",
+					"separate": "Отдельно"
+				}
+			},
+			"social": {
+				"title": "Социальные сети",
+				"labels": {
+					"title": "Социальные сети",
+					"iconSet": "Наборк иконок",
+					"colorScheme": "Цветовая схема",
+					"url": "URL",
+					"addIcon": "Добавить новую",
+					"layout": "Слой",
+					"align": {
+						"text": "Выравнивание",
+						"left": "Слева",
+						"center": "Центр",
+						"right": "Справа"
+					},
+					"size": {
+						"text": "Размер",
+						"s": "S",
+						"m": "M",
+						"l": "L",
+						"xl": "XL"
+					},
+					"iconSpacing": "Интервал иконок",
+					"protocol": "Протокол"
+				},
+				"icons": "Icons",
+				"iconTypes": [
+					{
+						"text": "круг",
+						"value": 4
+					},
+					{
+						"text": "круг (прозрачный)",
+						"value": 5
+					},
+					{
+						"text": "плоский",
+						"value": 1
+					},
+					{
+						"text": "квадратные",
+						"value": 2
+					},
+					{
+						"text": "с закруглениями",
+						"value": 3
+					}
+				],
+				"colorSchemes": [
+					{
+						"text": "цветная",
+						"value": "colorful"
+					},
+					{
+						"text": "черная",
+						"value": "black"
+					},
+					{
+						"text": "серая",
+						"value": "grey"
+					},
+					{
+						"text": "белая",
+						"value": "white"
+					}
+				]
+			},
+			"textLink": {
+				"labels": {
+					"title": "Ссылка",
+					"underline": "Подчеркивание",
+					"linkColor": "Цвет ссылки"
+				}
+			},
+			"typography": {
+				"labels": {
+					"fontFamily": "Шрифт",
+					"fontSize": "Размер",
+					"lineHeight": "Высота строки",
+					"fontColor": "Цвет",
+					"startTyping": "Начните поиск...",
+					"letterSpacing": "Интервал между буквами",
+					"customLetterSpacing": "Настроить интервал"
+				}
+			},
+			"typographyEditor": {
+				"title": "Свойства текста",
+				"h1": "Заголовок 1",
+				"h2": "Заголовок 2",
+				"h3": "Заголовок 3"
+			},
+			"visibility": {
+				"labels": {
+					"title": "Видимость элемента",
+					"showOnMobile": "Показать на мобильном",
+					"showOnDesktop": "Показать на десктопе",
+					"showInAmp": "Показать в AMP"
+				}
+			},
+			"width": {
+				"labels": {
+					"title": "Ширина"
+				},
+				"warning": "Это изменит ширину содержимого в этом блоке.",
+				"warningBox": {
+					"line1": "600 px – самая надежная ширина сегодня",
+					"line2": "Письма, которые шире 600-650 px могут плохо отображаться в Outlook или почтовом клиенте Mail.ru на небольших экранах, например 1366x768."
+				}
+			},
+			"video": {
+				"labels": {
+					"title": "Настройки видео",
+					"src": "Ссылка на видео",
+					"altText": "Альтернативный текст",
+					"iconColor": "Цвет иконки",
+					"iconType": "Тип иконки",
+					"iconSize": "Размер иконки"
+				},
+				"rules": {
+					"src": "Неподдерживаемый источник видео или это неработающая ссылка"
+				}
+			},
+			"title": "Ширина письма",
+			"bodyBackground": "Фон письма",
+			"block": "Блок",
+			"content": "Контент",
+			"blockBackGround": "Фон блока",
+			"blockContentWidth": "Ширина контента",
+			"blockContentBackground": "Фон контента",
+			"textBackground": "Фон текста",
+			"buttonProperties": "Настройки кнопки",
+			"boxBackground": "Фон контейнера",
+			"multicolumnBackground": "Фон колонок",
+			"imageAlignment": "Выравнивание картинки",
+			"thumbnailAlignment": "Выравнивание миниатюр",
+			"imageBackground": "Фон картинки",
+			"dividerBackground": "Фон разделителя",
+			"columnBackground": "Фон колонки",
+			"dynamicImageAlignment": "Динамическое выравнивание",
+			"dynamicImageBackground": "Динамический фон"
+		},
+		"titleInputLabel": "Заголовок",
+		"titleInputHint": "Custom name for your code element",
+		"connectionLost": "Your device lost it's internet connection.",
+		"welcome": "С возвращением!",
+		"costumCode": "#Произвольный HTML-код",
+		"pasteCodeHere": "Вставьте код сюда",
+		"cancel": "Отменить",
+		"update": "Обновить",
+		"plsSaveBeforeChangingPic": "Please save the email before changing pictures.",
+		"close": "Закрыть"
+	},
+	"header": {
+		"signUpForFree": "SIGN UP FOR FREE",
+		"share": "Поделиться",
+		"preview": "Предпросмотр",
+		"export": "Экспорт",
+		"zoom": "Увеличить"
+	},
+	"preview": {},
+	"variable": {
+		"variableModal": {
+			"color": "Цвет",
+			"fontStack": "Набор шрифтов",
+			"image": "Картинка",
+			"link": "Ссылка",
+			"text": "Текст",
+			"how_to_use": "Как использовать",
+			"preview": "Предпросмотр",
+			"editVariable": "Edit variable",
+			"changedProps": "Successfully replaced {0} matching value(s) with the variable.",
+			"selectVariable": "Select variable",
+			"brandVariable": "Brand variable",
+			"actions": {
+				"use": "Use",
+				"addNew": "Add new",
+				"save": "Save",
+				"update": "Update",
+				"cancel": "Cancel"
+			}
+		},
+		"variableList": {
+			"name": "Имя",
+			"value": "Значение",
+			"size": "Размер",
+			"aspectRatio": "Aspect ratio",
+			"actions": "Actions",
+			"canEdit": "Update variable",
+			"canNotEdit": "You don't have permission to update this variable",
+			"canDelete": "Delete variable",
+			"canNotDelete": "You don't have permission to delete this variable",
+			"noVariableOfType": "To create your first {0} variable, hit the \"Add New\" button.",
+			"deleteWarning": "{0} element(s) still use(s) this variable. Are you sure you want to delete it?",
+			"findAndRemove": "Remove the variable from everywhere but keep the values",
+			"findAndReplace": "Find matching values and replace them with the variable"
+		},
+		"variablePreview": {
+			"selectToPreview": "Select a variable to see a more detailed preview of it."
+		},
+		"variableInputName": {
+			"label": "Variable name*",
+			"rules": {
+				"required": "Name is required",
+				"noSpecialChar": "No space or special character allowed!",
+				"tooShort": "The variable name is too short",
+				"tooLong": "The variable name is too long",
+				"unique": "Variable already exists as type {0}"
+			}
+		},
+		"variableInputDescription": {
+			"label": "Описание (optional)",
+			"rules": {
+				"maxLength90": "Описание слишком длинное."
+			}
+		},
+		"variableContentMenuWrapper": {
+			"clearVariables": "Удалить",
+			"changeVariables": "Изменить"
+		},
+		"howToUse": {
+			"color": {
+				"line1": "Благодаря цветовым переменным изменение цветовой темы вашего электронного письма становится легким делом.",
+				"line2": "В качестве наилучшей практики мы бы посоветовали вам, по крайней мере, определить наиболее часто используемый бренд и цвета текста.",
+				"line3": "Как только вы определите переменные цвета и свяжете их с каждым нужным элементом, вы сможете обновлять их цвета вместе."
+			},
+			"fontStack": {
+				"line1": "Типографика - важнейший элемент любого фирменного стиля, и все начинается с семейства шрифтов.",
+				"line2": "В качестве наилучшей практики мы советуем вам использовать максимум два разных семейства шрифтов в вашем электронном письме: одно для заголовков и одно для абзацев.",
+				"line3": "Как только вы определите переменные шрифта и свяжете их с каждым нужным элементом, вы сможете обновлять их вместе."
+			},
+			"image": {
+				"line1": "Переменные изображения могут помочь вам удобно заменить элементы изображения, относящиеся к конкретному бренду, в вашем шаблоне электронной почты.",
+				"line2": "В качестве наилучшей практики мы советуем вам определять логотип компании, пользовательские значки, фоновые изображения или другие повторяющиеся элементы декоратора в качестве переменных изображения.",
+				"line3": "Как только вы определите переменные изображения и свяжете их с каждым нужным элементом, вы сможете обновлять их вместе."
+			},
+			"link": {
+				"line1": "Переменные ссылок могут помочь вам удобно заменить ссылки, относящиеся к конкретному бренду, в вашем шаблоне электронной почты.",
+				"line2": "Любая ссылка, которая не добавляется с помощью тега, но необходима несколько раз в письме, например, ссылка на вашу домашнюю страницу, должна быть определена как переменная ссылки вместо обычного URL.",
+				"line3": "Таким образом, если вы хотите повторно использовать письмо с другим брендом или вам нужно его обновить, вы сможете заменить эти ссылки в нем вместе."
+			},
+			"text": {
+				"line1": "Текстовые переменные были созданы для того, чтобы вы могли настраивать письменное содержимое нескольких текстовых значений, таких как кнопки, тексты ALT или заголовки вместе.",
+				"line2": "Например, вместо того, чтобы писать \"Подробнее\" на каждой кнопке в вашем шаблоне электронной почты, вы могли бы создать переменную \"button-text-1\" и назначить ее каждой из них. ",
+				"line3": "Позже, если вам нужно будет заменить призыв к действию на кнопках, вам нужно будет только один раз изменить значение вашей текстовой переменной."
+			}
+		},
+		"addTextVariable": {
+			"label": "Текст",
+			"rules": {
+				"required": "Имя обязательно"
+			}
+		},
+		"addLinkVariable": {
+			"label": "Ссылка",
+			"rules": {
+				"required": "Ссылка обязательна"
+			}
+		},
+		"addImageVariable": {
+			"label": "URL-адрес картинки",
+			"rules": {
+				"required": "Адрес картинки обязателен",
+				"error": "Not valid url"
+			}
+		},
+		"addFontStackVariable": {
+			"label": "Ссылка"
+		},
+		"addColorVariable": {
+			"label": "Hex-код цвета",
+			"rules": {
+				"notValidColor": "Невалидный HEX-код"
+			}
+		}
+	},
+	"actionButtons": {},
+	"colorPicker": {
+		"clearVariables": "Удалить",
+		"changeVariables": "Изменить",
+		"notAvailable": "It's available in another plan.",
+		"openVariableSelector": "Открыть выбор переменных"
+	},
+	"cursorWrapper": {},
+	"demoGalleryDialog": {
+		"registeredOnly": "Галерея изображений в настоящее время доступна только для зарегистрированных пользователей.",
+		"onBoardingBouble": "Загружайте свои изображения, логотипы и подарки в галерею. Создавайте папки для управления вашими визуальными ресурсами и делитесь ими со своей командой. Редактируйте, обрезайте и изменяйте размер изображений во встроенном редакторе изображений.",
+		"continueDesigning": "Продолжайте создание письма",
+		"register": "Регистрация"
+	},
+	"editorDropZoneBlockLevelBottom": {
+		"move": "Переместить {0}",
+		"new": "Новый {0}",
+		"newBlock": "Новый контейнер",
+		"newBlockInside": "Новый контейнер внутри {0}",
+		"types": {
+			"fullwidth": "Block",
+			"loop": "Block Level Loop",
+			"block-level-loop": "Block Level Loop",
+			"conditional": "Block Level Conditional",
+			"block-level-conditional": "Block Level Conditional"
+		}
+	},
+	"editorDropZoneBlockLevelTop": {
+		"move": "Move {0}",
+		"new": "New {0}",
+		"newBlock": "New Block",
+		"newBlockInside": "New block inside {0}",
+		"types": {
+			"fullwidth": "Block",
+			"loop": "Block Level Loop",
+			"block-level-loop": "Block Level Loop",
+			"conditional": "Block Level Conditional",
+			"block-level-conditional": "Block Level Conditional"
+		}
+	},
+	"editorDropZoneButton": {},
+	"editorDropZoneColumnLeft": {},
+	"editorDropZoneColumnRight": {},
+	"editorDropZoneEmpty": {},
+	"editorDropZoneLeft": {},
+	"editorDropZoneRight": {},
+	"editorDropZoneRoot": {
+		"dragDrop": "Перетащите элемент сюда",
+		"dropElement": "Бросьте элемент здесь"
+	},
+	"editorDropZoneTop": {},
+	"editorElementBlockLevelConditional": {},
+	"editorElementBlockLevelLoop": {},
+	"editorElementBody": {},
+	"editorElementBox": {},
+	"editorElementBranch": {},
+	"editorElementButton": {},
+	"editorElementCode": {},
+	"editorElementColumn": {},
+	"editorElementConditional": {},
+	"editorElementDivider": {},
+	"editorElementDynamicImage": {},
+	"editorElementFullWidth": {
+		"blockLock": "Block lock {0}",
+		"dragBlock": "Drag block {0}",
+		"saveBlock": "Save block {0}",
+		"duplicateBlock": "Duplicate block {0}",
+		"deleteBlock": "Delete block {0}",
+		"types": {
+			"fullwidth": "",
+			"block-level-conditional": "(Block Level Conditional)",
+			"block-level-loop": "(Block Level Loop)"
+		}
+	},
+	"editorElementFullWidthLockIcon": {},
+	"editorElementImage": {},
+	"editorElementLoop": {},
+	"editorElementMultiColumn": {},
+	"editorElementSocial": {},
+	"editorElementText": {},
+	"editorPlaceHolderEmpty": {
+		"dragDrop": "Перетащите элемент сюда",
+		"dropElement": "Бросьте элемент здесь"
+	},
+	"close": "Close",
+	"onBoardingBouble": {},
+	"onBoardingDialog": {},
+	"onBoardingReminder": {
+		"justInCase": "Just in case",
+		"tutorial": "You can always view this tutorial in the email editor by clicking on “User Guide” in the {icon} drop-down menu on the upper right-hand corner.",
+		"close": "Close"
+	},
+	"enterApply": "Нажмите ENTER",
+	"errors": {
+		"supportedFileTypes": "Поддерживаемые типы изображений: jpg, jpeg, png and gif only!",
+		"httpsMissing": "Неверный URL. Пожалуйста, задайте адрес с HTTPS.",
+		"invalidImageUrl": "Невалидный URL"
+	}
+}
