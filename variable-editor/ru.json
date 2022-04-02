@@ -1,0 +1,16 @@
+{
+	"appContent": {
+		"mobileView": "Мобильный",
+		"desktopView": "Десктоп"
+	},
+	"variableToolbox": {
+		"title": "Редактировать",
+		"nameLabel": "Имя",
+		"valueLabel": "Значение",
+		"buttons": {
+			"save": "Сохранить",
+			"cancel": "Отмена"
+		},
+		"inputRequired": "Значение обязательно"
+	}
+}
