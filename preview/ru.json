@@ -1,0 +1,11 @@
+{
+	"previewHeader": {
+		"previewMode": "Предпросмотр",
+		"darkMode": "Темная тема",
+		"lightMode": "Светлая тема"
+	},
+	"previewBody": {
+			"mobileView": "Мобильный",
+			"desktopView": "Десктоп"
+	}
+}
