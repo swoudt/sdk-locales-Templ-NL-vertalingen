@@ -5,13 +5,12 @@
 	"editorMain": {
 		"contentHeader": {
 			"altText": "Alternative text",
+			"textVariable": "Text variable",
 			"imageSource": "Image src",
 			"addMergeTag": "Add a merge tag",
-			"addVariable": "Add variable",
 			"rightPanelLabel": "Details",
 			"disabled": "Settings are not available for this element",
 			"enabled": "Toggle settings",
-			"selectedVariable": "Selected variable",
 			"contentHeaderBlockLockTooltip": {
 				"lockMsg": "You cannot edit the content of this element because the selected block is locked."
 			},
@@ -36,7 +35,6 @@
 				"message": "Message",
 				"url": "Url",
 				"addMergeTag": "Add a merge tag",
-				"addVariable": "Add variable",
 				"selectVariable": "Select a variable",
 				"cancel": "Cancel",
 				"save": "Save",
@@ -483,6 +481,11 @@
 	},
 	"preview": {},
 	"variable": {
+		"clearVariables": "Remove",
+		"changeVariables": "Change",
+		"notAvailable": "It's available in another plan.",
+		"openVariableSelector": "Open variable selector",
+		"selectedVariable": "Selected variable",
 		"variableModal": {
 			"color": "Color",
 			"fontStack": "Font Stack",
@@ -525,7 +528,7 @@
 			"label": "Variable name*",
 			"rules": {
 				"required": "Name is required",
-				"noSpecialChar": "No space or special character allowed!",
+				"noSpecialChar": "*|:<>[]{}()';@&$ characters are not allowed",
 				"tooShort": "The variable name is too short",
 				"tooLong": "The variable name is too long",
 				"unique": "Variable already exists as type {0}"
@@ -537,7 +540,7 @@
 				"maxLength90": "The description is too long"
 			}
 		},
-		"variableContentMenuWrapper": {
+		"VariableMenuWrapper": {
 			"clearVariables": "Remove",
 			"changeVariables": "Change"
 		},
@@ -570,8 +573,11 @@
 		},
 		"addTextVariable": {
 			"label": "Text",
+			"modeSwitchLabel": "Use HTML formating",
+			"modeSwitchLabelInfo": "Save variable without HTML tags and use them as Alt-text or Link title",
+			"addSimpleText": "Enter your unformatted text here",
 			"rules": {
-				"required": "Name is required"
+				"required": "This is a required field"
 			}
 		},
 		"addLinkVariable": {
@@ -582,6 +588,7 @@
 		},
 		"addImageVariable": {
 			"label": "Image source URL",
+			"chooseFromGallery": "Choose from gallery",
 			"rules": {
 				"required": "Image url is required",
 				"error": "Not valid url"
@@ -598,13 +605,10 @@
 		}
 	},
 	"actionButtons": {},
-	"colorPicker": {
-		"clearVariables": "Remove",
-		"changeVariables": "Change",
-		"notAvailable": "It's available in another plan.",
-		"openVariableSelector": "Open variable selector"
+	"colorPicker": {},
+	"cursorWrapper": {
+		"containsVariables": "This element contains variables"
 	},
-	"cursorWrapper": {},
 	"demoGalleryDialog": {
 		"registeredOnly": "The image gallery is currently available for registered users only.",
 		"onBoardingBouble": "Upload your images, logos, and GIFs to the Gallery. Create folders to manage your visual assets, and share them with your team. Edit, crop, and resize images in the embedded image editor.",
