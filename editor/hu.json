@@ -5,6 +5,7 @@
 	"editorMain": {
 		"contentHeader": {
 			"altText": "Alternatív szöveg",
+			"textVariable": "Szöveg változó",
 			"imageSource": "Kép url",
 			"addMergeTag": "Merge tag hozzáadása",
 			"rightPanelLabel": "Részletek",
@@ -480,6 +481,11 @@
 	},
 	"preview": {},
 	"variable": {
+		"clearVariables": "Törlés",
+		"changeVariables": "Csere",
+		"notAvailable": "Ez egy másik csomagban elérhető",
+		"openVariableSelector": "Váltózók megnyitása",
+		"selectedVariable": "Kiválasztott változó",
 		"variableModal": {
 			"color": "Szín",
 			"fontStack": "Betűtípus",
@@ -522,7 +528,7 @@
 			"label": "A változó neve*",
 			"rules": {
 				"required": "A név kötelező",
-				"noSpecialChar": "A speciális karakterek nem megengedettek",
+				"noSpecialChar": "*|:<>[]{}()';@&$ karakterek nem megengedettek.",
 				"tooShort": "Túl rövid",
 				"tooLong": "Túl hosszú",
 				"unique": "Ez a változó már létezik, mint {0}"
@@ -534,7 +540,7 @@
 				"maxLength90": "A leírás túl hosszú"
 			}
 		},
-		"variableContentMenuWrapper": {
+		"VariableMenuWrapper": {
 			"clearVariables": "Eltávolítás",
 			"changeVariables": "Csere"
 		},
@@ -567,8 +573,11 @@
 		},
 		"addTextVariable": {
 			"label": "Szöveg",
+			"modeSwitchLabel": "HTML formázás",
+			"modeSwitchLabelInfo": "Ments HTML formázás nélkül, ha kép alternetív szövegeként vagy link címeként is szeretnéd használni a változót.",
+			"addSimpleText": "Ide írhatod a formázás nélküli szöveget",
 			"rules": {
-				"required": "A név kötelező"
+				"required": "Ez egy kötelező mező"
 			}
 		},
 		"addLinkVariable": {
@@ -579,6 +588,7 @@
 		},
 		"addImageVariable": {
 			"label": "A kép forrása",
+			"chooseFromGallery": "Válassz a galériából",
 			"rules": {
 				"required": "A kép Url megadása kötelező",
 				"error": "Hibás url"
@@ -595,13 +605,10 @@
 		}
 	},
 	"actionButtons": {},
-	"colorPicker": {
-		"clearVariables": "Törlés",
-		"changeVariables": "Csere",
-		"notAvailable": "Ez egy másik csomagban elérhető",
-		"openVariableSelector": "Váltózók megnyitása"
+	"colorPicker": {},
+	"cursorWrapper": {
+		"containsVariables": "Ebben az elemben váltózó van"
 	},
-	"cursorWrapper": {},
 	"demoGalleryDialog": {
 		"registeredOnly": "A galéria jelentleg csak regisztrált felhasználóknak érhető el.",
 		"onBoardingBouble": "Töltsd fel a képeidet, logóidat, és GIG-jeidet a galériába. Hozz létre könyvtárakat a vizuális tartalmaidnak és oszd meg pket a csapatoddal. Szerkezd, vágd, és méretezd át a képeket a beépíett képszerkezstővel.",

@@ -5,13 +5,12 @@
 	"editorMain": {
 		"contentHeader": {
 			"altText": "Альтернативный текст",
+			"textVariable": "Text variable",
 			"imageSource": "Адрес изображения",
 			"addMergeTag": "Добавить тег",
-			"addVariable": "Добавить переменную",
 			"rightPanelLabel": "Настройки",
 			"disabled": "Настройки недоступны для данного элемента",
 			"enabled": "Задать настройки",
-			"selectedVariable": "Выбранная переменная",
 			"contentHeaderBlockLockTooltip": {
 				"lockMsg": "Вы не можете редактировать содержимое этого элемента, так как выбранный блок заблокирован."
 			},
@@ -36,7 +35,6 @@
 				"message": "Текст письма",
 				"url": "Ссылка",
 				"addMergeTag": "Добавить тег",
-				"addVariable": "Добавить переменную",
 				"selectVariable": "Выбрать переменную",
 				"cancel": "Отмена",
 				"save": "Сохранить",
@@ -483,6 +481,11 @@
 	},
 	"preview": {},
 	"variable": {
+		"clearVariables": "Удалить",
+		"changeVariables": "Изменить",
+		"notAvailable": "It's available in another plan.",
+		"openVariableSelector": "Открыть выбор переменных",
+		"selectedVariable": "Выбранная переменная",
 		"variableModal": {
 			"color": "Цвет",
 			"fontStack": "Набор шрифтов",
@@ -525,7 +528,7 @@
 			"label": "Variable name*",
 			"rules": {
 				"required": "Name is required",
-				"noSpecialChar": "No space or special character allowed!",
+				"noSpecialChar": "*|:<>[]{}()';@&$ characters are not allowed",
 				"tooShort": "The variable name is too short",
 				"tooLong": "The variable name is too long",
 				"unique": "Variable already exists as type {0}"
@@ -537,7 +540,7 @@
 				"maxLength90": "Описание слишком длинное."
 			}
 		},
-		"variableContentMenuWrapper": {
+		"VariableMenuWrapper": {
 			"clearVariables": "Удалить",
 			"changeVariables": "Изменить"
 		},
@@ -570,6 +573,9 @@
 		},
 		"addTextVariable": {
 			"label": "Текст",
+			"modeSwitchLabel": "Use HTML formating",
+			"modeSwitchLabelInfo": "Save variable without HTML tags and use them as Alt-text or Link title",
+			"addSimpleText": "Enter your unformatted text here",
 			"rules": {
 				"required": "Имя обязательно"
 			}
@@ -582,6 +588,7 @@
 		},
 		"addImageVariable": {
 			"label": "URL-адрес картинки",
+			"chooseFromGallery": "Choose from gallery",
 			"rules": {
 				"required": "Адрес картинки обязателен",
 				"error": "Not valid url"
@@ -598,13 +605,10 @@
 		}
 	},
 	"actionButtons": {},
-	"colorPicker": {
-		"clearVariables": "Удалить",
-		"changeVariables": "Изменить",
-		"notAvailable": "It's available in another plan.",
-		"openVariableSelector": "Открыть выбор переменных"
+	"colorPicker": {},
+	"cursorWrapper": {
+		"containsVariables": "This element contains variables"
 	},
-	"cursorWrapper": {},
 	"demoGalleryDialog": {
 		"registeredOnly": "Галерея изображений в настоящее время доступна только для зарегистрированных пользователей.",
 		"onBoardingBouble": "Загружайте свои изображения, логотипы и подарки в галерею. Создавайте папки для управления вашими визуальными ресурсами и делитесь ими со своей командой. Редактируйте, обрезайте и изменяйте размер изображений во встроенном редакторе изображений.",
