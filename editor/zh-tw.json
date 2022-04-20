@@ -16,7 +16,7 @@
 				"lockMsg": "你不能修改內容，因為這元件已被鎖"
 			},
 			"contentHeaderImageActions": {
-				"selectNewImage": "選取"新圖片",
+				"selectNewImage": "選取新圖片",
 				"srcVariable": "來源變數",
 				"moreOptions": "更多選項",
 				"selectVariable": "選取變數",
@@ -87,7 +87,7 @@
 			"block-level-conditional": "攔截層級條件",
 			"dynamic-image": "動態圖片",
 			"dragAndDropElementIntoTheEditorArea": "拖拉元件至這編輯範圍",
-			"advanced": "進階,
+			"advanced": "進階",
 			"content": "內容",
 			"structure": "架構",
 			"close": "關閉",
