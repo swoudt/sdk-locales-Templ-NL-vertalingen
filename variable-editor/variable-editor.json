@@ -1,0 +1,16 @@
+{
+	"appContent": {
+		"mobileView": "手機",
+		"desktopView": "桌面"
+	},
+	"variableToolbox": {
+		"title": "修改變數",
+		"nameLabel": "名稱",
+		"valueLabel": "價值",
+		"buttons": {
+			"save": "儲存",
+			"cancel": "取消"
+		},
+		"inputRequired": "必需填寫"
+	}
+}
