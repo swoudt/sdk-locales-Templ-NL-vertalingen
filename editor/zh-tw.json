@@ -1,0 +1,698 @@
+{
+	"app": {
+		"loading": "正在載入樹架構..."
+	},
+	"editorMain": {
+		"contentHeader": {
+			"altText": "描述文字",
+			"imageSource": "圖檔來源",
+			"addMergeTag": "新增合併標籤",
+			"addVariable": "新增變數",
+			"rightPanelLabel": "詳細",
+			"disabled": "這元件不能使有設定",
+			"enabled": "切換設定",
+			"selectedVariable": "已選變數",
+			"contentHeaderBlockLockTooltip": {
+				"lockMsg": "你不能修改內容，因為這元件已被鎖"
+			},
+			"contentHeaderImageActions": {
+				"selectNewImage": "選取新圖片",
+				"srcVariable": "來源變數",
+				"moreOptions": "更多選項",
+				"selectVariable": "選取變數",
+				"unlinkVariable": "取消連結變數",
+				"editImage": "修改圖片"
+			},
+			"contentHeaderLinkInput": {
+				"linkVariable": "連結變數",
+				"link": "連結",
+				"title": "標題",
+				"unlinkVariable": "取消連結變數",
+				"removeLink": "取消連結",
+				"addLink": "新增連結",
+				"protocol": "協定",
+				"emailAddress": "電郵",
+				"subject": "主旨",
+				"message": "訊息",
+				"url": "Url",
+				"addMergeTag": "新增合併標籤",
+				"addVariable": "新增變數",
+				"selectVariable": "選取變數",
+				"cancel": "取消",
+				"save": "儲存",
+				"mandatoryField": "必填欄",
+				"invalidEmail": "電郵不正確",
+				"openLinkMenu": "開啟菜單修改連結 Url"
+			}
+		},
+		"newElement": {
+			"dontShow": "不再顯示這提示",
+			"blockElement": {
+				"delete": "刪除"
+			},
+			"logicalTreeviewDrawer": {
+				"logicalStructure": "邏輯架構",
+				"hideLogicalStructure": "隱藏邏輯架構",
+				"labels": {
+					"conditional": "條件",
+					"block-level-conditional": "攔截層級條件",
+					"else": "否則",
+					"emptyExpression": "空的表述"
+				}
+			},
+			"elements": "元件",
+			"brand": "品牌",
+			"body": "內容",
+			"text": "文字",
+			"image": "圖片",
+			"button": "按扭",
+			"divider": "分隔線",
+			"social": "社交群",
+			"code": "程式碼",
+			"video": "視頻",
+			"fullwidth": "區塊",
+			"column": "欄",
+			"moreThanFive": "...",
+			"hidden": ".",
+			"box": "框",
+			"BOX": "框",
+			"multicolumn": "多欄",
+			"COLUMNS": "欄",
+			"BLOCK": "區塊",
+			"columns": "欄",
+			"block": "區塊",
+			"loop": "迴路",
+			"block-level-loop": "攔截層級迴路",
+			"conditional": "條件",
+			"block-level-conditional": "攔截層級條件",
+			"dynamic-image": "動態圖片",
+			"dragAndDropElementIntoTheEditorArea": "拖拉元件至這編輯範圍",
+			"advanced": "進階",
+			"content": "內容",
+			"structure": "架構",
+			"close": "關閉",
+			"blocks": "區塊",
+			"search": "區塊中搜尋",
+			"libraries": "區塊匯集",
+			"hiddenWarning": "當拖拉進行中，區塊暫時隱藏以避免最近的 Google Chrome version 很多 bugs",
+			"noResult": "沒有結果 :( 請修改你的搜尋 ;)"
+		},
+		"sharedComponents": {
+			"superColorPicker": {},
+			"toolboxHeader": {
+				"lockMsg": "你不能修這元件設定，因為這區塊已被鎖",
+				"subscriptionLockMsg": "升級你的服務以使用這功能"
+			}
+		},
+		"statusBar": {
+			"breadcrumbs": {},
+			"userListItem": {}
+		},
+		"toolboxes": {
+			"alignment": {
+				"labels": {
+					"title": "對齊元件",
+					"left": "左",
+					"center": "中",
+					"right": "右"
+				}
+			},
+			"appliedExpressions": {
+				"title": "應用表述",
+				"else": "否則",
+				"emptyExpression": "空的表述"
+			},
+			"background": {
+				"labels": {
+					"title": "元件背景",
+					"colorPickerLabel": "背景顏色",
+					"bgImageText": "背景圖片",
+					"btnSelect": "更改",
+					"btnEdit": "修改",
+					"bgImagePosition": "位置",
+					"bgImageRepeat": "重複",
+					"bgImageSize": "大小",
+					"selectVariable": "選取變數",
+					"unlinkVariable": "取消連結變數",
+					"bgVariable": "背景圖片變數",
+					"hoverStyling": "Hover 格式",
+					"bgHoverColor": "Hover 背景顏色"
+				}
+			},
+			"blockLock": {
+				"labels": {
+					"title": "區塊已鎖"
+				},
+				"noPermission": "你沒有限權上鎖或解鎖區塊",
+				"editEnabled": "已啟動修改",
+				"editEnabledInfo": "設計和內容可全面修改",
+				"lockedDesign": "設計已被鎖",
+				"lockedDesignInfo": "區塊設計不能修改，文字、圖片和 URL 可作修改",
+				"lockedDesignContent": "設計和內容可全面已被鎖",
+				"lockedDesignContentInfo": "設計和內容都不能修改"
+			},
+			"blockSaveDrawer": {
+				"title": "無標題區塊",
+				"notSaved": "區塊沒有儲存",
+				"saveTo": "儲存至...",
+				"save": "儲存"
+			},
+			"border": {
+				"title": "框線",
+				"separate": "分隔",
+				"borderRadius": "分隔 radius",
+				"top": "頂",
+				"right": "右",
+				"bottom": "下",
+				"left": "左",
+				"labels": {
+					"title": "框線",
+					"borderSize": "闊",
+					"borderStyle": "格式",
+					"borderColor": "框線顏色"
+				}
+			},
+			"branchManagement": {
+				"title": "節點",
+				"addNewBranch": "新增節點",
+				"moveDownByOne": "往下移一格",
+				"moveUpByOne": "往上移一格",
+				"elseMustBeAtBottom": "Else 節點必須是最底. 轉這個為 Else If 以作移動",
+				"selectYourExpression": "選取你的 expression",
+				"duplicateBranch": "複製節點",
+				"deleteBranch": "刪除節點",
+				"expression": "Expression",
+				"types": {
+					"if": "If",
+					"else-if": "Else If",
+					"else": "Else"
+				},
+				"showLogicalStructure": "顯示邏輯架構",
+				"hideLogicalStructure": "隱藏邏輯架構"
+			},
+			"buttonSize": {
+				"mobileFluid": "手機流動式",
+				"labels": {
+					"title": "元件大小",
+					"fitToText": "切合文字",
+					"fixed": "固定",
+					"width": "闊"
+				}
+			},
+			"code": {
+				"labels": {
+					"inputLabel": "標題",
+					"inputHint": "自訂你的程式碼元件名稱",
+					"title": "程式碼",
+					"editHTML": "修改程式碼",
+					"warning": "這程式碼會在匯出的電郵 HTML 保持不變。因有可能影響其他部份的 HTML 處理，使用這功能請自行承擔風險。在這裡加的程式碼不會在預覧中顯示。",
+					"isAmp": "AMP 模式",
+					"amp": {
+						"inputLabel": "標題",
+						"inputHint": "自訂 AMP 程式元件的名稱",
+						"editHTML": "修改 AMP HTML 程式",
+						"editCSS": "修改 AMP CSS 程式",
+						"ampCSS": "AMP CSS",
+						"warning": "這程式只會顯示在 AMP 生成模式，在匯出的電郵 HTML 保持不變。因有可能影響其他部份的 HTML 處理，使用這功能請自行承擔風險。在這裡加的程式碼不會在預覧中顯示。"
+					}
+				}
+			},
+			"column": {
+				"column": "欄",
+				"showMobile": "在手機顯示",
+				"showMobileInfo": "在個別欄裡，因為在頂層多欄元件中層叠是 \"None\"，所以 \"在手機顯示\" 切換沒有被啟用。",
+				"lockWidth": "鎖定闊度",
+				"width": "闊",
+				"labels": {
+					"title": "欄"
+				}
+			},
+			"dynamicImageSize": {
+				"title": "元件大小",
+				"width": "闊",
+				"height": "高",
+				"fluidOnMobile": "手機流動式"
+			},
+			"expression": {
+				"titles": {
+					"loop": "迴路",
+					"block-level-loop": "攔截層級迴路"
+				},
+				"inputLabel": "Expression",
+				"inputHint": "輪入你的 expression",
+				"selectYourExpression": "選取你的 expression",
+				"showLogicalStructure": "顯示邏輯架構",
+				"hideLogicalStructure": "隱藏邏輯架構",
+				"outputPreview": {
+					"output": "輸出",
+					"inTemplatingLanguage": "in {0}",
+					"mightBeOutdated": "可能已過期，重新載入頁面更新模版語言。",
+					"youCanChooseDifferentIn": "你可在 {0} 選擇不同的模版語言",
+					"content": "內容"
+				}
+			},
+			"imageSize": {
+				"title": "元件大小",
+				"width": "闊",
+				"height": "高",
+				"slider": "圖片大小",
+				"fluidOnMobile": "手機流動式"
+			},
+			"line": {
+				"lineColor": "線顏色",
+				"lineStyles": "線風格",
+				"labels": {
+					"title": "線",
+					"height": "線高度",
+					"transparent": "透明"
+				},
+				"lineStylesChoices": [
+					{
+						"text": "實線",
+						"value": "實線"
+					},
+					{
+						"text": "點線",
+						"value": "點線"
+					},
+					{
+						"text": "虛線",
+						"value": "虛線"
+					},
+					{
+						"text": "雙倍",
+						"value": "雙倍"
+					}
+				]
+			},
+			"marker": {
+				"labels": {
+					"title": "標記",
+					"inputLabel": "標記",
+					"inputHint": "在這裡輸入你的標記"
+				}
+			},
+			"multicol": {
+				"title": "多欄",
+				"addColumn": "新增欄",
+				"equalize": "均衡",
+				"desktopSpacings": "桌面電腦間距",
+				"left": "左",
+				"inBetween": "兩者中間",
+				"right": "右",
+				"leftRight": "左至右",
+				"rightLeft": "右至左",
+				"dontReorder": "不重排欄位",
+				"columnStackingMobile": "手機欄位重疊",
+				"mobileSpacings": "手機間距",
+				"infoLine1": "左右間距在較窄手機不能顯示闊內容",
+				"infoLine2": "假如你需在桌面電腦和手機間距一致，你需加入框",
+				"infoLine3": "調節邊距/邊界，在框裡加上多欄",
+				"top": "頂",
+				"bottom": "底"
+			},
+			"positioningToolbox": {
+				"labels": {
+					"top": "頂",
+					"left": "左",
+					"bottom": "底",
+					"right": "右",
+					"Paddings": "邊距",
+					"Margins": "邊界",
+					"separate": "分開"
+				}
+			},
+			"social": {
+				"title": "社交媒體",
+				"labels": {
+					"title": "社交媒體",
+					"iconSet": "圖標庫",
+					"colorScheme": "顏色方案",
+					"url": "URL",
+					"addIcon": "新增圖標",
+					"layout": "排版",
+					"align": {
+						"text": "對齊",
+						"left": "左",
+						"center": "中",
+						"right": "右"
+					},
+					"size": {
+						"text": "大小",
+						"s": "小",
+						"m": "中",
+						"l": "大",
+						"xl": "特大"
+					},
+					"iconSpacing": "圖標間距",
+					"protocol": "協定"
+				},
+				"icons": "圖標",
+				"iconTypes": [
+					{
+						"text": "圓",
+						"value": 4
+					},
+					{
+						"text": "圓 (透明)",
+						"value": 5
+					},
+					{
+						"text": "平",
+						"value": 1
+					},
+					{
+						"text": "方正",
+						"value": 2
+					},
+					{
+						"text": "方正 (圖)",
+						"value": 3
+					}
+				],
+				"colorSchemes": [
+					{
+						"text": "顏色",
+						"value": "顏色"
+					},
+					{
+						"text": "黑色",
+						"value": "黑色"
+					},
+					{
+						"text": "灰色",
+						"value": "灰色"
+					},
+					{
+						"text": "白色",
+						"value": "白色"
+					}
+				]
+			},
+			"textLink": {
+				"labels": {
+					"title": "連結",
+					"underline": "底線",
+					"linkColor": "線顏色"
+				}
+			},
+			"typography": {
+				"labels": {
+					"fontFamily": "字體",
+					"fontSize": "大小",
+					"lineHeight": "行高",
+					"fontColor": "文字設定",
+					"startTyping": "開始輸入搜尋",
+					"letterSpacing": "字距",
+					"customLetterSpacing": "自訂字距"
+				}
+			},
+			"typographyEditor": {
+				"title": "內文設定",
+				"h1": "標題 1",
+				"h2": "標題 2",
+				"h3": "標題 3"
+			},
+			"visibility": {
+				"labels": {
+					"title": "元件顯示",
+					"showOnMobile": "顯示在手機",
+					"showOnDesktop": "顯示在桌面電腦",
+					"showInAmp": "顯示在 AMP"
+				}
+			},
+			"width": {
+				"labels": {
+					"title": "闊"
+				},
+				"warning": "這會改變區塊的內容闊度",
+				"warningBox": {
+					"line1": "現時電郵仍時以 600 px 為最安全設定",
+					"line2": "電郵闊度大過 600-650 px 可能不適合 Outlook 或 Yahoo Mail 較小螢幕的訂閱者，例如 1366x768."
+				}
+			},
+			"video": {
+				"labels": {
+					"title": "視頻特性",
+					"src": "視頻來源",
+					"altText": "描述文字",
+					"iconColor": "圖標顏色",
+					"iconType": "圖標類形",
+					"iconSize": "圖標大小"
+				},
+				"rules": {
+					"src": "不支援視頻的供應商或連結不正確"
+				}
+			},
+			"title": "電郵內容闊度",
+			"bodyBackground": "內文背景",
+			"block": "區塊",
+			"content": "內容",
+			"blockBackGround": "區塊背景",
+			"blockContentWidth": "區塊內容闊度",
+			"blockContentBackground": "區塊內容背景",
+			"textBackground": "文字背景",
+			"buttonProperties": "按鈕特性",
+			"boxBackground": "框背景",
+			"multicolumnBackground": "多欄背景",
+			"imageAlignment": "排齊圖片",
+			"thumbnailAlignment": "排齊縮圖",
+			"imageBackground": "圖片背景",
+			"dividerBackground": "分隔線背景",
+			"columnBackground": "欄背景",
+			"dynamicImageAlignment": "排齊動態圖片",
+			"dynamicImageBackground": "動態圖片背景"
+		},
+		"titleInputLabel": "標題",
+		"titleInputHint": "自訂程式碼元件名稱",
+		"connectionLost": "你的設備失去聯網連線",
+		"welcome": "歡迎再回來!",
+		"costumCode": "#自訂程式碼",
+		"pasteCodeHere": "在這裡貼上程式碼",
+		"cancel": "取消",
+		"update": "更新",
+		"plsSaveBeforeChangingPic": "變更圖片前請儲存電郵",
+		"close": "關閉"
+	},
+	"header": {
+		"signUpForFree": "免費登記",
+		"share": "分享",
+		"preview": "預覧",
+		"export": "匯出",
+		"zoom": "放大"
+	},
+	"preview": {},
+	"variable": {
+		"variableModal": {
+			"color": "顏色",
+			"fontStack": "文字疊層",
+			"image": "圖片",
+			"link": "連結",
+			"text": "文字",
+			"how_to_use": "怎樣使用",
+			"preview": "預覧",
+			"editVariable": "修改變數",
+			"changedProps": "已成功取代 {0} 變數之匹配值",
+			"selectVariable": "選擇變數",
+			"brandVariable": "品牌變數",
+			"actions": {
+				"use": "使用",
+				"addNew": "新增",
+				"save": "儲存",
+				"update": "更新",
+				"cancel": "取消"
+			}
+		},
+		"variableList": {
+			"name": "名稱",
+			"value": "值",
+			"size": "大小",
+			"aspectRatio": "局面比例",
+			"actions": "行動",
+			"canEdit": "更新變數",
+			"canNotEdit": "你沒有權限更新這變數",
+			"canDelete": "刪除變數",
+			"canNotDelete": "你沒有權限刪除新這變數",
+			"noVariableOfType": "按  \"新增\" 按鈕建立你的第一個 {0} 變數",
+			"deleteWarning": "{0} 元件仍使用這變數。你確定刪除這變數?",
+			"findAndRemove": "在其他地方刪除這變數但保持這些值",
+			"findAndReplace": "找尋這變數的匹配值及取代"
+		},
+		"variablePreview": {
+			"selectToPreview": "請選擇變數查看更詳細預覧"
+		},
+		"variableInputName": {
+			"label": "變數名稱*",
+			"rules": {
+				"required": "名稱是必須",
+				"noSpecialChar": "不可有空格或特別字元!",
+				"tooShort": "這變數名稱太短",
+				"tooLong": "這變數名稱太長",
+				"unique": "變數已存在於類別 {0}"
+			}
+		},
+		"variableInputDescription": {
+			"label": "描述 (非必要)",
+			"rules": {
+				"maxLength90": "描述太長"
+			}
+		},
+		"variableContentMenuWrapper": {
+			"clearVariables": "刪除",
+			"changeVariables": "更改"
+		},
+		"howToUse": {
+			"color": {
+				"line1": "有了顏色變數，更改電郵之顏色主調來得輕鬆。",
+				"line2": "正確使用方式是，我們建議你定義最常用的企業品牌及文字顏色。",
+				"line3": "一旦儲存了顏色變數及綁定相關元件，你便可以一起更新所有顏色。"
+			},
+			"fontStack": {
+				"line1": "排版是企業品牌的必須元素，而字體就是關鍵。",
+				"line2": "正確使用方式是，我們建議你在電郵裡最多使用兩款字體 : 一是應用在標題； 一是應用在段落。",
+				"line3": "一旦儲存了字體變數及綁定相關元件，你便可以一起更新所有字體。"
+			},
+			"image": {
+				"line1": "圖片變數可以方便地幫助你取代在電郵裡其他品牌相關的圖片元件。",
+				"line2": "正確使用方式是，我們建議你定義公司 logo、自訂圖標、圖片背景、或其他重複性美化性的元件作為圖片變數。",
+				"line3": "一旦儲存了圖片變數及綁定相關元件，你便可以一起更新所有圖片。"
+			},
+			"link": {
+				"line1": "連結變數可以方便地幫助你取代在電郵裡其他品牌相關的連結。",
+				"line2": "任何不是透過合併標籤加進的連結，但亦要在電郵裡出現多次，例如，連結至你的主頁，這些應定義為連結變數而不是一個 URL。",
+				"line3": "這樣，如你要重複使用這電郵但用上不同的企業品牌，或是需要更改內容，你便可以一起更改。"
+			},
+			"text": {
+				"line1": "文字變數是讓你可以自訂重複使用的文字如按鈕、ALT 文字和標題等。",
+				"line2": "例如：\"閱讀更多\" 會出現在電郵模版裡的每個按鈕上，你可建立一個 \"button-text-1\" 變數而應用在所有的按鈕上。",
+				"line3": "日後，如要更改行動呼籲按鈕文字，你只要更改文字變數就可以了。"
+			}
+		},
+		"addTextVariable": {
+			"label": "文字",
+			"rules": {
+				"required": "名稱是必須"
+			}
+		},
+		"addLinkVariable": {
+			"label": "連結",
+			"rules": {
+				"required": "連結 url 是必須"
+			}
+		},
+		"addImageVariable": {
+			"label": "Image source URL",
+			"rules": {
+				"required": "圖片 url 是必須",
+				"error": "沒有有效的 url"
+			}
+		},
+		"addFontStackVariable": {
+			"label": "連結"
+		},
+		"addColorVariable": {
+			"label": "Hexadecimal 顏色碼",
+			"rules": {
+				"notValidColor": "沒有有效的顏色碼"
+			}
+		}
+	},
+	"actionButtons": {},
+	"colorPicker": {
+		"clearVariables": "刪除",
+		"changeVariables": "更改",
+		"notAvailable": "這變數在另一個計劃",
+		"openVariableSelector": "開啟變數選擇器"
+	},
+	"cursorWrapper": {},
+	"demoGalleryDialog": {
+		"registeredOnly": "圖片庫現只開放給登記用戶",
+		"onBoardingBouble": "上載你的圖片、logo、GIFs 到圖片庫。建立檔案夾管理圖檔，亦可分享給你的團隊，可在圖片編輯器修改圖。",
+		"continueDesigning": "繼續設計",
+		"register": "登記"
+	},
+	"editorDropZoneBlockLevelBottom": {
+		"move": "移動 {0}",
+		"new": "新增 {0}",
+		"newBlock": "新增區塊",
+		"newBlockInside": "新增在 {0} 內的區塊",
+		"types": {
+			"fullwidth": "區塊",
+			"loop": "攔截層級迴路",
+			"block-level-loop": "攔截層級迴路",
+			"conditional": "攔截層級條件",
+			"block-level-conditional": "攔截層級條件"
+		}
+	},
+	"editorDropZoneBlockLevelTop": {
+		"move": "移動 {0}",
+		"new": "新增 {0}",
+		"newBlock": "新增區塊",
+		"newBlockInside": "在 {0} 裡新增區塊",
+		"types": {
+			"fullwidth": "區塊",
+			"loop": "攔截層級迴路",
+			"block-level-loop": "攔截層級迴路",
+			"conditional": "攔截層級條件",
+			"block-level-conditional": "攔截層級條件"
+		}
+	},
+	"editorDropZoneButton": {},
+	"editorDropZoneColumnLeft": {},
+	"editorDropZoneColumnRight": {},
+	"editorDropZoneEmpty": {},
+	"editorDropZoneLeft": {},
+	"editorDropZoneRight": {},
+	"editorDropZoneRoot": {
+		"dragDrop": "拖拉元件至這裡",
+		"dropElement": "拖拉元件至這裡"
+	},
+	"editorDropZoneTop": {},
+	"editorElementBlockLevelConditional": {},
+	"editorElementBlockLevelLoop": {},
+	"editorElementBody": {},
+	"editorElementBox": {},
+	"editorElementBranch": {},
+	"editorElementButton": {},
+	"editorElementCode": {},
+	"editorElementColumn": {},
+	"editorElementConditional": {},
+	"editorElementDivider": {},
+	"editorElementDynamicImage": {},
+	"editorElementFullWidth": {
+		"blockLock": "鎖上區塊 {0}",
+		"dragBlock": "拖拉區塊 {0}",
+		"saveBlock": "儲存區塊 {0}",
+		"duplicateBlock": "複製區塊 {0}",
+		"deleteBlock": "刪除區塊 {0}",
+		"types": {
+			"fullwidth": "",
+			"block-level-conditional": "(攔截層級條件)",
+			"block-level-loop": "(攔截層級迴路)"
+		}
+	},
+	"editorElementFullWidthLockIcon": {},
+	"editorElementImage": {},
+	"editorElementLoop": {},
+	"editorElementMultiColumn": {},
+	"editorElementSocial": {},
+	"editorElementText": {},
+	"editorPlaceHolderEmpty": {
+		"dragDrop": "拖拉元件至這裡",
+		"dropElement": "拖拉元件至這裡"
+	},
+	"close": "Close",
+	"onBoardingBouble": {},
+	"onBoardingDialog": {},
+	"onBoardingReminder": {
+		"justInCase": "也會是巧合",
+		"tutorial": "你可在這教電郵編輯器在右上⻆的下拉式選單 {icon} 按 \"使用指南\" 看教學",
+		"close": "關閉"
+	},
+	"enterApply": "按 ENTER 套用",
+	"errors": {
+		"supportedFileTypes": "支援檔案格式: jpg, jpeg, png 及 gif!",
+		"httpsMissing": "無效的 URL，圖片須應用 HTTPS.",
+		"invalidImageUrl": "這是無效的 URL"
+	}
+}

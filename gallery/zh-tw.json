@@ -1,0 +1,93 @@
+{
+	"defaultEditorImageTitle": "在編輯器修改圖片",
+	"app": {
+		"headerTitle": "圖庫",
+		"myImages": "我的圖片", 
+		"stockPhotos": "瀏覧圖片庫" 
+	},
+	"fileList": {
+		"searchNoResult": "沒有圖片",
+		"imageCardActions": {
+			"save": "加進圖片集",
+			"pick": "選擇",
+			"crop": "修剪至適合",
+			"edit": "編輯",
+			"delete": "刪除"
+		},
+		"imageRemoved": "已成功刪除圖片!"
+	},
+	"fileListItem": {
+		"smallImageWarning": "太小",
+		"size": "尺寸: {imageWidth} x {imageHeight}",
+		"ratio": "縱橫比: {aspectRatio}",
+		"saved": "已儲存 {0}"
+	},
+	"fileUploadDropZone": {
+		"dropImage": "放圖到這裡，\n或 {action} 上載\n(檔案最大: {maxFileSize} MB.)",
+		"browseAction": "瀏覽",
+		"or": "or",
+		"pasteUrl": "由 URL 儲存圖片",
+		"browseStockPhotos": "瀏覽圖片庫"
+	},
+	"fileUploadUrlZone": {
+		"urlUploadInfo": "不支援以 'http://' 協定上載。請用 'https://' 協定，或先儲存至你的電腦然後再上載。",
+		"urlUploadSupportedImages": "我們支援以下圖片格式: {supportedImageFormats}",
+		"urlUploadSubmit": "加進圖片集"
+	},
+	"folderTreeView": {},
+	"photoEditor": {},
+	"photoEditorPane": {
+		"cropToFit": "修剪至適合"
+	},
+	"searchZone": {
+		"search": "搜尋",
+		"arrangeSearch": "排列",
+		"searchOptions": {
+			"A-Z": "A - Z",
+			"Z-A": "Z - A",
+			"newest": "最新",
+			"oldest": "最舊"
+		}
+	},
+	"stockPhotoListItem": {
+		"pexelImport": "加進圖片集"
+	},
+	"stockPhotosModal": {
+		"stockPhotos": "圖片庫",
+		"size": "圖片大小",
+		"search": "搜尋",
+		"noResultRefine": "沒有結果，請修改你的搜尋!",
+		"pexelChooseFrom": "從過百萬的免費高質圖片選取",
+		"pexelLicense": "Pexels license",
+		"pexelPoweredBy": "Powered by",
+		"pexelLicenseInfo": "All images are published under the {license}",
+		"imageSizes": {
+				"tiny": "特小",
+				"landscape": "橫倒",
+				"portrait": "直倒",
+				"small": "細小",
+				"medium": "中",
+				"large": "大",
+				"large2x": "2x 大",
+				"original": "原大小"
+		}
+	},
+	"uploadModal": {
+		"uploadModalTitle": "警告",
+		"uploadModalText": "你確定要取消上載嗎?",
+		"uploadModalContinue": "繼續上載",
+		"uploadModalCancel": "取消上載",
+		"uploadingInProgress": "上載圖片中...",
+		"uploadingInFinished": "上載完成"
+	},
+	"uploadModalFileList": {},
+	"uploadModalFileListItem": {},
+	"errors": {
+		"supportedFileTypes": "支援的檔案類形: {0}, {1}, {2} and {3} only!",
+		"notImage": "這不是圖片檔!",
+		"tooLargeSize": "你的檔案太大，最大支援: {maxFileSize} MB",
+		"httpsMissing": "URL 無效，請用 HTTPS.",
+		"invalidImageUrl": "這不是有效的 URL",
+		"editImage": "在上載時有錯誤"
+	}
+}

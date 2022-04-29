@@ -1,0 +1,11 @@
+{
+	"previewHeader": {
+		"previewMode": "預覧模式",
+		"darkMode": "夜間模式 (Outlook)",
+		"lightMode": "日間模式"
+	},
+	"previewBody": {
+			"mobileView": "手機",
+			"desktopView": "桌面"
+	}
+}
