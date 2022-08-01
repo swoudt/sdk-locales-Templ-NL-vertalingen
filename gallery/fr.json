@@ -1,0 +1,93 @@
+{
+	"defaultEditorImageTitle": "Editer une image avec l'éditeur",
+	"app": {
+		"headerTitle": "Galerie",
+		"myImages": "Mes Images", 
+		"stockPhotos": "Parcourir les images" 
+	},
+	"fileList": {
+		"searchNoResult": "Pas d'image.",
+		"imageCardActions": {
+			"save": "Ajouter à la bibliothèque",
+			"pick": "Choisir",
+			"crop": "Adapter l'image",
+			"edit": "Editer",
+			"delete": "Supprimer"
+		},
+		"imageRemoved": "Image supprimée avec succès!"
+	},
+	"fileListItem": {
+		"smallImageWarning": "Très petite",
+		"size": "Taille: {imageWidth} x {imageHeight}",
+		"ratio": "Proportion de l'image: {aspectRatio}",
+		"saved": "{0} est enregistrée"
+	},
+	"fileUploadDropZone": {
+		"dropImage": "Déposer les images ici\nou {action} pour importer\n(Taille maximale: {maxFileSize} MB.)",
+		"browseAction": "browse",
+		"or": "or",
+		"pasteUrl": "Enregistrer l'image depuis l'URL",
+		"browseStockPhotos": "Parcourir les images libres de droit"
+	},
+	"fileUploadUrlZone": {
+		"urlUploadInfo": "Import depuis 'http://' le protocole n'est pas pris en charge. Utiliser une protocole 'https://'  ou enregistrer l'image sur votre ordinateur avant de l'importer.",
+		"urlUploadSupportedImages": "Les formats d'image pris en compte : {supportedImageFormats}",
+		"urlUploadSubmit": "Ajouter à la bibliothèque"
+	},
+	"folderTreeView": {},
+	"photoEditor": {},
+	"photoEditorPane": {
+		"cropToFit": "Rogner"
+	},
+	"searchZone": {
+		"search": "Rechercher",
+		"arrangeSearch": "Organiser par",
+		"searchOptions": {
+			"A-Z": "A - Z",
+			"Z-A": "Z - A",
+			"newest": "Plus récent",
+			"oldest": "Plus ancien"
+		}
+	},
+	"stockPhotoListItem": {
+		"pexelImport": "Ajouter à la bibliothèque"
+	},
+	"stockPhotosModal": {
+		"stockPhotos": "Images libres de droit",
+		"size": "Taille image",
+		"search": "Rechercher",
+		"noResultRefine": "Aucun résultat trouvé !",
+		"pexelChooseFrom": "Choisir parmi des millions d'images gratuites",
+		"pexelLicense": "license Pexels",
+		"pexelPoweredBy": "Powered by",
+		"pexelLicenseInfo": "Toutes les images sont publiées sous {license}",
+		"imageSizes": {
+				"tiny": "Très petite",
+				"landscape": "Paysage",
+				"portrait": "Portrait",
+				"small": "Petite",
+				"medium": "Moyenne",
+				"large": "Grande",
+				"large2x": "Grande 2x",
+				"original": "Originale"
+		}
+	},
+	"uploadModal": {
+		"uploadModalTitle": "Attention",
+		"uploadModalText": "Êtes vous sur de vouloir annuler l'import ?",
+		"uploadModalContinue": "Continuer l'import",
+		"uploadModalCancel": "Annuler l'import",
+		"uploadingInProgress": "Import de l'image...",
+		"uploadingInFinished": "Import terminée"
+	},
+	"uploadModalFileList": {},
+	"uploadModalFileListItem": {},
+	"errors": {
+		"supportedFileTypes": "Fichier pris en charge: {0}, {1}, {2} and {3} uniquement!",
+		"notImage": "N'est pas un fichier image!",
+		"tooLargeSize": "Votre fichier est très grand. Max.: {maxFileSize} MB",
+		"httpsMissing": "URL invalide. Choisir une image à partir d'un lien HTTPS.",
+		"invalidImageUrl": "Ceci n'est pas une adresse valide",
+		"editImage": "Erreur lors du chargement de l'image."
+	}
+}
