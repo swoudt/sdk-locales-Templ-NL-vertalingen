@@ -1,0 +1,702 @@
+{
+	"app": {
+		"loading": "Chargement..."
+	},
+	"editorMain": {
+		"contentHeader": {
+			"altText": "Texte alternatif",
+			"textVariable": "Variable texte",
+			"imageSource": "Source de l'image",
+			"addMergeTag": "Ajouter un champ de fusion",
+			"rightPanelLabel": "Détails",
+			"disabled": "Aucun paramètre disponible pour cet élément",
+			"enabled": "Afficher les paramètres",
+			"contentHeaderBlockLockTooltip": {
+				"lockMsg": "Vous ne pouvez pas éditer le contenu de cet élément car le bloc sélectionné est verrouillé."
+			},
+			"contentHeaderImageActions": {
+				"selectNewImage": "Sélectionner une nouvelle image",
+				"srcVariable": "Variable source",
+				"moreOptions": "Autres options",
+				"selectVariable": "Sélectionner une variable",
+				"unlinkVariable": "Supprimer la variable",
+				"editImage": "Editer l'image"
+			},
+			"contentHeaderLinkInput": {
+				"linkVariable": "Variable lien",
+				"link": "Lien",
+				"title": "Titre",
+				"unlinkVariable": "Supprimer la variable",
+				"removeLink": "Supprimer le lien",
+				"addLink": "Ajouter le lien",
+				"protocol": "Protocole",
+				"emailAddress": "Email",
+				"subject": "Objet",
+				"message": "Message",
+				"url": "Url",
+				"addMergeTag": "Ajouter un champ de fusion",
+				"selectVariable": "Sélectionner une variable",
+				"cancel": "Annuler",
+				"save": "Enregistrer",
+				"mandatoryField": "Champ obligatoire",
+				"invalidEmail": "Adresse email invalide",
+				"openLinkMenu": "Ouvrir le menu pour éditer l'url"
+			}
+		},
+		"newElement": {
+			"dontShow": "Ne plus afficher cette astuce.",
+			"blockElement": {
+				"delete": "Supprimer"
+			},
+			"logicalTreeviewDrawer": {
+				"logicalStructure": "Structure logique",
+				"hideLogicalStructure": "Masquer la structure logique",
+				"labels": {
+					"conditional": "Conditionnelle",
+					"block-level-conditional": "Niveau de condition des blocs",
+					"else": "Autre",
+					"emptyExpression": "Expression vide"
+				}
+			},
+			"elements": "Elements",
+			"brand": "Marque",
+			"body": "Corp",
+			"text": "Text",
+			"image": "Image",
+			"button": "Bouton",
+			"divider": "Séparateur",
+			"social": "Sociale",
+			"code": "Code",
+			"video": "Video",
+			"fullwidth": "bloc",
+			"column": "Colonne",
+			"moreThanFive": "...",
+			"hidden": ".",
+			"box": "Box",
+			"BOX": "Box",
+			"multicolumn": "Multicolonne",
+			"COLUMNS": "COLONNES",
+			"BLOCK": "bloc",
+			"columns": "Colonnes",
+			"block": "bloc",
+			"loop": "Boucle",
+			"block-level-loop": "Boucle au niveau du blocs",
+			"conditional": "Conditionnel",
+			"block-level-conditional": "Condition au niveau du bloc",
+			"dynamic-image": "Image dynamique",
+			"dragAndDropElementIntoTheEditorArea": "Glisser et déposer les élements dans la zone d'édition",
+			"advanced": "Advancé",
+			"content": "Contenu",
+			"structure": "Structure",
+			"close": "Fermer",
+			"blocks": "blocs",
+			"search": "Chercher dans les blocs",
+			"libraries": "Bibliothèques des blocs",
+			"hiddenWarning": "Les blocs sont temporairement masqués pendant que le Glisser-Déposer est en cours.",
+			"noResult": "Pas de résultat. :( Affinez votre recherche. ;)"
+		},
+		"sharedComponents": {
+			"superColorPicker": {},
+			"toolboxHeader": {
+				"lockMsg": "Vous ne pouvez pas modifier les paramètres de cet élément car le bloc sélectionné est verrouillé.",
+				"subscriptionLockMsg": "Pour utiliser cette fonctionnalité, veuillez mettre à niveau votre abonnement"
+			}
+		},
+		"statusBar": {
+			"breadcrumbs": {},
+			"userListItem": {}
+		},
+		"toolboxes": {
+			"alignment": {
+				"labels": {
+					"title": "Alignement",
+					"left": "Gauche",
+					"center": "Centrer",
+					"right": "Droite"
+				}
+			},
+			"appliedExpressions": {
+				"title": "Expressions appliquées",
+				"else": "Autre",
+				"emptyExpression": "Expression vide"
+			},
+			"background": {
+				"labels": {
+					"title": "Element de fond",
+					"colorPickerLabel": "Couleur de fond",
+					"bgImageText": "Image de fond",
+					"btnSelect": "CHANGER",
+					"btnEdit": "EDITER",
+					"bgImagePosition": "Position",
+					"bgImageRepeat": "Répéter",
+					"bgImageSize": "Taille",
+					"selectVariable": "Selectionner une variable",
+					"unlinkVariable": "Dissocier la variable",
+					"bgVariable": "Image de fond variable",
+					"hoverStyling": "Style de survol",
+					"bgHoverColor": "Couleur arrière-plan du survol"
+				}
+			},
+			"blockLock": {
+				"labels": {
+					"title": "bloc verrouillé"
+				},
+				"noPermission": "Vous n'êtes pas autorisé à verrouiller ou déverrouiller des blocs.",
+				"editEnabled": "Modification activée",
+				"editEnabledInfo": "La conception et le contenu du bloc sont entièrement modifiables.",
+				"lockedDesign": "Conception verrouillée",
+				"lockedDesignInfo": "La conception du bloc ne peut pas être modifiée mais les textes, les images et les URL peuvent être mis à jour.",
+				"lockedDesignContent": "Conception et contenu verrouillés",
+				"lockedDesignContentInfo": "Ni le design ni le contenu du bloc ne peuvent être modifiés."
+			},
+			"blockSaveDrawer": {
+				"title": "bloc sans titre",
+				"notSaved": "LE bloc N'EST PAS ENREGISTRÉ",
+				"saveTo": "Enregistrer sous...",
+				"save": "ENREGISTRER"
+			},
+			"border": {
+				"title": "Bordure",
+				"separate": "Pointillé",
+				"borderRadius": "Bordure Arrondie",
+				"top": "Haut",
+				"right": "Droite",
+				"bottom": "Bas",
+				"left": "Gauche",
+				"labels": {
+					"title": "Bordure",
+					"borderSize": "Largeur",
+					"borderStyle": "Style",
+					"borderColor": "Couleur bordure"
+				}
+			},
+			"branchManagement": {
+				"title": "Branches",
+				"addNewBranch": "Ajouter une nouvelle branche",
+				"moveDownByOne": "Faire descendre d'un niveau",
+				"moveUpByOne": "Faire monter d'un niveau",
+				"elseMustBeAtBottom": "La branche Sinon doit être en bas. Transformez-le en Sinon Si pour le déplacer.",
+				"selectYourExpression": "Choisir votre expression ",
+				"duplicateBranch": "Dupliquer la branche",
+				"deleteBranch": "Suprimer la branche",
+				"expression": "Expression",
+				"types": {
+					"if": "Si",
+					"else-if": "Sinon Si",
+					"else": "Sinon"
+				},
+				"showLogicalStructure": "Show logical structure",
+				"hideLogicalStructure": "Hide logical structure"
+			},
+			"buttonSize": {
+				"mobileFluid": "Fluide sur Mobile",
+				"labels": {
+					"title": "Taille de l'élément",
+					"fitToText": "Ajuster au text",
+					"fixed": "Fixé",
+					"width": "Largeur"
+				}
+			},
+			"code": {
+				"labels": {
+					"inputLabel": "Titre",
+					"inputHint": "Nom personnalisé pour votre code",
+					"title": "Code",
+					"editHTML": "Editer Code",
+					"warning": "Ce code apparaîtra tel quel dans le HTML de l'e-mail exporté. Utilisez cette fonctionnalité à vos risques et périls, car elle peut affecter d'autres parties du code HTML et entraîner des problèmes de rendu. Remarque supplémentaire : le code ajouté ici ne s'affichera pas dans l'éditeur ou dans l'aperçu.",
+					"isAmp": "Mode AMP",
+					"amp": {
+						"inputLabel": "Titre",
+						"inputHint": "Nom personnalisé pour votre élément AMP",
+						"editHTML": "Editer le code HTML du AMP",
+						"editCSS": "Editerle CSS du",
+						"ampCSS": "CSS AMP",
+						"warning": "Ce code n'apparaîtra qu'en mode générateur AMP et il ne sera pas modifié dans le code HTML de l'e-mail exporté. Utilisez cette fonctionnalité à vos risques et périls, car elle peut affecter d'autres parties du code HTML et entraîner des problèmes de rendu. Remarque supplémentaire : le code ajouté ici ne s'affichera pas dans l'éditeur ou dans l'aperçu."
+					}
+				}
+			},
+			"column": {
+				"column": "Colonne",
+				"showMobile": "Voir sur mobile",
+				"showMobileInfo": "L'option \"Voir sur mobile\" sur une seule colonne.",
+				"lockWidth": "Verrouiller la largeur",
+				"width": "Largeur",
+				"labels": {
+					"title": "Columns"
+				}
+			},
+			"dynamicImageSize": {
+				"title": "Taille de l'élément",
+				"width": "Largeur",
+				"height": "Hauteur",
+				"fluidOnMobile": "Fluide sur mobile"
+			},
+			"expression": {
+				"titles": {
+					"loop": "Boucle",
+					"block-level-loop": "Boucle au niveau du bloc"
+				},
+				"inputLabel": "Expression",
+				"inputHint": "Entrer votre expression ici",
+				"selectYourExpression": "Choisir votre expression",
+				"showLogicalStructure": "Voir votre structure logique",
+				"hideLogicalStructure": "Masquer votre structure logique",
+				"outputPreview": {
+					"output": "Sortie",
+					"inTemplatingLanguage": "dans {0}",
+					"mightBeOutdated": "Peut-être obsolète. Actualiser la page pour mettre à jour la langue du template.",
+					"youCanChooseDifferentIn": "Vous avez choisi une langue différente pour le modèle dans {0}",
+					"content": "Contenu"
+				}
+			},
+			"imageSize": {
+				"title": "Taille de l'élément",
+				"width": "Largeur",
+				"height": "Hauteur",
+				"slider": "Taille de l'image",
+				"fluidOnMobile": "Fluide sur mobile"
+			},
+			"line": {
+				"lineColor": "Couleur de ligne",
+				"lineStyles": "Style de lignes",
+				"labels": {
+					"title": "Ligne",
+					"height": "Hauteur de ligne",
+					"transparent": "Transparent"
+				},
+				"lineStylesChoices": [
+					{
+						"text": "solide",
+						"value": "solid"
+					},
+					{
+						"text": "pointillé",
+						"value": "dotted"
+					},
+					{
+						"text": "tiret",
+						"value": "dashed"
+					},
+					{
+						"text": "double",
+						"value": "double"
+					}
+				]
+			},
+			"marker": {
+				"labels": {
+					"title": "Marqueur",
+					"inputLabel": "Marqueur",
+					"inputHint": "Entrer votre marqueur ici"
+				}
+			},
+			"multicol": {
+				"title": "Multicolonne",
+				"addColumn": "Ajouter une colonne",
+				"equalize": "Homogénéiser",
+				"desktopSpacings": "Espacement sur Ordinateur",
+				"left": "Gauche",
+				"inBetween": "Entre deux",
+				"right": "Droite",
+				"leftRight": "De gauche à droite",
+				"rightLeft": "De droite à gauche",
+				"dontReorder": "Ne pas réorganiser les colonnes",
+				"columnStackingMobile": "Ordre des colonnes sur mobile",
+				"mobileSpacings": "Espacements sur mobile",
+				"infoLine1": "Les espacements gauche et droit ne sont pas pris en compte sur mobile afin d'élargir votre contenu sur les petits écrans.",
+				"infoLine2": "Si vous souhaitez utiliser les mêmes espacements sur les affichages d'ordinateur et de mobiles, veuillez ajouter un bloc,",
+				"infoLine3": "ajustez ses marges et ses espacements et déplacez le bloc multi-colonnes dans ce bloc.",
+				"top": "Haut",
+				"bottom": "Bas"
+			},
+			"positioningToolbox": {
+				"labels": {
+					"top": "Haut",
+					"left": "Gauche",
+					"bottom": "Bas",
+					"right": "Droite",
+					"Paddings": "Espacement",
+					"Margins": "Marges",
+					"separate": "Separations"
+				}
+			},
+			"social": {
+				"title": "Sociale",
+				"labels": {
+					"title": "Sociale",
+					"iconSet": "Icônes",
+					"colorScheme": "Gamme de couleur",
+					"url": "URL",
+					"addIcon": "Ajouter nouvelle icône",
+					"layout": "Disposition",
+					"align": {
+						"text": "Alignement",
+						"left": "Gauche",
+						"center": "Centrer",
+						"right": "Droite"
+					},
+					"size": {
+						"text": "Taille",
+						"s": "S",
+						"m": "M",
+						"l": "L",
+						"xl": "XL"
+					},
+					"iconSpacing": "Espacement icônes",
+					"protocol": "Protocole"
+				},
+				"icons": "Icônes",
+				"iconTypes": [
+					{
+						"text": "Circulaire",
+						"value": 4
+					},
+					{
+						"text": "Circulaire (transparent)",
+						"value": 5
+					},
+					{
+						"text": "Plat",
+						"value": 1
+					},
+					{
+						"text": "Carré",
+						"value": 2
+					},
+					{
+						"text": "Carré (Arrondie)",
+						"value": 3
+					}
+				],
+				"colorSchemes": [
+					{
+						"text": "colorful",
+						"value": "coloré"
+					},
+					{
+						"text": "black",
+						"value": "noir"
+					},
+					{
+						"text": "grey",
+						"value": "gris"
+					},
+					{
+						"text": "white",
+						"value": "blanc"
+					}
+				]
+			},
+			"textLink": {
+				"labels": {
+					"title": "Lien",
+					"underline": "Souligné",
+					"linkColor": "Couleur du lien"
+				}
+			},
+			"typography": {
+				"labels": {
+					"fontFamily": "Famille de polices",
+					"fontSize": "Taille",
+					"lineHeight": "Hauteur deligne",
+					"fontColor": "Paramètres du texte",
+					"startTyping": "Commencer à taper pour rechercher",
+					"letterSpacing": "Espacement entre lettres",
+					"customLetterSpacing": "Espacement personnalisé entre les lettres"
+				}
+			},
+			"typographyEditor": {
+				"title": "Paramètres du corps du texte",
+				"h1": "Titre 1",
+				"h2": "Titre 2",
+				"h3": "Titre 3"
+			},
+			"visibility": {
+				"labels": {
+					"title": "Visibilité de l'élément",
+					"showOnMobile": "Voir sur mobile",
+					"showOnDesktop": "Voir sur PC",
+					"showInAmp": "Voir sur AMP"
+				}
+			},
+			"width": {
+				"labels": {
+					"title": "Largeur"
+				},
+				"warning": "Cela changera la largeur du contenu de ce bloc.",
+				"warningBox": {
+					"line1": "600 px est toujours la largeur d'e-mail idéale.",
+					"line2": "Les e-mails plus larges que 600-650 px peuvent ne pas convenir à tous vos abonnés'."
+				}
+			},
+			"video": {
+				"labels": {
+					"title": "Propriétés vidéo",
+					"src": "Source de la video",
+					"altText": "Texte alternatif",
+					"iconColor": "Couleur Icônes",
+					"iconType": "Type d'icônes",
+					"iconSize": "Taille d'icône"
+				},
+				"rules": {
+					"src": "Fournisseur vidéo non pris en charge ou lien vidéo invalide"
+				}
+			},
+			"title": "Largeur du contenu du message",
+			"bodyBackground": "Fond contenu",
+			"block": "bloc",
+			"content": "Contenu",
+			"blockBackGround": "Fond du bloc",
+			"blockContentWidth": "Largeur bloc",
+			"blockContentBackground": "Fond contenu du bloc",
+			"textBackground": "Fond de texte",
+			"buttonProperties": "Propriétés du bouton",
+			"boxBackground": "Fond Boîte",
+			"multicolumnBackground": "Fond multicolonne",
+			"imageAlignment": "Alignement image",
+			"thumbnailAlignment": "Alignement Aperçu",
+			"imageBackground": "Image de fond",
+			"dividerBackground": "Fond séparateur",
+			"columnBackground": "Fond colonne",
+			"dynamicImageAlignment": "Alignement image dynamique",
+			"dynamicImageBackground": "Fond image dynamique"
+		},
+		"titleInputLabel": "Titre",
+		"titleInputHint": "Nom personnalisé de votre code",
+		"connectionLost": "Plus de connexion internet",
+		"welcome": "Ravie de vous revoir !",
+		"costumCode": "#Code personnalisé",
+		"pasteCodeHere": "Copier code ici",
+		"cancel": "Annuler",
+		"update": "Mettre à jour",
+		"plsSaveBeforeChangingPic": "Sauvegarder le mail avant de changer d'image.",
+		"close": "Close"
+	},
+	"header": {
+		"signUpForFree": "INSCRIPTION GRATUITE",
+		"share": "Partager",
+		"preview": "Prévisualiser",
+		"export": "Exporter",
+		"zoom": "Zoomer"
+	},
+	"preview": {},
+	"variable": {
+		"clearVariables": "Supprimer",
+		"changeVariables": "Changer",
+		"notAvailable": "N'est pas disponible dans votre offre.",
+		"openVariableSelector": "Ouvrir le selecteur de variables",
+		"selectedVariable": "Variable séléctionnée",
+		"variableModal": {
+			"color": "Couleur",
+			"fontStack": "Font Stack",
+			"image": "Image",
+			"link": "Lien",
+			"text": "Texte",
+			"how_to_use": "Comment utiliser",
+			"preview": "Prévisualiser",
+			"editVariable": "Editer la variable",
+			"changedProps": "Remplacé avec succès {0} Valeur(s) correspond à la variable",
+			"selectVariable": "Choisir la variable",
+			"brandVariable": "Variable marque",
+			"actions": {
+				"use": "Utiliser",
+				"addNew": "Ajouter une nouvelle",
+				"save": "Enregistrer",
+				"update": "Mettre à jour",
+				"cancel": "Annuler"
+			}
+		},
+		"variableList": {
+			"name": "Nom",
+			"value": "Valeur",
+			"size": "Taille",
+			"aspectRatio": "ratio",
+			"actions": "Actions",
+			"canEdit": "Mettre à jour la variable",
+			"canNotEdit": "Vous n'êtes pas autorisé à mettre à jour cette variable",
+			"canDelete": "Supprimer la variable",
+			"canNotDelete": "Vous n'êtes pas autorisé à supprimer cette variable",
+			"noVariableOfType": "Pour créer votre première variable {0}, cliquez sur le bouton \"Ajouter une nouvelle\".",
+			"deleteWarning": "{0} élément(s) utilise(nt) encore cette variable. Es-tu sûr de vouloir le supprimer?",
+			"findAndRemove": "Supprimez la variable de partout mais conservez les valeurs",
+			"findAndReplace": "Trouvez les valeurs correspondantes et remplacez-les par la variable"
+		},
+		"variablePreview": {
+			"selectToPreview": "Sélectionnez une variable pour en voir un aperçu plus détaillé."
+		},
+		"variableInputName": {
+			"label": "Nom variable*",
+			"rules": {
+				"required": "Le nom est obligatoire",
+				"noSpecialChar": " les caractères *|:<>[]{}()';@&$ ne sont pas autorisés",
+				"tooShort": "Le nom de la variable est trop court",
+				"tooLong": "Le nom de la variable est trop long",
+				"unique": "La variable existe déjà en tant que {0}"
+			}
+		},
+		"variableInputDescription": {
+			"label": "Description (optionnelle)",
+			"rules": {
+				"maxLength90": "La description est trop longue"
+			}
+		},
+		"VariableMenuWrapper": {
+			"clearVariables": "Supprimer",
+			"changeVariables": "Changer"
+		},
+		"howToUse": {
+			"color": {
+				"line1": "Grâce aux variables de couleur, changer de couleur de votre e-mail devient un jeu d'enfant.",
+				"line2": "Comme bonne pratique, nous vous conseillons de définir au moins les couleurs de votre marque et de votre texte les plus utilisées.",
+				"line3": "Une fois que vous avez défini et associé les variables de couleur à chaque élément souhaité, vous pourrez mettre à jour leurs couleurs ensemble."
+			},
+			"fontStack": {
+				"line1": "La typographie est un élément essentiel de toute identité de marque, et tout commence par la famille de polices.",
+				"line2": "Comme bonne pratique, nous vous conseillons d'utiliser un maximum de deux familles de polices différentes dans votre e-mail : une pour les titres et une pour les paragraphes.",
+				"line3": "Une fois que vous avez défini et associé les variables de police à chaque élément souhaité, vous pourrez les mettre à jour ensemble."
+			},
+			"image": {
+				"line1": "Les variables d'image peuvent vous aider à remplacer facilement les éléments d'image spécifiques à la marque dans votre modèle d'e-mail.",
+				"line2": "Comme bonne pratique, nous vous conseillons de définir le logo de l'entreprise, les icônes personnalisées, les arrière-plans d'image ou d'autres éléments de décoration répétitifs en tant que variables d'image.",
+				"line3": "Une fois les variables d'image définies et associées à chaque élément souhaité, vous pourrez les mettre à jour ensemble."
+			},
+			"link": {
+				"line1": "Les variables de lien peuvent vous aider à remplacer facilement les liens spécifiques à la marque dans votre modèle d'e-mail.",
+				"line2": "Tout lien qui n'est pas ajouté via un merge tag mais qui est nécessaire plusieurs fois dans un e-mail, par exemple, un lien vers votre page d'accueil, doit être défini comme une variable de lien au lieu d'une URL normale.",
+				"line3": "De cette façon, si vous souhaitez réutiliser l'e-mail avec une marque différente ou si vous avez besoin de le mettre à jour, vous pourrez remplacer ces liens ensemble."
+			},
+			"text": {
+				"line1": "Les variables de texte sont créées pour vous permettre de personnaliser le contenu écrit avec plusieurs valeurs de texte, comme des boutons, des textes ALT ou des titres ensemble.",
+				"line2": "Par exemple, au lieu d'écrire \"Lire la suite\" sur chaque bouton de votre modèle d'e-mail, vous pouvez créer une variable \"texte-bouton-1\" et l'affecter à chacun d'eux. ",
+				"line3": "Plus tard, si vous avez besoin de remplacer le call-to-action sur les boutons, vous n'aurez qu'à modifier la valeur de votre variable texte une seule fois."
+			}
+		},
+		"addTextVariable": {
+			"label": "Texte",
+			"modeSwitchLabel": "Utiliser le format HTML",
+			"modeSwitchLabelInfo": "Enregistrez la variable sans balises HTML et utilisez-les comme texte alternatif ou titre de lien",
+			"addSimpleText": "Entrer votre texte non formaté ici",
+			"rules": {
+				"required": "Ceci est un champ obligatoire"
+			}
+		},
+		"addLinkVariable": {
+			"label": "Lien",
+			"rules": {
+				"required": "Le lien vers l'url est obligatoire"
+			}
+		},
+		"addImageVariable": {
+			"label": "URl vers l'image source",
+			"chooseFromGallery": "Choisir depuis la gallerie",
+			"rules": {
+				"required": "L'URL de l'image est obligatoire",
+				"error": "URL non valide"
+			}
+		},
+		"addFontStackVariable": {
+			"label": "Lien"
+		},
+		"addColorVariable": {
+			"label": "Code couleur Hexadecimal",
+			"rules": {
+				"notValidColor": "N'est pas une couleur valide"
+			}
+		}
+	},
+	"actionButtons": {},
+	"colorPicker": {},
+	"cursorWrapper": {
+		"containsVariables": "Cet élément contient des variables"
+	},
+	"demoGalleryDialog": {
+		"registeredOnly": "La galerie d'images est actuellement disponible uniquement pour les utilisateurs inscrits.",
+		"onBoardingBouble": "Téléchargez vos images, logos et GIF dans la Galerie. Créez des dossiers pour gérer vos ressources visuelles et partagez-les avec votre équipe. Modifiez, recadrez et redimensionnez les images dans l'éditeur d'images intégré.",
+		"continueDesigning": "Continuer la conception",
+		"register": "Inscription"
+	},
+	"editorDropZoneBlockLevelBottom": {
+		"move": "Déplacer {0}",
+		"new": "Nouveau {0}",
+		"newBlock": "Nouveau bloc",
+		"newBlockInside": "Nouveau bloc à l'intérieur {0}",
+		"types": {
+			"fullwidth": "bloc",
+			"loop": "Boucle au niveau du bloc",
+			"block-level-loop": "Boucle au niveau du bloc",
+			"conditional": "Condition boucle bloc",
+			"block-level-conditional": "Condition au niveau du bloc"
+		}
+	},
+	"editorDropZoneBlockLevelTop": {
+		"move": "Déplacer {0}",
+		"new": "Nouveau {0}",
+		"newBlock": "Nouveau bloc",
+		"newBlockInside": "Nouveau bloc à l'intérieur {0}",
+		"types": {
+			"fullwidth": "Bloc",
+			"loop": "Boucle au niveau du bloc",
+			"block-level-loop": "Boucle au niveau du bloc",
+			"conditional": "Condition au nieau du bloc",
+			"block-level-conditional": "Condition au nieau du bloc"
+		}
+	},
+	"editorDropZoneButton": {},
+	"editorDropZoneColumnLeft": {},
+	"editorDropZoneColumnRight": {},
+	"editorDropZoneEmpty": {},
+	"editorDropZoneLeft": {},
+	"editorDropZoneRight": {},
+	"editorDropZoneRoot": {
+		"dragDrop": "Glisser et déposer un élément ici",
+		"dropElement": "Déposer l'élément ici"
+	},
+	"editorDropZoneTop": {},
+	"editorElementBlockLevelConditional": {},
+	"editorElementBlockLevelLoop": {},
+	"editorElementBody": {},
+	"editorElementBox": {},
+	"editorElementBranch": {},
+	"editorElementButton": {},
+	"editorElementCode": {},
+	"editorElementColumn": {},
+	"editorElementConditional": {},
+	"editorElementDivider": {},
+	"editorElementDynamicImage": {},
+	"editorElementFullWidth": {
+		"blockLock": "Verrouillage bloc {0}",
+		"dragBlock": "Glisser bloc {0}",
+		"saveBlock": "Sauvegarder bloc {0}",
+		"duplicateBlock": "Dupliquer bloc {0}",
+		"deleteBlock": "Supprimer bloc {0}",
+		"types": {
+			"fullwidth": "",
+			"block-level-conditional": "(Condition boucle bloc)",
+			"block-level-loop": "(Niveau de boucle du bloc)"
+		}
+	},
+	"editorElementFullWidthLockIcon": {},
+	"editorElementImage": {},
+	"editorElementLoop": {},
+	"editorElementMultiColumn": {},
+	"editorElementSocial": {},
+	"editorElementText": {},
+	"editorPlaceHolderEmpty": {
+		"dragDrop": "Glisser et déposer un élément ici",
+		"dropElement": "Déposer l'élément ici"
+	},
+	"close": "Close",
+	"onBoardingBouble": {},
+	"onBoardingDialog": {},
+	"onBoardingReminder": {
+		"justInCase": "Au cas où",
+		"tutorial": "Vous pouvez toujours consulter ce didacticiel dans l'éditeur d'e-mails en cliquant sur “Guide utilisateur” dans le menu déroulant {icon} dans le coin supérieur droit.",
+		"close": "Fermer"
+	},
+	"enterApply": "Taper ENTRER pour appliquer",
+	"errors": {
+		"supportedFileTypes": "Types de fichiers pris en charge : jpg, jpeg, png and gif",
+		"httpsMissing": "URL invalide. utiliser un lien avec le protocole HTTPS.",
+		"invalidImageUrl": "URL invalide"
+	}
+}
