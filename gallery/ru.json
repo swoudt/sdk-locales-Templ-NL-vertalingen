@@ -2,8 +2,8 @@
 	"defaultEditorImageTitle": "Редактировать изображение",
 	"app": {
 		"headerTitle": "Галерея",
-		"myImages": "Мои картинки", 
-		"stockPhotos": "Стоковые фото" 
+		"myImages": "Мои картинки",
+		"stockPhotos": "Стоковые фото"
 	},
 	"fileList": {
 		"searchNoResult": "No images.",
@@ -34,10 +34,45 @@
 		"urlUploadSupportedImages": "We support the following image formats: {supportedImageFormats}",
 		"urlUploadSubmit": "Add to library"
 	},
-	"folderTreeView": {},
-	"photoEditor": {},
+	"folderTreeView": {
+		"createButtonText": "Create subfolder",
+		"createDialogAcceptLabel": "Create",
+		"createDialogTitle": "Create new folder",
+		"createSuccessMessage": "Subfolder created!",
+		"deleteButtonText": "Delete folder",
+		"dialogDeclineLabel": "Cancel",
+		"deleteDialogText": "Are you sure you want to delete this folder with all of its subfolders? This process cannot be undone.",
+		"deleteDialogTitle": "Delete folder",
+		"dialogAcceptLabel": "OK",
+		"dialogLabel": "Folder name",
+		"deleteSuccessMessage": "Folder deleted successfully!",
+		"renameButtonText": "Rename folder",
+		"renameDialogAcceptLabel": "Rename",
+		"renameDialogTitle": "Rename folder",
+		"renameSuccessMessage": "Folder renamed successfully!",
+		"nameRequiredText": "Name is required!"
+	},
 	"photoEditorPane": {
 		"cropToFit": "Crop to fit"
+	},
+	"photoCropper": {
+		"crop": {
+			"custom": "custom",
+			"square": "square",
+			"landscape": "landscape",
+			"portrait": "portrait"
+		},
+		"edit": {
+			"rotateRight": "rotate",
+			"rotateLeft": "rotate",
+			"flipX": "flip X",
+			"flipY": "flip Y",
+			"downscale": "downscale"
+		},
+		"header": {
+			"reset": "reset",
+			"save": "save"
+		}
 	},
 	"searchZone": {
 		"search": "Search",
@@ -62,14 +97,14 @@
 		"pexelPoweredBy": "Powered by",
 		"pexelLicenseInfo": "All images are published under the {license}",
 		"imageSizes": {
-				"tiny": "Tiny",
-				"landscape": "Landscape",
-				"portrait": "Portrait",
-				"small": "Small",
-				"medium": "medium",
-				"large": "Large",
-				"large2x": "Large 2x",
-				"original": "Original"
+			"tiny": "Tiny",
+			"landscape": "Landscape",
+			"portrait": "Portrait",
+			"small": "Small",
+			"medium": "medium",
+			"large": "Large",
+			"large2x": "Large 2x",
+			"original": "Original"
 		}
 	},
 	"uploadModal": {
@@ -80,8 +115,6 @@
 		"uploadingInProgress": "Uploading images...",
 		"uploadingInFinished": "Upload finished"
 	},
-	"uploadModalFileList": {},
-	"uploadModalFileListItem": {},
 	"errors": {
 		"supportedFileTypes": "Supported file types: {0}, {1}, {2} and {3} only!",
 		"notImage": "It's not an image file!",

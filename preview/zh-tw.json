@@ -5,7 +5,7 @@
 		"lightMode": "日間模式"
 	},
 	"previewBody": {
-			"mobileView": "手機",
-			"desktopView": "桌面"
+		"mobileView": "手機",
+		"desktopView": "桌面"
 	}
 }

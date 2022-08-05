@@ -1,6 +1,7 @@
 {
 	"app": {
-		"loading": "Fa betöltése..."
+		"loading": "Fa betöltése...",
+		"confirmDelete": "Biztos ki akarod törölni ezt az elemet?"
 	},
 	"editorMain": {
 		"contentHeader": {
@@ -93,18 +94,19 @@
 			"search": "Blokk keresése",
 			"libraries": "Blokk könyvtárak",
 			"hiddenWarning": "A blokkok ideiglenesen nem elérhetőek, amíg a művelet tart. Ezzel elkerülendő a teljesítményvesztést.",
-			"noResult": "Nincs találat. :( Keress újra. ;)"
+			"dragErrorIcon": "Mozgatási hiba ikon",
+			"blockRenamedSuccess": "Blokk sikeresen átnevezve.",
+			"blockConfirmDelete": "Biztos ki akarod törölni ezt a blokkot?",
+			"blockDeletedSuccess": "Blokk sikeresen törölve",
+			"noResult": "Nincs találat. :( Keress újra. ;)",
+			"desktopMessage": "A bal oldali panel húzáskor automatikusan bezáródik és kinyílik.",
+			"mobileMessage": "Tartsa lenyomva az elemet néhány másodpercig a húzás megkezdéséhez."
 		},
 		"sharedComponents": {
-			"superColorPicker": {},
 			"toolboxHeader": {
 				"lockMsg": "Ez a mező nem szerkeszthető, mert a kijelölt blokk zárolva van.",
 				"subscriptionLockMsg": "A funkció használatához kérjük fizess elő egy nagyobb csomagra"
 			}
-		},
-		"statusBar": {
-			"breadcrumbs": {},
-			"userListItem": {}
 		},
 		"toolboxes": {
 			"alignment": {
@@ -141,7 +143,6 @@
 				"labels": {
 					"title": "Blokk zár"
 				},
-				"noPermission": "Nincs jogosultságod a blokk zárásához vagy a zárás feloldásához",
 				"editEnabled": "A szerkesztés engedélyezett",
 				"editEnabledInfo": "A dizájn és a tartalom is szerkeszthető",
 				"lockedDesign": "Zárolt dizájn",
@@ -153,7 +154,10 @@
 				"title": "Névtelen blokk",
 				"notSaved": "A blokkot még nem mentetted",
 				"saveTo": "Mentés ide...",
-				"save": "Mentés"
+				"save": "Mentés",
+				"folderNotSelected": "Nincs kiválasztva mappa! Válassz ki egy mappát hogy menteni tudd a blokkot!",
+				"blockNotSelected": "Nincs kiválasztva blokk! Lehetséges hogy a hiba az aplikációval van. Kérjük lépj kapcsolatba velünk!",
+				"blockSavedSuccess": "Blokk sikeresen mentve."
 			},
 			"border": {
 				"title": "Szél",
@@ -244,7 +248,6 @@
 				"outputPreview": {
 					"output": "Kimenet",
 					"inTemplatingLanguage": "{0} nyelven",
-					"mightBeOutdated": "Elavult lehet. Töltsd újra az oldalt, hogy a sablon nyelv kifrissüljön.",
 					"youCanChooseDifferentIn": "Választhatsz másik sablon nyelvet itt: {0}",
 					"content": "Tartalom"
 				}
@@ -263,25 +266,7 @@
 					"title": "Vonal",
 					"height": "Vonal magassága",
 					"transparent": "Átlátszó"
-				},
-				"lineStylesChoices": [
-					{
-						"text": "folytonos",
-						"value": "solid"
-					},
-					{
-						"text": "pontos",
-						"value": "dotted"
-					},
-					{
-						"text": "szaggatott",
-						"value": "dashed"
-					},
-					{
-						"text": "dupla",
-						"value": "double"
-					}
-				]
+				}
 			},
 			"marker": {
 				"labels": {
@@ -346,46 +331,19 @@
 					"protocol": "Protokol"
 				},
 				"icons": "Ikonok",
-				"iconTypes": [
-					{
-						"text": "kör",
-						"value": 4
-					},
-					{
-						"text": "kör (átlátszó)",
-						"value": 5
-					},
-					{
-						"text": "lapos",
-						"value": 1
-					},
-					{
-						"text": "négyzetes",
-						"value": 2
-					},
-					{
-						"text": "négyzetes (lekerekített)",
-						"value": 3
-					}
-				],
-				"colorSchemes": [
-					{
-						"text": "színes",
-						"value": "colorful"
-					},
-					{
-						"text": "fekete",
-						"value": "black"
-					},
-					{
-						"text": "szürke",
-						"value": "grey"
-					},
-					{
-						"text": "fehér",
-						"value": "white"
-					}
-				]
+				"iconTypes": {
+					"circle": "kör",
+					"transparentCircle": "kör (átlátszó)",
+					"flat": "lapos",
+					"square": "négyzetes",
+					"roundedSquare": "négyzetes (lekerekített)"
+				},
+				"colorSchemes": {
+					"colorful": "színes",
+					"black": "fekete",
+					"grey": "szürke",
+					"white": "fehér"
+				}
 			},
 			"textLink": {
 				"labels": {
@@ -452,6 +410,9 @@
 			"textBackground": "A szöveg háttere",
 			"buttonProperties": "A gomb beállíásai",
 			"boxBackground": "A doboz háttere",
+			"buttonBackground": "Gomb háttere",
+			"buttonAlignment": "Gomb elhelyezkedése",
+			"buttonTextSettings": "Gomb szöveg beállitások",
 			"multicolumnBackground": "Az oszlopok háttere",
 			"imageAlignment": "Kép elhelyezkedése",
 			"thumbnailAlignment": "Videó elhelyezkedése",
@@ -461,29 +422,23 @@
 			"dynamicImageAlignment": "Dinamikus kép elhelyezése",
 			"dynamicImageBackground": "Dinamikus kép háttere"
 		},
-		"titleInputLabel": "Cím",
-		"titleInputHint": "A kód elem választott neve",
+		"codeElementEditorModal": {
+			"label": "Cím",
+			"hint": "A kód elem választott neve",
+			"customCode": "#A te kódod",
+			"pasteCodeHere": "Illeszd be a kódot ide",
+			"cancel": "Mégse",
+			"update": "Frissít"
+		},
 		"connectionLost": "Megszakadt az internetkapcsolat",
-		"welcome": "Üdv újra",
-		"costumCode": "#A te kódod",
-		"pasteCodeHere": "Illeszd be a kódot ide",
-		"cancel": "Mégse",
-		"update": "Frissít",
-		"plsSaveBeforeChangingPic": "Kérlek mentsd el az e-mailed mielőtt képet váltanál.",
-		"close": "Bezár"
+		"welcome": "Üdv újra"
 	},
 	"header": {
-		"signUpForFree": "REGISZTRÁJ INGYEN",
-		"share": "Megosztás",
-		"preview": "Előnézet",
-		"export": "Export",
 		"zoom": "Nagyítás"
 	},
-	"preview": {},
 	"variable": {
 		"clearVariables": "Törlés",
 		"changeVariables": "Csere",
-		"notAvailable": "Ez egy másik csomagban elérhető",
 		"openVariableSelector": "Váltózók megnyitása",
 		"selectedVariable": "Kiválasztott változó",
 		"variableModal": {
@@ -539,10 +494,6 @@
 			"rules": {
 				"maxLength90": "A leírás túl hosszú"
 			}
-		},
-		"VariableMenuWrapper": {
-			"clearVariables": "Eltávolítás",
-			"changeVariables": "Csere"
 		},
 		"howToUse": {
 			"color": {
@@ -604,16 +555,8 @@
 			}
 		}
 	},
-	"actionButtons": {},
-	"colorPicker": {},
 	"cursorWrapper": {
 		"containsVariables": "Ebben az elemben váltózó van"
-	},
-	"demoGalleryDialog": {
-		"registeredOnly": "A galéria jelentleg csak regisztrált felhasználóknak érhető el.",
-		"onBoardingBouble": "Töltsd fel a képeidet, logóidat, és GIG-jeidet a galériába. Hozz létre könyvtárakat a vizuális tartalmaidnak és oszd meg pket a csapatoddal. Szerkezd, vágd, és méretezd át a képeket a beépíett képszerkezstővel.",
-		"continueDesigning": "Folytasd a tervezést",
-		"register": "Regisztráció"
 	},
 	"editorDropZoneBlockLevelBottom": {
 		"move": "{0} mozgatása",
@@ -641,28 +584,13 @@
 			"block-level-conditional": "Blokkszintű Elágazás"
 		}
 	},
-	"editorDropZoneButton": {},
-	"editorDropZoneColumnLeft": {},
-	"editorDropZoneColumnRight": {},
-	"editorDropZoneEmpty": {},
-	"editorDropZoneLeft": {},
-	"editorDropZoneRight": {},
 	"editorDropZoneRoot": {
 		"dragDrop": "Fogd meg és dobj ide egy elemet",
 		"dropElement": "Dobj egy elemet ide"
 	},
-	"editorDropZoneTop": {},
-	"editorElementBlockLevelConditional": {},
-	"editorElementBlockLevelLoop": {},
-	"editorElementBody": {},
-	"editorElementBox": {},
-	"editorElementBranch": {},
-	"editorElementButton": {},
-	"editorElementCode": {},
-	"editorElementColumn": {},
-	"editorElementConditional": {},
-	"editorElementDivider": {},
-	"editorElementDynamicImage": {},
+	"editorElementCode": {
+		"codePrefix": "#Kód - "
+	},
 	"editorElementFullWidth": {
 		"blockLock": "Zárolt {0}",
 		"dragBlock": "{0} mozgatása",
@@ -675,28 +603,26 @@
 			"block-level-loop": "Blokkszintű Ciklus"
 		}
 	},
-	"editorElementFullWidthLockIcon": {},
-	"editorElementImage": {},
-	"editorElementLoop": {},
-	"editorElementMultiColumn": {},
-	"editorElementSocial": {},
-	"editorElementText": {},
 	"editorPlaceHolderEmpty": {
 		"dragDrop": "Fogd meg és dobj ide egy elemet",
 		"dropElement": "Dobj egy elemet ide"
 	},
 	"close": "Bezár",
-	"onBoardingBouble": {},
-	"onBoardingDialog": {},
-	"onBoardingReminder": {
-		"justInCase": "Ha szükség lenne rá!",
-		"tutorial": "You can always view this tutorial in the email editor by clicking on “User Guide” in the {icon} drop-down menu on the upper right-hand corner.",
-		"close": "Bezár"
-	},
 	"enterApply": "Nyomj egy entert a használathoz",
 	"errors": {
 		"supportedFileTypes": "Támogatott formátumok: jpg, jpeg, png és gif!",
 		"httpsMissing": "Hibás cím. Kérjük használjon HTTPS protokollt.",
 		"invalidImageUrl": "Ez egy hibás cím"
+	},
+	"consistencyCheckPlugin": {
+		"warning": "Hiba történt a sablon konzisztencia ellenőrzése során.\nA sablon újratöltése megoldhatja a problémát, de ez esetleges adatvesztéssel járhat.\nÚjratöltsük a sablont?"
+	},
+	"diffPlugin": {
+		"warning": "Ebben az email sablonban több mint 15 változás van amit nem tudtunk sikeresen elküldeni a szervernek és emiatt nem biztos hogy mentve lettek. A hiba forrása a lassú internet kapcsolat lehet.",
+		"title": "Internetkapcsolat hiba észlelve",
+		"ok": "OK"
+	},
+	"ckEditor": {
+		"addVariable": "Változó hozzáadása"
 	}
 }
