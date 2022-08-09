@@ -1,6 +1,7 @@
 {
 	"app": {
-		"loading": "Загрузка..."
+		"loading": "Загрузка...",
+		"confirmDelete": "Are you sure you want to delete this element?"
 	},
 	"editorMain": {
 		"contentHeader": {
@@ -93,18 +94,19 @@
 			"search": "Искать в блоках",
 			"libraries": "Библиотека блоков",
 			"hiddenWarning": "Блоки временно скрыты во время перетаскивания, чтобы избежать проблем с производительностью в последней версии Google Chrome.",
-			"noResult": "Нет результатов. :( Уточните поиск ;)"
+			"dragErrorIcon": "Drag error icon",
+			"blockRenamedSuccess": "Block renamed successfully.",
+			"blockConfirmDelete": "Are you sure you want to delete this block?",
+			"blockDeletedSuccess": "Block deleted successfully",
+			"noResult": "Нет результатов. :( Уточните поиск ;)",
+			"desktopMessage": "Левая панель автоматически закрывается и открывается при перетаскивании.",
+			"mobileMessage": "Удерживайте элемент в течение нескольких секунд, чтобы начать его перетаскивание."
 		},
 		"sharedComponents": {
-			"superColorPicker": {},
 			"toolboxHeader": {
 				"lockMsg": "Вы не можете редактировать настройки этого элемента, так как выбранный блок заблокирован.",
 				"subscriptionLockMsg": "Чтобы использовать эту функцию, пожалуйста, обновите свой тарифный план подписки"
 			}
-		},
-		"statusBar": {
-			"breadcrumbs": {},
-			"userListItem": {}
 		},
 		"toolboxes": {
 			"alignment": {
@@ -141,7 +143,6 @@
 				"labels": {
 					"title": "Блокировка контейнера"
 				},
-				"noPermission": "У вас нет разрешения на блокировку или разблокировку блоков.",
 				"editEnabled": "Редактирование включено",
 				"editEnabledInfo": "Как дизайн, так и содержимое блока полностью доступны для редактирования.",
 				"lockedDesign": "Дизайн заблокирован",
@@ -153,7 +154,10 @@
 				"title": "Контейнер без названия",
 				"notSaved": "Контейнер не сохранен",
 				"saveTo": "Сохранить к...",
-				"save": "СОХРАНИТЬ"
+				"save": "СОХРАНИТЬ",
+				"folderNotSelected": "Folder is not selected! Please select a folder to save this block!",
+				"blockNotSelected": "Block is not selected! This might be an error in the application. Please contact support!",
+				"blockSavedSuccess": "Block saved successfully."
 			},
 			"border": {
 				"title": "Обводка",
@@ -244,7 +248,6 @@
 				"outputPreview": {
 					"output": "Output",
 					"inTemplatingLanguage": "in {0}",
-					"mightBeOutdated": "Might be outdated. Reload the page to update the templating language.",
 					"youCanChooseDifferentIn": "You can choose a different templating language in {0}",
 					"content": "Content"
 				}
@@ -263,25 +266,7 @@
 					"title": "Линия",
 					"height": "Высота линии",
 					"transparent": "Прозрачность"
-				},
-				"lineStylesChoices": [
-					{
-						"text": "сплошная",
-						"value": "solid"
-					},
-					{
-						"text": "точка",
-						"value": "dotted"
-					},
-					{
-						"text": "пунктир",
-						"value": "dashed"
-					},
-					{
-						"text": "двойная",
-						"value": "double"
-					}
-				]
+				}
 			},
 			"marker": {
 				"labels": {
@@ -346,46 +331,19 @@
 					"protocol": "Протокол"
 				},
 				"icons": "Icons",
-				"iconTypes": [
-					{
-						"text": "круг",
-						"value": 4
-					},
-					{
-						"text": "круг (прозрачный)",
-						"value": 5
-					},
-					{
-						"text": "плоский",
-						"value": 1
-					},
-					{
-						"text": "квадратные",
-						"value": 2
-					},
-					{
-						"text": "с закруглениями",
-						"value": 3
-					}
-				],
-				"colorSchemes": [
-					{
-						"text": "цветная",
-						"value": "colorful"
-					},
-					{
-						"text": "черная",
-						"value": "black"
-					},
-					{
-						"text": "серая",
-						"value": "grey"
-					},
-					{
-						"text": "белая",
-						"value": "white"
-					}
-				]
+				"iconTypes": {
+					"circle": "круг",
+					"transparentCircle": "круг (прозрачный)",
+					"flat": "плоский",
+					"square": "квадратные",
+					"roundedSquare": "закруглениями"
+				},
+				"colorSchemes": {
+					"colorful": "цветная",
+					"black": "черная",
+					"grey": "серая",
+					"white": "белая"
+				}
 			},
 			"textLink": {
 				"labels": {
@@ -452,6 +410,9 @@
 			"textBackground": "Фон текста",
 			"buttonProperties": "Настройки кнопки",
 			"boxBackground": "Фон контейнера",
+			"buttonBackground": "Button background",
+			"buttonAlignment": "Button alignment",
+			"buttonTextSettings": "Button text settings",
 			"multicolumnBackground": "Фон колонок",
 			"imageAlignment": "Выравнивание картинки",
 			"thumbnailAlignment": "Выравнивание миниатюр",
@@ -461,29 +422,23 @@
 			"dynamicImageAlignment": "Динамическое выравнивание",
 			"dynamicImageBackground": "Динамический фон"
 		},
-		"titleInputLabel": "Заголовок",
-		"titleInputHint": "Custom name for your code element",
+		"codeElementEditorModal": {
+			"label": "Заголовок",
+			"hint": "Custom name for your code element",
+			"customCode": "#Произвольный HTML-код",
+			"pasteCodeHere": "Вставьте код сюда",
+			"cancel": "Отменить",
+			"update": "Обновить"
+		},
 		"connectionLost": "Your device lost it's internet connection.",
-		"welcome": "С возвращением!",
-		"costumCode": "#Произвольный HTML-код",
-		"pasteCodeHere": "Вставьте код сюда",
-		"cancel": "Отменить",
-		"update": "Обновить",
-		"plsSaveBeforeChangingPic": "Please save the email before changing pictures.",
-		"close": "Закрыть"
+		"welcome": "С возвращением!"
 	},
 	"header": {
-		"signUpForFree": "SIGN UP FOR FREE",
-		"share": "Поделиться",
-		"preview": "Предпросмотр",
-		"export": "Экспорт",
 		"zoom": "Увеличить"
 	},
-	"preview": {},
 	"variable": {
 		"clearVariables": "Удалить",
 		"changeVariables": "Изменить",
-		"notAvailable": "It's available in another plan.",
 		"openVariableSelector": "Открыть выбор переменных",
 		"selectedVariable": "Выбранная переменная",
 		"variableModal": {
@@ -540,10 +495,6 @@
 				"maxLength90": "Описание слишком длинное."
 			}
 		},
-		"VariableMenuWrapper": {
-			"clearVariables": "Удалить",
-			"changeVariables": "Изменить"
-		},
 		"howToUse": {
 			"color": {
 				"line1": "Благодаря цветовым переменным изменение цветовой темы вашего электронного письма становится легким делом.",
@@ -573,7 +524,7 @@
 		},
 		"addTextVariable": {
 			"label": "Текст",
-			"modeSwitchLabel": "Use HTML formating",
+			"modeSwitchLabel": "Use HTML formatting",
 			"modeSwitchLabelInfo": "Save variable without HTML tags and use them as Alt-text or Link title",
 			"addSimpleText": "Enter your unformatted text here",
 			"rules": {
@@ -604,16 +555,8 @@
 			}
 		}
 	},
-	"actionButtons": {},
-	"colorPicker": {},
 	"cursorWrapper": {
 		"containsVariables": "This element contains variables"
-	},
-	"demoGalleryDialog": {
-		"registeredOnly": "Галерея изображений в настоящее время доступна только для зарегистрированных пользователей.",
-		"onBoardingBouble": "Загружайте свои изображения, логотипы и подарки в галерею. Создавайте папки для управления вашими визуальными ресурсами и делитесь ими со своей командой. Редактируйте, обрезайте и изменяйте размер изображений во встроенном редакторе изображений.",
-		"continueDesigning": "Продолжайте создание письма",
-		"register": "Регистрация"
 	},
 	"editorDropZoneBlockLevelBottom": {
 		"move": "Переместить {0}",
@@ -641,28 +584,13 @@
 			"block-level-conditional": "Block Level Conditional"
 		}
 	},
-	"editorDropZoneButton": {},
-	"editorDropZoneColumnLeft": {},
-	"editorDropZoneColumnRight": {},
-	"editorDropZoneEmpty": {},
-	"editorDropZoneLeft": {},
-	"editorDropZoneRight": {},
 	"editorDropZoneRoot": {
 		"dragDrop": "Перетащите элемент сюда",
 		"dropElement": "Бросьте элемент здесь"
 	},
-	"editorDropZoneTop": {},
-	"editorElementBlockLevelConditional": {},
-	"editorElementBlockLevelLoop": {},
-	"editorElementBody": {},
-	"editorElementBox": {},
-	"editorElementBranch": {},
-	"editorElementButton": {},
-	"editorElementCode": {},
-	"editorElementColumn": {},
-	"editorElementConditional": {},
-	"editorElementDivider": {},
-	"editorElementDynamicImage": {},
+	"editorElementCode": {
+		"codePrefix": "#Code - "
+	},
 	"editorElementFullWidth": {
 		"blockLock": "Block lock {0}",
 		"dragBlock": "Drag block {0}",
@@ -675,28 +603,26 @@
 			"block-level-loop": "(Block Level Loop)"
 		}
 	},
-	"editorElementFullWidthLockIcon": {},
-	"editorElementImage": {},
-	"editorElementLoop": {},
-	"editorElementMultiColumn": {},
-	"editorElementSocial": {},
-	"editorElementText": {},
 	"editorPlaceHolderEmpty": {
 		"dragDrop": "Перетащите элемент сюда",
 		"dropElement": "Бросьте элемент здесь"
 	},
 	"close": "Close",
-	"onBoardingBouble": {},
-	"onBoardingDialog": {},
-	"onBoardingReminder": {
-		"justInCase": "Just in case",
-		"tutorial": "You can always view this tutorial in the email editor by clicking on “User Guide” in the {icon} drop-down menu on the upper right-hand corner.",
-		"close": "Close"
-	},
 	"enterApply": "Нажмите ENTER",
 	"errors": {
 		"supportedFileTypes": "Поддерживаемые типы изображений: jpg, jpeg, png and gif only!",
 		"httpsMissing": "Неверный URL. Пожалуйста, задайте адрес с HTTPS.",
 		"invalidImageUrl": "Невалидный URL"
+	},
+	"consistencyCheckPlugin": {
+		"warning": "Some error happened during checking inconsistency of the template.\nReloading the template might fix it but it can cause losing some of the latest actions.\nDo you want to reload the template?"
+	},
+	"diffPlugin": {
+		"warning": "There are 15 or more changes in the template that have not been successfully sent to the server and your changes might not be saved. This may be caused by a slow internet connection.",
+		"title": "Connection issues detected",
+		"ok": "OK"
+	},
+	"ckEditor": {
+		"addVariable": "Add variable"
 	}
 }

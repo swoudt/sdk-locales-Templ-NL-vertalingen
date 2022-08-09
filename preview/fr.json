@@ -5,7 +5,7 @@
 		"lightMode": "Mode clair"
 	},
 	"previewBody": {
-			"mobileView": "Mobile",
-			"desktopView": "Ordinateur"
+		"mobileView": "Mobile",
+		"desktopView": "Ordinateur"
 	}
 }

@@ -5,7 +5,7 @@
 		"lightMode": "Светлая тема"
 	},
 	"previewBody": {
-			"mobileView": "Мобильный",
-			"desktopView": "Десктоп"
+		"mobileView": "Мобильный",
+		"desktopView": "Десктоп"
 	}
 }

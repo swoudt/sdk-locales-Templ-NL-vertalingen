@@ -1,17 +1,17 @@
 {
 	"app": {
-		"loading": "正在載入樹架構..."
+		"loading": "正在載入樹架構...",
+		"confirmDelete": "Are you sure you want to delete this element?"
 	},
 	"editorMain": {
 		"contentHeader": {
 			"altText": "描述文字",
+			"textVariable": "Text variable",
 			"imageSource": "圖檔來源",
 			"addMergeTag": "新增合併標籤",
-			"addVariable": "新增變數",
 			"rightPanelLabel": "詳細",
 			"disabled": "這元件不能使有設定",
 			"enabled": "切換設定",
-			"selectedVariable": "已選變數",
 			"contentHeaderBlockLockTooltip": {
 				"lockMsg": "你不能修改內容，因為這元件已被鎖"
 			},
@@ -36,7 +36,6 @@
 				"message": "訊息",
 				"url": "Url",
 				"addMergeTag": "新增合併標籤",
-				"addVariable": "新增變數",
 				"selectVariable": "選取變數",
 				"cancel": "取消",
 				"save": "儲存",
@@ -95,18 +94,19 @@
 			"search": "區塊中搜尋",
 			"libraries": "區塊匯集",
 			"hiddenWarning": "當拖拉進行中，區塊暫時隱藏以避免最近的 Google Chrome version 很多 bugs",
-			"noResult": "沒有結果 :( 請修改你的搜尋 ;)"
+			"dragErrorIcon": "Drag error icon",
+			"blockRenamedSuccess": "Block renamed successfully.",
+			"blockConfirmDelete": "Are you sure you want to delete this block?",
+			"blockDeletedSuccess": "Block deleted successfully",
+			"noResult": "沒有結果 :( 請修改你的搜尋 ;)",
+			"desktopMessage": "拖动时，左边的面板会自动关闭和打开",
+			"mobileMessage": "按住元素几秒钟，开始拖动它"
 		},
 		"sharedComponents": {
-			"superColorPicker": {},
 			"toolboxHeader": {
 				"lockMsg": "你不能修這元件設定，因為這區塊已被鎖",
 				"subscriptionLockMsg": "升級你的服務以使用這功能"
 			}
-		},
-		"statusBar": {
-			"breadcrumbs": {},
-			"userListItem": {}
 		},
 		"toolboxes": {
 			"alignment": {
@@ -143,7 +143,6 @@
 				"labels": {
 					"title": "區塊已鎖"
 				},
-				"noPermission": "你沒有限權上鎖或解鎖區塊",
 				"editEnabled": "已啟動修改",
 				"editEnabledInfo": "設計和內容可全面修改",
 				"lockedDesign": "設計已被鎖",
@@ -155,7 +154,10 @@
 				"title": "無標題區塊",
 				"notSaved": "區塊沒有儲存",
 				"saveTo": "儲存至...",
-				"save": "儲存"
+				"save": "儲存",
+				"folderNotSelected": "Folder is not selected! Please select a folder to save this block!",
+				"blockNotSelected": "Block is not selected! This might be an error in the application. Please contact support!",
+				"blockSavedSuccess": "Block saved successfully."
 			},
 			"border": {
 				"title": "框線",
@@ -246,7 +248,6 @@
 				"outputPreview": {
 					"output": "輸出",
 					"inTemplatingLanguage": "in {0}",
-					"mightBeOutdated": "可能已過期，重新載入頁面更新模版語言。",
 					"youCanChooseDifferentIn": "你可在 {0} 選擇不同的模版語言",
 					"content": "內容"
 				}
@@ -265,25 +266,7 @@
 					"title": "線",
 					"height": "線高度",
 					"transparent": "透明"
-				},
-				"lineStylesChoices": [
-					{
-						"text": "實線",
-						"value": "實線"
-					},
-					{
-						"text": "點線",
-						"value": "點線"
-					},
-					{
-						"text": "虛線",
-						"value": "虛線"
-					},
-					{
-						"text": "雙倍",
-						"value": "雙倍"
-					}
-				]
+				}
 			},
 			"marker": {
 				"labels": {
@@ -348,46 +331,19 @@
 					"protocol": "協定"
 				},
 				"icons": "圖標",
-				"iconTypes": [
-					{
-						"text": "圓",
-						"value": 4
-					},
-					{
-						"text": "圓 (透明)",
-						"value": 5
-					},
-					{
-						"text": "平",
-						"value": 1
-					},
-					{
-						"text": "方正",
-						"value": 2
-					},
-					{
-						"text": "方正 (圖)",
-						"value": 3
-					}
-				],
-				"colorSchemes": [
-					{
-						"text": "顏色",
-						"value": "顏色"
-					},
-					{
-						"text": "黑色",
-						"value": "黑色"
-					},
-					{
-						"text": "灰色",
-						"value": "灰色"
-					},
-					{
-						"text": "白色",
-						"value": "白色"
-					}
-				]
+				"iconTypes": {
+					"circle": "圓",
+					"transparentCircle": "圓 (透明)",
+					"flat": "平",
+					"square": "方正",
+					"roundedSquare": "方正 (圖)"
+				},
+				"colorSchemes": {
+					"colorful": "顏色",
+					"black": "黑色",
+					"grey": "灰色",
+					"white": "白色"
+				}
 			},
 			"textLink": {
 				"labels": {
@@ -454,6 +410,9 @@
 			"textBackground": "文字背景",
 			"buttonProperties": "按鈕特性",
 			"boxBackground": "框背景",
+			"buttonBackground": "Button background",
+			"buttonAlignment": "Button alignment",
+			"buttonTextSettings": "Button text settings",
 			"multicolumnBackground": "多欄背景",
 			"imageAlignment": "排齊圖片",
 			"thumbnailAlignment": "排齊縮圖",
@@ -463,26 +422,25 @@
 			"dynamicImageAlignment": "排齊動態圖片",
 			"dynamicImageBackground": "動態圖片背景"
 		},
-		"titleInputLabel": "標題",
-		"titleInputHint": "自訂程式碼元件名稱",
+		"codeElementEditorModal": {
+			"label": "標題",
+			"hint": "自訂程式碼元件名稱",
+			"customCode": "#自訂程式碼",
+			"pasteCodeHere": "在這裡貼上程式碼",
+			"cancel": "取消",
+			"update": "更新"
+		},
 		"connectionLost": "你的設備失去聯網連線",
-		"welcome": "歡迎再回來!",
-		"costumCode": "#自訂程式碼",
-		"pasteCodeHere": "在這裡貼上程式碼",
-		"cancel": "取消",
-		"update": "更新",
-		"plsSaveBeforeChangingPic": "變更圖片前請儲存電郵",
-		"close": "關閉"
+		"welcome": "歡迎再回來!"
 	},
 	"header": {
-		"signUpForFree": "免費登記",
-		"share": "分享",
-		"preview": "預覧",
-		"export": "匯出",
 		"zoom": "放大"
 	},
-	"preview": {},
 	"variable": {
+		"clearVariables": "Remove",
+		"changeVariables": "Change",
+		"openVariableSelector": "Open variable selector",
+		"selectedVariable": "Selected variable",
 		"variableModal": {
 			"color": "顏色",
 			"fontStack": "文字疊層",
@@ -537,10 +495,6 @@
 				"maxLength90": "描述太長"
 			}
 		},
-		"variableContentMenuWrapper": {
-			"clearVariables": "刪除",
-			"changeVariables": "更改"
-		},
 		"howToUse": {
 			"color": {
 				"line1": "有了顏色變數，更改電郵之顏色主調來得輕鬆。",
@@ -570,6 +524,9 @@
 		},
 		"addTextVariable": {
 			"label": "文字",
+			"modeSwitchLabel": "Use HTML formatting",
+			"modeSwitchLabelInfo": "Save variable without HTML tags and use them as Alt-text or Link title",
+			"addSimpleText": "Enter your unformatted text here",
 			"rules": {
 				"required": "名稱是必須"
 			}
@@ -582,6 +539,7 @@
 		},
 		"addImageVariable": {
 			"label": "Image source URL",
+			"chooseFromGallery": "Choose from gallery",
 			"rules": {
 				"required": "圖片 url 是必須",
 				"error": "沒有有效的 url"
@@ -597,19 +555,8 @@
 			}
 		}
 	},
-	"actionButtons": {},
-	"colorPicker": {
-		"clearVariables": "刪除",
-		"changeVariables": "更改",
-		"notAvailable": "這變數在另一個計劃",
-		"openVariableSelector": "開啟變數選擇器"
-	},
-	"cursorWrapper": {},
-	"demoGalleryDialog": {
-		"registeredOnly": "圖片庫現只開放給登記用戶",
-		"onBoardingBouble": "上載你的圖片、logo、GIFs 到圖片庫。建立檔案夾管理圖檔，亦可分享給你的團隊，可在圖片編輯器修改圖。",
-		"continueDesigning": "繼續設計",
-		"register": "登記"
+	"cursorWrapper": {
+		"containsVariables": "This element contains variables"
 	},
 	"editorDropZoneBlockLevelBottom": {
 		"move": "移動 {0}",
@@ -637,28 +584,13 @@
 			"block-level-conditional": "攔截層級條件"
 		}
 	},
-	"editorDropZoneButton": {},
-	"editorDropZoneColumnLeft": {},
-	"editorDropZoneColumnRight": {},
-	"editorDropZoneEmpty": {},
-	"editorDropZoneLeft": {},
-	"editorDropZoneRight": {},
 	"editorDropZoneRoot": {
 		"dragDrop": "拖拉元件至這裡",
 		"dropElement": "拖拉元件至這裡"
 	},
-	"editorDropZoneTop": {},
-	"editorElementBlockLevelConditional": {},
-	"editorElementBlockLevelLoop": {},
-	"editorElementBody": {},
-	"editorElementBox": {},
-	"editorElementBranch": {},
-	"editorElementButton": {},
-	"editorElementCode": {},
-	"editorElementColumn": {},
-	"editorElementConditional": {},
-	"editorElementDivider": {},
-	"editorElementDynamicImage": {},
+	"editorElementCode": {
+		"codePrefix": "#Code - "
+	},
 	"editorElementFullWidth": {
 		"blockLock": "鎖上區塊 {0}",
 		"dragBlock": "拖拉區塊 {0}",
@@ -671,28 +603,26 @@
 			"block-level-loop": "(攔截層級迴路)"
 		}
 	},
-	"editorElementFullWidthLockIcon": {},
-	"editorElementImage": {},
-	"editorElementLoop": {},
-	"editorElementMultiColumn": {},
-	"editorElementSocial": {},
-	"editorElementText": {},
 	"editorPlaceHolderEmpty": {
 		"dragDrop": "拖拉元件至這裡",
 		"dropElement": "拖拉元件至這裡"
 	},
 	"close": "Close",
-	"onBoardingBouble": {},
-	"onBoardingDialog": {},
-	"onBoardingReminder": {
-		"justInCase": "也會是巧合",
-		"tutorial": "你可在這教電郵編輯器在右上⻆的下拉式選單 {icon} 按 \"使用指南\" 看教學",
-		"close": "關閉"
-	},
 	"enterApply": "按 ENTER 套用",
 	"errors": {
 		"supportedFileTypes": "支援檔案格式: jpg, jpeg, png 及 gif!",
 		"httpsMissing": "無效的 URL，圖片須應用 HTTPS.",
 		"invalidImageUrl": "這是無效的 URL"
+	},
+	"consistencyCheckPlugin": {
+		"warning": "Some error happened during checking inconsistency of the template.\nReloading the template might fix it but it can cause losing some of the latest actions.\nDo you want to reload the template?"
+	},
+	"diffPlugin": {
+		"warning": "There are 15 or more changes in the template that have not been successfully sent to the server and your changes might not be saved. This may be caused by a slow internet connection.",
+		"title": "Connection issues detected",
+		"ok": "OK"
+	},
+	"ckEditor": {
+		"addVariable": "Add variable"
 	}
 }

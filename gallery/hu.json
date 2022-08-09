@@ -2,8 +2,8 @@
 	"defaultEditorImageTitle": "Szerkesztett kép",
 	"app": {
 		"headerTitle": "Galéria",
-		"myImages": "Képeim", 
-		"stockPhotos": "Stock fotó keresése" 
+		"myImages": "Képeim",
+		"stockPhotos": "Stock fotó keresése"
 	},
 	"fileList": {
 		"searchNoResult": "Még nincs feltöltve egy kép sem.",
@@ -34,10 +34,45 @@
 		"urlUploadSupportedImages": "A következő formátumokat támogatjuk: {supportedImageFormats}",
 		"urlUploadSubmit": "Hozzáadás"
 	},
-	"folderTreeView": {},
-	"photoEditor": {},
+	"folderTreeView": {
+		"createButtonText": "Új almappa",
+		"createDialogAcceptLabel": "Mentés",
+		"createDialogTitle": "Új mappa létrehozása",
+		"createSuccessMessage": "Mappa sikeresen létrehozva!",
+		"deleteButtonText": "Törlés",
+		"dialogDeclineLabel": "Mégsem",
+		"deleteDialogText": "Biztosan törlöd a kiválasztott mappát az összes almappájával együtt? Ez a művelet nem vonható vissza.",
+		"deleteDialogTitle": "Mappa törlése",
+		"dialogAcceptLabel": "OK",
+		"dialogLabel": "Mappa neve",
+		"deleteSuccessMessage": "Mappa sikeresen törölve!",
+		"renameButtonText": "Átnevezés",
+		"renameDialogAcceptLabel": "Átnevezés",
+		"renameDialogTitle": "Mappa átnevezése",
+		"renameSuccessMessage": "Mappa sikeresen átnevezve!",
+		"nameRequiredText": "A név megadása kötelező!"
+	},
 	"photoEditorPane": {
 		"cropToFit": "Méretre vágás"
+	},
+	"photoCropper": {
+		"crop": {
+			"custom": "egyéni",
+			"square": "kocka",
+			"landscape": "tájkép",
+			"portrait": "portré"
+		},
+		"edit": {
+			"rotateRight": "forgatás",
+			"rotateLeft": "forgatás",
+			"flipX": "tükrözés X",
+			"flipY": "tükrözés Y",
+			"downscale": "kicsinyítés"
+		},
+		"header": {
+			"reset": "visszaállít",
+			"save": "mentés"
+		}
 	},
 	"searchZone": {
 		"search": "Keresés",
@@ -80,8 +115,6 @@
 		"uploadingInProgress": "Feltöltés...",
 		"uploadingInFinished": "Feltöltés befejezve"
 	},
-	"uploadModalFileList": {},
-	"uploadModalFileListItem": {},
 	"errors": {
 		"supportedFileTypes": "Támogatott formátumok: {0}, {1}, {2} és {3}!",
 		"notImage": "Ez nem egy kép fájl!",

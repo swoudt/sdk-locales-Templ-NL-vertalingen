@@ -2,8 +2,8 @@
 	"defaultEditorImageTitle": "在編輯器修改圖片",
 	"app": {
 		"headerTitle": "圖庫",
-		"myImages": "我的圖片", 
-		"stockPhotos": "瀏覧圖片庫" 
+		"myImages": "我的圖片",
+		"stockPhotos": "瀏覧圖片庫"
 	},
 	"fileList": {
 		"searchNoResult": "沒有圖片",
@@ -34,10 +34,45 @@
 		"urlUploadSupportedImages": "我們支援以下圖片格式: {supportedImageFormats}",
 		"urlUploadSubmit": "加進圖片集"
 	},
-	"folderTreeView": {},
-	"photoEditor": {},
+	"folderTreeView": {
+		"createButtonText": "Create subfolder",
+		"createDialogAcceptLabel": "Create",
+		"createDialogTitle": "Create new folder",
+		"createSuccessMessage": "Subfolder created!",
+		"deleteButtonText": "Delete folder",
+		"dialogDeclineLabel": "Cancel",
+		"deleteDialogText": "Are you sure you want to delete this folder with all of its subfolders? This process cannot be undone.",
+		"deleteDialogTitle": "Delete folder",
+		"dialogAcceptLabel": "OK",
+		"dialogLabel": "Folder name",
+		"deleteSuccessMessage": "Folder deleted successfully!",
+		"renameButtonText": "Rename folder",
+		"renameDialogAcceptLabel": "Rename",
+		"renameDialogTitle": "Rename folder",
+		"renameSuccessMessage": "Folder renamed successfully!",
+		"nameRequiredText": "Name is required!"
+	},
 	"photoEditorPane": {
 		"cropToFit": "修剪至適合"
+	},
+	"photoCropper": {
+		"crop": {
+			"custom": "custom",
+			"square": "square",
+			"landscape": "landscape",
+			"portrait": "portrait"
+		},
+		"edit": {
+			"rotateRight": "rotate",
+			"rotateLeft": "rotate",
+			"flipX": "flip X",
+			"flipY": "flip Y",
+			"downscale": "downscale"
+		},
+		"header": {
+			"reset": "reset",
+			"save": "save"
+		}
 	},
 	"searchZone": {
 		"search": "搜尋",
@@ -62,14 +97,14 @@
 		"pexelPoweredBy": "Powered by",
 		"pexelLicenseInfo": "All images are published under the {license}",
 		"imageSizes": {
-				"tiny": "特小",
-				"landscape": "橫倒",
-				"portrait": "直倒",
-				"small": "細小",
-				"medium": "中",
-				"large": "大",
-				"large2x": "2x 大",
-				"original": "原大小"
+			"tiny": "特小",
+			"landscape": "橫倒",
+			"portrait": "直倒",
+			"small": "細小",
+			"medium": "中",
+			"large": "大",
+			"large2x": "2x 大",
+			"original": "原大小"
 		}
 	},
 	"uploadModal": {
@@ -80,8 +115,6 @@
 		"uploadingInProgress": "上載圖片中...",
 		"uploadingInFinished": "上載完成"
 	},
-	"uploadModalFileList": {},
-	"uploadModalFileListItem": {},
 	"errors": {
 		"supportedFileTypes": "支援的檔案類形: {0}, {1}, {2} and {3} only!",
 		"notImage": "這不是圖片檔!",

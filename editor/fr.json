@@ -1,6 +1,7 @@
 {
 	"app": {
-		"loading": "Chargement..."
+		"loading": "Chargement...",
+		"confirmDelete": "Are you sure you want to delete this element?"
 	},
 	"editorMain": {
 		"contentHeader": {
@@ -93,18 +94,19 @@
 			"search": "Chercher dans les blocs",
 			"libraries": "Bibliothèques des blocs",
 			"hiddenWarning": "Les blocs sont temporairement masqués pendant que le Glisser-Déposer est en cours.",
-			"noResult": "Pas de résultat. :( Affinez votre recherche. ;)"
+			"dragErrorIcon": "Drag error icon",
+			"blockRenamedSuccess": "Block renamed successfully.",
+			"blockConfirmDelete": "Are you sure you want to delete this block?",
+			"blockDeletedSuccess": "Block deleted successfully",
+			"noResult": "Pas de résultat. :( Affinez votre recherche. ;)",
+			"desktopMessage": "The left panel automatically closes and opens when dragging.",
+			"mobileMessage": "Hold the element for a few seconds to start dragging it."
 		},
 		"sharedComponents": {
-			"superColorPicker": {},
 			"toolboxHeader": {
 				"lockMsg": "Vous ne pouvez pas modifier les paramètres de cet élément car le bloc sélectionné est verrouillé.",
 				"subscriptionLockMsg": "Pour utiliser cette fonctionnalité, veuillez mettre à niveau votre abonnement"
 			}
-		},
-		"statusBar": {
-			"breadcrumbs": {},
-			"userListItem": {}
 		},
 		"toolboxes": {
 			"alignment": {
@@ -141,7 +143,6 @@
 				"labels": {
 					"title": "bloc verrouillé"
 				},
-				"noPermission": "Vous n'êtes pas autorisé à verrouiller ou déverrouiller des blocs.",
 				"editEnabled": "Modification activée",
 				"editEnabledInfo": "La conception et le contenu du bloc sont entièrement modifiables.",
 				"lockedDesign": "Conception verrouillée",
@@ -153,7 +154,10 @@
 				"title": "bloc sans titre",
 				"notSaved": "LE bloc N'EST PAS ENREGISTRÉ",
 				"saveTo": "Enregistrer sous...",
-				"save": "ENREGISTRER"
+				"save": "ENREGISTRER",
+				"folderNotSelected": "Folder is not selected! Please select a folder to save this block!",
+				"blockNotSelected": "Block is not selected! This might be an error in the application. Please contact support!",
+				"blockSavedSuccess": "Block saved successfully."
 			},
 			"border": {
 				"title": "Bordure",
@@ -244,7 +248,6 @@
 				"outputPreview": {
 					"output": "Sortie",
 					"inTemplatingLanguage": "dans {0}",
-					"mightBeOutdated": "Peut-être obsolète. Actualiser la page pour mettre à jour la langue du template.",
 					"youCanChooseDifferentIn": "Vous avez choisi une langue différente pour le modèle dans {0}",
 					"content": "Contenu"
 				}
@@ -263,25 +266,7 @@
 					"title": "Ligne",
 					"height": "Hauteur de ligne",
 					"transparent": "Transparent"
-				},
-				"lineStylesChoices": [
-					{
-						"text": "solide",
-						"value": "solid"
-					},
-					{
-						"text": "pointillé",
-						"value": "dotted"
-					},
-					{
-						"text": "tiret",
-						"value": "dashed"
-					},
-					{
-						"text": "double",
-						"value": "double"
-					}
-				]
+				}
 			},
 			"marker": {
 				"labels": {
@@ -346,46 +331,19 @@
 					"protocol": "Protocole"
 				},
 				"icons": "Icônes",
-				"iconTypes": [
-					{
-						"text": "Circulaire",
-						"value": 4
-					},
-					{
-						"text": "Circulaire (transparent)",
-						"value": 5
-					},
-					{
-						"text": "Plat",
-						"value": 1
-					},
-					{
-						"text": "Carré",
-						"value": 2
-					},
-					{
-						"text": "Carré (Arrondie)",
-						"value": 3
-					}
-				],
-				"colorSchemes": [
-					{
-						"text": "colorful",
-						"value": "coloré"
-					},
-					{
-						"text": "black",
-						"value": "noir"
-					},
-					{
-						"text": "grey",
-						"value": "gris"
-					},
-					{
-						"text": "white",
-						"value": "blanc"
-					}
-				]
+				"iconTypes": {
+					"circle": "Circulaire",
+					"transparentCircle": "Circulaire (transparent)",
+					"flat": "Plat",
+					"square": "Carré",
+					"roundedSquare": "Carré (Arrondie)"
+				},
+				"colorSchemes": {
+					"colorful": "coloré",
+					"black": "noir",
+					"grey": "gris",
+					"white": "blanc"
+				}
 			},
 			"textLink": {
 				"labels": {
@@ -444,7 +402,7 @@
 			},
 			"title": "Largeur du contenu du message",
 			"bodyBackground": "Fond contenu",
-			"block": "bloc",
+			"block": "Bloc",
 			"content": "Contenu",
 			"blockBackGround": "Fond du bloc",
 			"blockContentWidth": "Largeur bloc",
@@ -452,6 +410,9 @@
 			"textBackground": "Fond de texte",
 			"buttonProperties": "Propriétés du bouton",
 			"boxBackground": "Fond Boîte",
+			"buttonBackground": "Button background",
+			"buttonAlignment": "Button alignment",
+			"buttonTextSettings": "Button text settings",
 			"multicolumnBackground": "Fond multicolonne",
 			"imageAlignment": "Alignement image",
 			"thumbnailAlignment": "Alignement Aperçu",
@@ -461,29 +422,23 @@
 			"dynamicImageAlignment": "Alignement image dynamique",
 			"dynamicImageBackground": "Fond image dynamique"
 		},
-		"titleInputLabel": "Titre",
-		"titleInputHint": "Nom personnalisé de votre code",
+		"codeElementEditorModal": {
+			"cancel": "Annuler",
+			"customCode": "#Code personnalisé",
+			"hint": "Nom personnalisé de votre code",
+			"label": "Titre",
+			"pasteCodeHere": "Copier code ici",
+			"update": "Mettre à jour"
+		},
 		"connectionLost": "Plus de connexion internet",
-		"welcome": "Ravie de vous revoir !",
-		"costumCode": "#Code personnalisé",
-		"pasteCodeHere": "Copier code ici",
-		"cancel": "Annuler",
-		"update": "Mettre à jour",
-		"plsSaveBeforeChangingPic": "Sauvegarder le mail avant de changer d'image.",
-		"close": "Close"
+		"welcome": "Ravie de vous revoir !"
 	},
 	"header": {
-		"signUpForFree": "INSCRIPTION GRATUITE",
-		"share": "Partager",
-		"preview": "Prévisualiser",
-		"export": "Exporter",
 		"zoom": "Zoomer"
 	},
-	"preview": {},
 	"variable": {
 		"clearVariables": "Supprimer",
 		"changeVariables": "Changer",
-		"notAvailable": "N'est pas disponible dans votre offre.",
 		"openVariableSelector": "Ouvrir le selecteur de variables",
 		"selectedVariable": "Variable séléctionnée",
 		"variableModal": {
@@ -539,10 +494,6 @@
 			"rules": {
 				"maxLength90": "La description est trop longue"
 			}
-		},
-		"VariableMenuWrapper": {
-			"clearVariables": "Supprimer",
-			"changeVariables": "Changer"
 		},
 		"howToUse": {
 			"color": {
@@ -604,16 +555,8 @@
 			}
 		}
 	},
-	"actionButtons": {},
-	"colorPicker": {},
 	"cursorWrapper": {
 		"containsVariables": "Cet élément contient des variables"
-	},
-	"demoGalleryDialog": {
-		"registeredOnly": "La galerie d'images est actuellement disponible uniquement pour les utilisateurs inscrits.",
-		"onBoardingBouble": "Téléchargez vos images, logos et GIF dans la Galerie. Créez des dossiers pour gérer vos ressources visuelles et partagez-les avec votre équipe. Modifiez, recadrez et redimensionnez les images dans l'éditeur d'images intégré.",
-		"continueDesigning": "Continuer la conception",
-		"register": "Inscription"
 	},
 	"editorDropZoneBlockLevelBottom": {
 		"move": "Déplacer {0}",
@@ -641,28 +584,13 @@
 			"block-level-conditional": "Condition au nieau du bloc"
 		}
 	},
-	"editorDropZoneButton": {},
-	"editorDropZoneColumnLeft": {},
-	"editorDropZoneColumnRight": {},
-	"editorDropZoneEmpty": {},
-	"editorDropZoneLeft": {},
-	"editorDropZoneRight": {},
 	"editorDropZoneRoot": {
 		"dragDrop": "Glisser et déposer un élément ici",
 		"dropElement": "Déposer l'élément ici"
 	},
-	"editorDropZoneTop": {},
-	"editorElementBlockLevelConditional": {},
-	"editorElementBlockLevelLoop": {},
-	"editorElementBody": {},
-	"editorElementBox": {},
-	"editorElementBranch": {},
-	"editorElementButton": {},
-	"editorElementCode": {},
-	"editorElementColumn": {},
-	"editorElementConditional": {},
-	"editorElementDivider": {},
-	"editorElementDynamicImage": {},
+	"editorElementCode": {
+		"codePrefix": "#Code - "
+	},
 	"editorElementFullWidth": {
 		"blockLock": "Verrouillage bloc {0}",
 		"dragBlock": "Glisser bloc {0}",
@@ -675,28 +603,26 @@
 			"block-level-loop": "(Niveau de boucle du bloc)"
 		}
 	},
-	"editorElementFullWidthLockIcon": {},
-	"editorElementImage": {},
-	"editorElementLoop": {},
-	"editorElementMultiColumn": {},
-	"editorElementSocial": {},
-	"editorElementText": {},
 	"editorPlaceHolderEmpty": {
 		"dragDrop": "Glisser et déposer un élément ici",
 		"dropElement": "Déposer l'élément ici"
 	},
 	"close": "Close",
-	"onBoardingBouble": {},
-	"onBoardingDialog": {},
-	"onBoardingReminder": {
-		"justInCase": "Au cas où",
-		"tutorial": "Vous pouvez toujours consulter ce didacticiel dans l'éditeur d'e-mails en cliquant sur “Guide utilisateur” dans le menu déroulant {icon} dans le coin supérieur droit.",
-		"close": "Fermer"
-	},
 	"enterApply": "Taper ENTRER pour appliquer",
 	"errors": {
 		"supportedFileTypes": "Types de fichiers pris en charge : jpg, jpeg, png and gif",
 		"httpsMissing": "URL invalide. utiliser un lien avec le protocole HTTPS.",
 		"invalidImageUrl": "URL invalide"
+	},
+	"consistencyCheckPlugin": {
+		"warning": "Some error happened during checking inconsistency of the template.\nReloading the template might fix it but it can cause losing some of the latest actions.\nDo you want to reload the template?"
+	},
+	"diffPlugin": {
+		"warning": "There are 15 or more changes in the template that have not been successfully sent to the server and your changes might not be saved. This may be caused by a slow internet connection.",
+		"title": "Connection issues detected",
+		"ok": "OK"
+	},
+	"ckEditor": {
+		"addVariable": "Add variable"
 	}
 }

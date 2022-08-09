@@ -2,8 +2,8 @@
 	"defaultEditorImageTitle": "Editer une image avec l'éditeur",
 	"app": {
 		"headerTitle": "Galerie",
-		"myImages": "Mes Images", 
-		"stockPhotos": "Parcourir les images" 
+		"myImages": "Mes Images",
+		"stockPhotos": "Parcourir les images"
 	},
 	"fileList": {
 		"searchNoResult": "Pas d'image.",
@@ -34,8 +34,24 @@
 		"urlUploadSupportedImages": "Les formats d'image pris en compte : {supportedImageFormats}",
 		"urlUploadSubmit": "Ajouter à la bibliothèque"
 	},
-	"folderTreeView": {},
-	"photoEditor": {},
+	"folderTreeView": {
+		"createButtonText": "Create subfolder",
+		"createDialogAcceptLabel": "Create",
+		"createDialogTitle": "Create new folder",
+		"createSuccessMessage": "Subfolder created!",
+		"deleteButtonText": "Delete folder",
+		"dialogDeclineLabel": "Cancel",
+		"deleteDialogText": "Are you sure you want to delete this folder with all of its subfolders? This process cannot be undone.",
+		"deleteDialogTitle": "Delete folder",
+		"dialogAcceptLabel": "OK",
+		"dialogLabel": "Folder name",
+		"deleteSuccessMessage": "Folder deleted successfully!",
+		"renameButtonText": "Rename folder",
+		"renameDialogAcceptLabel": "Rename",
+		"renameDialogTitle": "Rename folder",
+		"renameSuccessMessage": "Folder renamed successfully!",
+		"nameRequiredText": "Name is required!"
+	},
 	"photoEditorPane": {
 		"cropToFit": "Rogner"
 	},
@@ -62,14 +78,14 @@
 		"pexelPoweredBy": "Powered by",
 		"pexelLicenseInfo": "Toutes les images sont publiées sous {license}",
 		"imageSizes": {
-				"tiny": "Très petite",
-				"landscape": "Paysage",
-				"portrait": "Portrait",
-				"small": "Petite",
-				"medium": "Moyenne",
-				"large": "Grande",
-				"large2x": "Grande 2x",
-				"original": "Originale"
+			"tiny": "Très petite",
+			"landscape": "Paysage",
+			"portrait": "Portrait",
+			"small": "Petite",
+			"medium": "Moyenne",
+			"large": "Grande",
+			"large2x": "Grande 2x",
+			"original": "Originale"
 		}
 	},
 	"uploadModal": {
@@ -80,8 +96,6 @@
 		"uploadingInProgress": "Import de l'image...",
 		"uploadingInFinished": "Import terminée"
 	},
-	"uploadModalFileList": {},
-	"uploadModalFileListItem": {},
 	"errors": {
 		"supportedFileTypes": "Fichier pris en charge: {0}, {1}, {2} and {3} uniquement!",
 		"notImage": "N'est pas un fichier image!",
