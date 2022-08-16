@@ -1,7 +1,7 @@
 {
 	"app": {
 		"loading": "Chargement...",
-		"confirmDelete": "Are you sure you want to delete this element?"
+		"confirmDelete": "Etes-vous sûr de vouloir supprimer cet élément ?"
 	},
 	"editorMain": {
 		"contentHeader": {
@@ -73,8 +73,8 @@
 			"column": "Colonne",
 			"moreThanFive": "...",
 			"hidden": ".",
-			"box": "Box",
-			"BOX": "Box",
+			"box": "Bloc",
+			"BOX": "Bloc",
 			"multicolumn": "Multicolonne",
 			"COLUMNS": "COLONNES",
 			"BLOCK": "bloc",
@@ -99,8 +99,8 @@
 			"blockConfirmDelete": "Are you sure you want to delete this block?",
 			"blockDeletedSuccess": "Block deleted successfully",
 			"noResult": "Pas de résultat. :( Affinez votre recherche. ;)",
-			"desktopMessage": "The left panel automatically closes and opens when dragging.",
-			"mobileMessage": "Hold the element for a few seconds to start dragging it."
+			"desktopMessage": "Le menu de gauche est masqué pendant le déplacement.",
+			"mobileMessage": "Restez appuyé sur l'élément pendant quelques secondes pour commencer à le déplacer."
 		},
 		"sharedComponents": {
 			"toolboxHeader": {
@@ -155,9 +155,9 @@
 				"notSaved": "LE bloc N'EST PAS ENREGISTRÉ",
 				"saveTo": "Enregistrer sous...",
 				"save": "ENREGISTRER",
-				"folderNotSelected": "Folder is not selected! Please select a folder to save this block!",
-				"blockNotSelected": "Block is not selected! This might be an error in the application. Please contact support!",
-				"blockSavedSuccess": "Block saved successfully."
+				"folderNotSelected": "Le répertoire n'est pas sélectionné. Veuillez sélectionner un répertoire pour sauvegarder ce bloc.",
+				"blockNotSelected": "Le bloc n'est pas sélectionné! Il s'agit peut-être d'une erreur, veuillez contacter le support!",
+				"blockSavedSuccess": "Le bloc a été sauvegardé."
 			},
 			"border": {
 				"title": "Bordure",
@@ -189,8 +189,8 @@
 					"else-if": "Sinon Si",
 					"else": "Sinon"
 				},
-				"showLogicalStructure": "Show logical structure",
-				"hideLogicalStructure": "Hide logical structure"
+				"showLogicalStructure": "Montrer la structure",
+				"hideLogicalStructure": "Cacher la structure"
 			},
 			"buttonSize": {
 				"mobileFluid": "Fluide sur Mobile",
@@ -277,8 +277,8 @@
 			},
 			"multicol": {
 				"title": "Multicolonne",
-				"addColumn": "Ajouter une colonne",
-				"equalize": "Homogénéiser",
+				"addColumn": "Nouvelle colonne",
+				"equalize": "Ajuster",
 				"desktopSpacings": "Espacement sur Ordinateur",
 				"left": "Gauche",
 				"inBetween": "Entre deux",
@@ -302,7 +302,7 @@
 					"right": "Droite",
 					"Paddings": "Espacement",
 					"Margins": "Marges",
-					"separate": "Separations"
+					"separate": "Séparations"
 				}
 			},
 			"social": {
@@ -410,9 +410,9 @@
 			"textBackground": "Fond de texte",
 			"buttonProperties": "Propriétés du bouton",
 			"boxBackground": "Fond Boîte",
-			"buttonBackground": "Button background",
-			"buttonAlignment": "Button alignment",
-			"buttonTextSettings": "Button text settings",
+			"buttonBackground": "Fond bouton",
+			"buttonAlignment": "Alignement bouton",
+			"buttonTextSettings": "Propriétés du boutton",
 			"multicolumnBackground": "Fond multicolonne",
 			"imageAlignment": "Alignement image",
 			"thumbnailAlignment": "Alignement Aperçu",
@@ -608,21 +608,21 @@
 		"dropElement": "Déposer l'élément ici"
 	},
 	"close": "Close",
-	"enterApply": "Taper ENTRER pour appliquer",
+	"enterApply": "Taper ENTRÉE pour appliquer",
 	"errors": {
 		"supportedFileTypes": "Types de fichiers pris en charge : jpg, jpeg, png and gif",
 		"httpsMissing": "URL invalide. utiliser un lien avec le protocole HTTPS.",
 		"invalidImageUrl": "URL invalide"
 	},
 	"consistencyCheckPlugin": {
-		"warning": "Some error happened during checking inconsistency of the template.\nReloading the template might fix it but it can cause losing some of the latest actions.\nDo you want to reload the template?"
+		"warning": "Une erreur a été détectée lors de la vérification de l'intégrité du template.\nRecharger la page devrait régler le problème, mais les dernières actions peuvent être perdues.\nSouhaitez-vous recharger le template?"
 	},
 	"diffPlugin": {
-		"warning": "There are 15 or more changes in the template that have not been successfully sent to the server and your changes might not be saved. This may be caused by a slow internet connection.",
-		"title": "Connection issues detected",
+		"warning": "Il y a plus de 15 changements qui n'ont pas pu être sauvegardés. Il semble que votre connexion internet soit instable.",
+		"title": "Un problème de connexion a été détecté",
 		"ok": "OK"
 	},
 	"ckEditor": {
-		"addVariable": "Add variable"
+		"addVariable": "Ajouter une variable"
 	}
 }
