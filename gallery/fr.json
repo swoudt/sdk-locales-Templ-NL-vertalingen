@@ -24,8 +24,8 @@
 	},
 	"fileUploadDropZone": {
 		"dropImage": "Déposer les images ici\nou {action} pour importer\n(Taille maximale: {maxFileSize} MB.)",
-		"browseAction": "browse",
-		"or": "or",
+		"browseAction": "parcourir",
+		"or": "ou",
 		"pasteUrl": "Enregistrer l'image depuis l'URL",
 		"browseStockPhotos": "Parcourir les images libres de droit"
 	},
@@ -35,22 +35,22 @@
 		"urlUploadSubmit": "Ajouter à la bibliothèque"
 	},
 	"folderTreeView": {
-		"createButtonText": "Create subfolder",
-		"createDialogAcceptLabel": "Create",
-		"createDialogTitle": "Create new folder",
-		"createSuccessMessage": "Subfolder created!",
-		"deleteButtonText": "Delete folder",
-		"dialogDeclineLabel": "Cancel",
-		"deleteDialogText": "Are you sure you want to delete this folder with all of its subfolders? This process cannot be undone.",
-		"deleteDialogTitle": "Delete folder",
+		"createButtonText": "Créer un répertoire",
+		"createDialogAcceptLabel": "OK",
+		"createDialogTitle": "Créer un nouveau répertoire",
+		"createSuccessMessage": "Le sous-répertoire a été créé!",
+		"deleteButtonText": "Supprimer le répertoire",
+		"dialogDeclineLabel": "Annuler",
+		"deleteDialogText": "Etes-vous sûr de vouloir supprimer ce répertoire et tout son contenu ? Cette action ne peut pas être annulée.",
+		"deleteDialogTitle": "Supprimer le répertoire",
 		"dialogAcceptLabel": "OK",
-		"dialogLabel": "Folder name",
-		"deleteSuccessMessage": "Folder deleted successfully!",
-		"renameButtonText": "Rename folder",
-		"renameDialogAcceptLabel": "Rename",
-		"renameDialogTitle": "Rename folder",
-		"renameSuccessMessage": "Folder renamed successfully!",
-		"nameRequiredText": "Name is required!"
+		"dialogLabel": "Nom du répertoire",
+		"deleteSuccessMessage": "Le répertoire a été supprimé!",
+		"renameButtonText": "Renommer le répertoire",
+		"renameDialogAcceptLabel": "Renommer",
+		"renameDialogTitle": "Renommer le répertoire",
+		"renameSuccessMessage": "Le répertoire a été renommé!",
+		"nameRequiredText": "Le nom est requis!"
 	},
 	"photoEditorPane": {
 		"cropToFit": "Rogner"
@@ -74,7 +74,7 @@
 		"search": "Rechercher",
 		"noResultRefine": "Aucun résultat trouvé !",
 		"pexelChooseFrom": "Choisir parmi des millions d'images gratuites",
-		"pexelLicense": "license Pexels",
+		"pexelLicense": "licence Pexels",
 		"pexelPoweredBy": "Powered by",
 		"pexelLicenseInfo": "Toutes les images sont publiées sous {license}",
 		"imageSizes": {
