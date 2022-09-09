@@ -216,6 +216,9 @@
 						"editCSS": "Edit AMP CSS code",
 						"ampCSS": "AMP CSS",
 						"warning": "This code will only appear in the AMP generator mode and it's going to be untouched in the exported email HTML. Use this feature at your own risk, as it can affect other parts of the HTML and cause rendering issues. Additional note: Code added here will not render in the editor or preview."
+					},
+					"rules": {
+						"maxLength": "Max 25 characters"
 					}
 				}
 			},
@@ -273,7 +276,8 @@
 					"title": "Метка",
 					"inputLabel": "Метка",
 					"inputHint": "Введите вашу метку здесь"
-				}
+				},
+				"rule": "Marker should not contain '<' or '>' characters, as they will be removed in the generated HTML!"
 			},
 			"multicol": {
 				"title": "Колонки",
@@ -459,7 +463,8 @@
 				"save": "Save",
 				"update": "Update",
 				"cancel": "Cancel"
-			}
+			},
+			"accept": "OK"
 		},
 		"variableList": {
 			"name": "Имя",

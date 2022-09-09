@@ -55,6 +55,25 @@
 	"photoEditorPane": {
 		"cropToFit": "Rogner"
 	},
+	"photoCropper": {
+		"crop": {
+			"custom": "custom",
+			"square": "square",
+			"landscape": "landscape",
+			"portrait": "portrait"
+		},
+		"edit": {
+			"rotateRight": "rotate",
+			"rotateLeft": "rotate",
+			"flipX": "flip X",
+			"flipY": "flip Y",
+			"downscale": "downscale"
+		},
+		"header": {
+			"reset": "reset",
+			"save": "save"
+		}
+	},
 	"searchZone": {
 		"search": "Rechercher",
 		"arrangeSearch": "Organiser par",

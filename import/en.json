@@ -1,0 +1,17 @@
+{
+	"title": "Import HTML",
+	"placeholder": "Insert your HTML here",
+	"importerSubtitle": "HTML code",
+	"cancelButton": "Cancel",
+	"importButton": "Import",
+	"tryAgainButton": "Use another template",
+	"timeoutButton": "Try again",
+	"nextButton": "Create email",
+	"loading": "Please wait, the import might take 1 minute or so to finish processing.",
+	"warnings": "Warnings",
+	"errors": "Errors",
+	"closeNotificationBarTitle": "Close",
+	"noWarningsMessage": "Hooray, no warnings here!",
+	"noErrorsMessage": "Hooray, no errors here!",
+	"timeoutMessage": "Import service could not process the request within the set timeframe. Please try again."
+}
