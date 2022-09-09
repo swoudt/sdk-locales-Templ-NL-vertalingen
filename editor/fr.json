@@ -1,7 +1,7 @@
 {
 	"app": {
 		"loading": "Chargement...",
-		"confirmDelete": "Are you sure you want to delete this element?"
+		"confirmDelete": "Etes-vous sûr de vouloir supprimer cet élément ?"
 	},
 	"editorMain": {
 		"contentHeader": {
@@ -13,7 +13,7 @@
 			"disabled": "Aucun paramètre disponible pour cet élément",
 			"enabled": "Afficher les paramètres",
 			"contentHeaderBlockLockTooltip": {
-				"lockMsg": "Vous ne pouvez pas éditer le contenu de cet élément car le bloc sélectionné est verrouillé."
+				"lockMsg": "Vous ne pouvez pas éditer le contenu de cet élément car la section sélectionnée est verrouillée."
 			},
 			"contentHeaderImageActions": {
 				"selectNewImage": "Sélectionner une nouvelle image",
@@ -54,53 +54,53 @@
 				"hideLogicalStructure": "Masquer la structure logique",
 				"labels": {
 					"conditional": "Conditionnelle",
-					"block-level-conditional": "Niveau de condition des blocs",
+					"block-level-conditional": "Niveau de condition des sections",
 					"else": "Autre",
 					"emptyExpression": "Expression vide"
 				}
 			},
 			"elements": "Elements",
 			"brand": "Marque",
-			"body": "Corp",
+			"body": "Page",
 			"text": "Text",
 			"image": "Image",
 			"button": "Bouton",
 			"divider": "Séparateur",
-			"social": "Sociale",
+			"social": "Social",
 			"code": "Code",
 			"video": "Video",
-			"fullwidth": "bloc",
+			"fullwidth": "pleine largeur",
 			"column": "Colonne",
 			"moreThanFive": "...",
 			"hidden": ".",
-			"box": "Box",
-			"BOX": "Box",
+			"box": "bloc",
+			"BOX": "Bloc",
 			"multicolumn": "Multicolonne",
 			"COLUMNS": "COLONNES",
-			"BLOCK": "bloc",
+			"BLOCK": "Sections",
 			"columns": "Colonnes",
-			"block": "bloc",
+			"block": "section",
 			"loop": "Boucle",
-			"block-level-loop": "Boucle au niveau du blocs",
+			"block-level-loop": "Boucle au niveau de la section",
 			"conditional": "Conditionnel",
-			"block-level-conditional": "Condition au niveau du bloc",
+			"block-level-conditional": "Condition au niveau de la section",
 			"dynamic-image": "Image dynamique",
 			"dragAndDropElementIntoTheEditorArea": "Glisser et déposer les élements dans la zone d'édition",
 			"advanced": "Advancé",
 			"content": "Contenu",
 			"structure": "Structure",
 			"close": "Fermer",
-			"blocks": "blocs",
-			"search": "Chercher dans les blocs",
+			"blocks": "sections",
+			"search": "Chercher dans les sections",
 			"libraries": "Bibliothèques des blocs",
 			"hiddenWarning": "Les blocs sont temporairement masqués pendant que le Glisser-Déposer est en cours.",
 			"dragErrorIcon": "Drag error icon",
-			"blockRenamedSuccess": "Block renamed successfully.",
-			"blockConfirmDelete": "Are you sure you want to delete this block?",
-			"blockDeletedSuccess": "Block deleted successfully",
+			"blockRenamedSuccess": "La section a été renommée.",
+			"blockConfirmDelete": "Etes vous sûr de vouloir supprimer cette section?",
+			"blockDeletedSuccess": "Section supprimée",
 			"noResult": "Pas de résultat. :( Affinez votre recherche. ;)",
-			"desktopMessage": "The left panel automatically closes and opens when dragging.",
-			"mobileMessage": "Hold the element for a few seconds to start dragging it."
+			"desktopMessage": "Le menu de gauche est masqué pendant le déplacement.",
+			"mobileMessage": "Restez appuyé sur l'élément pendant quelques secondes pour commencer à le déplacer."
 		},
 		"sharedComponents": {
 			"toolboxHeader": {
@@ -141,23 +141,23 @@
 			},
 			"blockLock": {
 				"labels": {
-					"title": "bloc verrouillé"
+					"title": "section verrouillée"
 				},
 				"editEnabled": "Modification activée",
-				"editEnabledInfo": "La conception et le contenu du bloc sont entièrement modifiables.",
+				"editEnabledInfo": "La conception et le contenu de la section sont entièrement modifiables.",
 				"lockedDesign": "Conception verrouillée",
-				"lockedDesignInfo": "La conception du bloc ne peut pas être modifiée mais les textes, les images et les URL peuvent être mis à jour.",
+				"lockedDesignInfo": "La conception de la section ne peut pas être modifiée mais les textes, les images et les URL peuvent être mis à jour.",
 				"lockedDesignContent": "Conception et contenu verrouillés",
-				"lockedDesignContentInfo": "Ni le design ni le contenu du bloc ne peuvent être modifiés."
+				"lockedDesignContentInfo": "Ni le design ni le contenu de la section ne peuvent être modifiés."
 			},
 			"blockSaveDrawer": {
-				"title": "bloc sans titre",
-				"notSaved": "LE bloc N'EST PAS ENREGISTRÉ",
+				"title": "section sans titre",
+				"notSaved": "La section n'est pas enregistrée",
 				"saveTo": "Enregistrer sous...",
 				"save": "ENREGISTRER",
-				"folderNotSelected": "Folder is not selected! Please select a folder to save this block!",
-				"blockNotSelected": "Block is not selected! This might be an error in the application. Please contact support!",
-				"blockSavedSuccess": "Block saved successfully."
+				"folderNotSelected": "Le répertoire n'est pas sélectionné. Veuillez sélectionner un répertoire pour sauvegarder ce bloc.",
+				"blockNotSelected": "La section n'est pas sélectionnée! Il s'agit peut-être d'une erreur, veuillez contacter le support!",
+				"blockSavedSuccess": "La section a été sauvegardé."
 			},
 			"border": {
 				"title": "Bordure",
@@ -189,8 +189,8 @@
 					"else-if": "Sinon Si",
 					"else": "Sinon"
 				},
-				"showLogicalStructure": "Show logical structure",
-				"hideLogicalStructure": "Hide logical structure"
+				"showLogicalStructure": "Montrer la structure",
+				"hideLogicalStructure": "Cacher la structure"
 			},
 			"buttonSize": {
 				"mobileFluid": "Fluide sur Mobile",
@@ -238,7 +238,7 @@
 			"expression": {
 				"titles": {
 					"loop": "Boucle",
-					"block-level-loop": "Boucle au niveau du bloc"
+					"block-level-loop": "Boucle au niveau de la section"
 				},
 				"inputLabel": "Expression",
 				"inputHint": "Entrer votre expression ici",
@@ -277,8 +277,8 @@
 			},
 			"multicol": {
 				"title": "Multicolonne",
-				"addColumn": "Ajouter une colonne",
-				"equalize": "Homogénéiser",
+				"addColumn": "Nouvelle colonne",
+				"equalize": "Ajuster",
 				"desktopSpacings": "Espacement sur Ordinateur",
 				"left": "Gauche",
 				"inBetween": "Entre deux",
@@ -302,13 +302,13 @@
 					"right": "Droite",
 					"Paddings": "Espacement",
 					"Margins": "Marges",
-					"separate": "Separations"
+					"separate": "Séparations"
 				}
 			},
 			"social": {
-				"title": "Sociale",
+				"title": "Social",
 				"labels": {
-					"title": "Sociale",
+					"title": "Social",
 					"iconSet": "Icônes",
 					"colorScheme": "Gamme de couleur",
 					"url": "URL",
@@ -402,17 +402,17 @@
 			},
 			"title": "Largeur du contenu du message",
 			"bodyBackground": "Fond contenu",
-			"block": "Bloc",
+			"block": "Section",
 			"content": "Contenu",
-			"blockBackGround": "Fond du bloc",
-			"blockContentWidth": "Largeur bloc",
-			"blockContentBackground": "Fond contenu du bloc",
+			"blockBackGround": "Fond de la section",
+			"blockContentWidth": "Largeur section",
+			"blockContentBackground": "Arrière plan section",
 			"textBackground": "Fond de texte",
 			"buttonProperties": "Propriétés du bouton",
-			"boxBackground": "Fond Boîte",
-			"buttonBackground": "Button background",
-			"buttonAlignment": "Button alignment",
-			"buttonTextSettings": "Button text settings",
+			"boxBackground": "Fond du bloc",
+			"buttonBackground": "Fond bouton",
+			"buttonAlignment": "Alignement bouton",
+			"buttonTextSettings": "Propriétés du boutton",
 			"multicolumnBackground": "Fond multicolonne",
 			"imageAlignment": "Alignement image",
 			"thumbnailAlignment": "Alignement Aperçu",
@@ -561,27 +561,27 @@
 	"editorDropZoneBlockLevelBottom": {
 		"move": "Déplacer {0}",
 		"new": "Nouveau {0}",
-		"newBlock": "Nouveau bloc",
-		"newBlockInside": "Nouveau bloc à l'intérieur {0}",
+		"newBlock": "Nouvelle section",
+		"newBlockInside": "Nouvelle section à l'intérieur {0}",
 		"types": {
-			"fullwidth": "bloc",
-			"loop": "Boucle au niveau du bloc",
-			"block-level-loop": "Boucle au niveau du bloc",
-			"conditional": "Condition boucle bloc",
-			"block-level-conditional": "Condition au niveau du bloc"
+			"fullwidth": "pleine largeur",
+			"loop": "Boucle",
+			"block-level-loop": "Boucle au niveau de la section",
+			"conditional": "Condition",
+			"block-level-conditional": "Condition au niveau de la section"
 		}
 	},
 	"editorDropZoneBlockLevelTop": {
 		"move": "Déplacer {0}",
 		"new": "Nouveau {0}",
-		"newBlock": "Nouveau bloc",
-		"newBlockInside": "Nouveau bloc à l'intérieur {0}",
+		"newBlock": "Nouvelle section",
+		"newBlockInside": "Nouvelle section à l'intérieur {0}",
 		"types": {
-			"fullwidth": "Bloc",
-			"loop": "Boucle au niveau du bloc",
-			"block-level-loop": "Boucle au niveau du bloc",
-			"conditional": "Condition au nieau du bloc",
-			"block-level-conditional": "Condition au nieau du bloc"
+			"fullwidth": "Pleine largeur",
+			"loop": "Boucle",
+			"block-level-loop": "Boucle au niveau de la section",
+			"conditional": "Condition",
+			"block-level-conditional": "Condition au niveau de la section"
 		}
 	},
 	"editorDropZoneRoot": {
@@ -592,15 +592,15 @@
 		"codePrefix": "#Code - "
 	},
 	"editorElementFullWidth": {
-		"blockLock": "Verrouillage bloc {0}",
-		"dragBlock": "Glisser bloc {0}",
-		"saveBlock": "Sauvegarder bloc {0}",
-		"duplicateBlock": "Dupliquer bloc {0}",
-		"deleteBlock": "Supprimer bloc {0}",
+		"blockLock": "Verrouillage section {0}",
+		"dragBlock": "Glisser la section {0}",
+		"saveBlock": "Sauvegarder la section {0}",
+		"duplicateBlock": "Dupliquer la section {0}",
+		"deleteBlock": "Supprimer la section {0}",
 		"types": {
-			"fullwidth": "",
-			"block-level-conditional": "(Condition boucle bloc)",
-			"block-level-loop": "(Niveau de boucle du bloc)"
+			"fullwidth": "pleine largeur",
+			"block-level-conditional": "(Condition boucle section)",
+			"block-level-loop": "(Niveau de boucle de la section)"
 		}
 	},
 	"editorPlaceHolderEmpty": {
@@ -608,21 +608,21 @@
 		"dropElement": "Déposer l'élément ici"
 	},
 	"close": "Close",
-	"enterApply": "Taper ENTRER pour appliquer",
+	"enterApply": "Taper ENTRÉE pour appliquer",
 	"errors": {
 		"supportedFileTypes": "Types de fichiers pris en charge : jpg, jpeg, png and gif",
 		"httpsMissing": "URL invalide. utiliser un lien avec le protocole HTTPS.",
 		"invalidImageUrl": "URL invalide"
 	},
 	"consistencyCheckPlugin": {
-		"warning": "Some error happened during checking inconsistency of the template.\nReloading the template might fix it but it can cause losing some of the latest actions.\nDo you want to reload the template?"
+		"warning": "Une erreur a été détectée lors de la vérification de l'intégrité du template.\nRecharger la page devrait régler le problème, mais les dernières actions peuvent être perdues.\nSouhaitez-vous recharger le template?"
 	},
 	"diffPlugin": {
-		"warning": "There are 15 or more changes in the template that have not been successfully sent to the server and your changes might not be saved. This may be caused by a slow internet connection.",
-		"title": "Connection issues detected",
+		"warning": "Il y a plus de 15 changements qui n'ont pas pu être sauvegardés. Il semble que votre connexion internet soit instable.",
+		"title": "Un problème de connexion a été détecté",
 		"ok": "OK"
 	},
 	"ckEditor": {
-		"addVariable": "Add variable"
+		"addVariable": "Ajouter une variable"
 	}
 }
