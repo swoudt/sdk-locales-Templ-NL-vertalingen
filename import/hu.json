@@ -1,0 +1,17 @@
+{
+	"title": "Import HTML",
+	"placeholder": "Illeszd be a HTML kódot",
+	"importerSubtitle": "HTML kód",
+	"cancelButton": "Mégse",
+	"importButton": "Betöltés",
+	"tryAgainButton": "Másik sablon használata",
+	"timeoutButton": "Próbálja újra",
+	"nextButton": "Email létrehozása",
+	"loading": "Kérjük, várjon, az importálás nagyjából 1 percet vehet igénybe.",
+	"warnings": "Figyelmeztetések",
+	"errors": "Hibák",
+	"closeNotificationBarTitle": "Bezár",
+	"noWarningsMessage": "Nincs figyelmeztetés :)",
+	"noErrorsMessage": "Nincs hiba :)",
+	"timeoutMessage": "Az importálás nem sikerült a megadott időn belül. Kérjük, próbálja meg újra"
+}

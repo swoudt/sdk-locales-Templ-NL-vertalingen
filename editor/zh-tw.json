@@ -216,6 +216,9 @@
 						"editCSS": "修改 AMP CSS 程式",
 						"ampCSS": "AMP CSS",
 						"warning": "這程式只會顯示在 AMP 生成模式，在匯出的電郵 HTML 保持不變。因有可能影響其他部份的 HTML 處理，使用這功能請自行承擔風險。在這裡加的程式碼不會在預覧中顯示。"
+					},
+					"rules": {
+						"maxLength": "Max 25 characters"
 					}
 				}
 			},
@@ -273,7 +276,8 @@
 					"title": "標記",
 					"inputLabel": "標記",
 					"inputHint": "在這裡輸入你的標記"
-				}
+				},
+				"rule": "Marker should not contain '<' or '>' characters, as they will be removed in the generated HTML!"
 			},
 			"multicol": {
 				"title": "多欄",
@@ -459,7 +463,8 @@
 				"save": "儲存",
 				"update": "更新",
 				"cancel": "取消"
-			}
+			},
+			"accept": "OK"
 		},
 		"variableList": {
 			"name": "名稱",

@@ -216,6 +216,9 @@
 						"editCSS": "Editerle CSS du",
 						"ampCSS": "CSS AMP",
 						"warning": "Ce code n'apparaîtra qu'en mode générateur AMP et il ne sera pas modifié dans le code HTML de l'e-mail exporté. Utilisez cette fonctionnalité à vos risques et périls, car elle peut affecter d'autres parties du code HTML et entraîner des problèmes de rendu. Remarque supplémentaire : le code ajouté ici ne s'affichera pas dans l'éditeur ou dans l'aperçu."
+					},
+					"rules": {
+						"maxLength": "Max 25 characters"
 					}
 				}
 			},
@@ -273,7 +276,8 @@
 					"title": "Marqueur",
 					"inputLabel": "Marqueur",
 					"inputHint": "Entrer votre marqueur ici"
-				}
+				},
+				"rule": "Marker should not contain '<' or '>' characters, as they will be removed in the generated HTML!"
 			},
 			"multicol": {
 				"title": "Multicolonne",
@@ -459,7 +463,8 @@
 				"save": "Enregistrer",
 				"update": "Mettre à jour",
 				"cancel": "Annuler"
-			}
+			},
+			"accept": "OK"
 		},
 		"variableList": {
 			"name": "Nom",

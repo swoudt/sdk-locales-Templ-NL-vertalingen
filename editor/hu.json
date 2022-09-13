@@ -216,6 +216,9 @@
 						"editCSS": "AMP CSS kód szerkesztése",
 						"ampCSS": "AMP CSS",
 						"warning": "Ez az kód csak AMP generátor módban és változtatások nélkül fog megjelenni az e-mail HTML-ében. Saját felelőségre használd, hiszen ez hatással lehet az e-mail egyéb részeire.és hibákat okozhat. Az itt hozáadott kód nem renderelődik le se a szerkesztőben, se az előnézeti képernyőn."
+					},
+					"rules": {
+						"maxLength": "Maximum 25 karakter"
 					}
 				}
 			},
@@ -273,7 +276,8 @@
 					"title": "Jelölő",
 					"inputLabel": "Jelölő",
 					"inputHint": "Írd be itt a megjegyzésed"
-				}
+				},
+				"rule": "A jelölő ne tartalmazzon '<' vagy '>' karaktert, mert nem kerül bele a generált HTML-be!"
 			},
 			"multicol": {
 				"title": "Oszlop",
@@ -459,7 +463,8 @@
 				"save": "Mentés",
 				"update": "Frissítés",
 				"cancel": "Vissza"
-			}
+			},
+			"accept": "OK"
 		},
 		"variableList": {
 			"name": "Név",
