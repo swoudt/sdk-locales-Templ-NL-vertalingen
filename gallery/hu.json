@@ -17,6 +17,10 @@
 		"imageRemoved": "A kép sikeresen eltávolítva!"
 	},
 	"fileListItem": {
+		"dialogAcceptLabel": "OK",
+		"dialogDeclineLabel": "Mégsem",
+		"deleteDialogText": "Biztosan törlöd a kiválasztott képet? Ez a művelet nem vonható vissza.",
+		"deleteDialogTitle": "Kép törlése",
 		"smallImageWarning": "Túl kicsi kép",
 		"size": "Méret: {imageWidth} x {imageHeight}",
 		"ratio": "Képarány: {aspectRatio}",
