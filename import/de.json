@@ -1,0 +1,17 @@
+{
+	"title": "HTML importieren",
+	"placeholder": "Fügen Sie hier Ihr HTML ein",
+	"importerSubtitle": "HTML-Code",
+	"cancelButton": "Abbrechen",
+	"importButton": "Importieren",
+	"tryAgainButton": "Andere Vorlage verwenden",
+	"timeoutButton": "Erneut versuchen",
+	"nextButton": "E-Mail erstellen",
+	"loading": "Bitte warten Sie, die Verarbeitung des Imports kann bis zu einer Minute dauern.",
+	"warnings": "Warnungen",
+	"errors": "Fehler",
+	"closeNotificationBarTitle": "Schließen",
+	"noWarningsMessage": "Hurra, keine Warnungen hier!",
+	"noErrorsMessage": "Hurra, keine Fehler hier!",
+	"timeoutMessage": "Der Importdienst konnte die Anfrage nicht innerhalb des vorgegebenen Zeitrahmens bearbeiten. Bitte versuchen Sie es erneut."
+}

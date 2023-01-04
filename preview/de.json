@@ -1,0 +1,11 @@
+{
+	"previewHeader": {
+		"previewMode": "Vorschaumodus",
+		"darkMode": "Dunkler Modus (Outlook)",
+		"lightMode": "Heller Modus"
+	},
+	"previewBody": {
+		"mobileView": "Mobil",
+		"desktopView": "Desktop"
+	}
+}
