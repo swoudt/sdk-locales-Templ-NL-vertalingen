@@ -1,0 +1,130 @@
+{
+	"defaultEditorImageTitle": "Ein Bild aus dem Editor bearbeiten",
+	"app": {
+		"headerTitle": "Galerie",
+		"myImages": "Meine Bilder",
+		"stockPhotos": "Stockfotos durchsuchen"
+	},
+	"fileList": {
+		"searchNoResult": "Keine Bilder.",
+		"imageCardActions": {
+			"save": "Zur Bibliothek hinzufügen",
+			"pick": "Auswählen",
+			"crop": "Zuschneiden zum Anpassen",
+			"edit": "Bearbeiten",
+			"delete": "Löschen"
+		},
+		"imageRemoved": "Das Bild wurde erfolgreich entfernt!"
+	},
+	"fileListItem": {
+		"dialogAcceptLabel": "OK",
+		"dialogDeclineLabel": "Abbrechen",
+		"deleteDialogText": "Sind Sie sicher, dass Sie dieses Bild löschen möchten? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+		"deleteDialogTitle": "Bild löschen",
+		"smallImageWarning": "Zu klein",
+		"size": "Größe: {imageWidth} x {imageHeight}",
+		"ratio": "Seitenverhältnis: {aspectRatio}",
+		"saved": "{0} ist gespeichert"
+	},
+	"fileUploadDropZone": {
+		"dropImage": "Bilder hier einfügen zum Hochladen(Maximale Größe: {maxFileSize} MB.)",
+		"browseAction": "durchsuchen",
+		"or": "oder",
+		"pasteUrl": "Bild von einer URL speichern",
+		"browseStockPhotos": "Stockfotos durchsuchen"
+	},
+	"fileUploadUrlZone": {
+		"urlUploadInfo": "Hochladen von 'http://' Protokoll wird nicht unterstützt. Bitte laden Sie das Bild von 'https://'  oder speichern Sie es auf Ihrem Computer und laden Sie es über Ihre Dateien hoch.",
+		"urlUploadSupportedImages": "Die folgenden Bildformate werden unterstützt: {supportedImageFormats}",
+		"urlUploadSubmit": "Zur Bibliothek hinzufügen"
+	},
+	"folderTreeView": {
+		"createButtonText": "Unterordner erstellen",
+		"createDialogAcceptLabel": "Erstellen",
+		"createDialogTitle": "Neuen Ordner erstellen",
+		"createSuccessMessage": "Unterordner erstellt!",
+		"deleteButtonText": "Ordner löschen",
+		"dialogDeclineLabel": "Abbrechen",
+		"deleteDialogText": "Sind Sie sicher, dass Sie diesen Ordner mit all seinen Unterordnern löschen wollen? Dieser Prozess kann nicht rückgängig gemacht werden.",
+		"deleteDialogTitle": "Ordner löschen",
+		"dialogAcceptLabel": "OK",
+		"dialogLabel": "Name des Ordners",
+		"deleteSuccessMessage": "Ordner erfolgreich gelöscht!",
+		"renameButtonText": "Ordner umbenennen",
+		"renameDialogAcceptLabel": "Umbenennen",
+		"renameDialogTitle": "Ordner umbenennen",
+		"renameSuccessMessage": "Ordner erfolgreich umbenannt!",
+		"nameRequiredText": "Der Name ist erforderlich!"
+	},
+	"photoEditorPane": {
+		"cropToFit": "Zuschneiden zum Anpassen"
+	},
+	"photoCropper": {
+		"crop": {
+			"custom": "Individuell",
+			"square": "qQadratisch",
+			"landscape": "Querformat",
+			"portrait": "Hochformat"
+		},
+		"edit": {
+			"rotateRight": "Drehen",
+			"rotateLeft": "Drehen",
+			"flipX": "umdrehen X",
+			"flipY": "umdrehen Y",
+			"downscale": "Herunterskalieren"
+		},
+		"header": {
+			"reset": "Zurücksetzen",
+			"save": "Speichern"
+		}
+	},
+	"searchZone": {
+		"search": "Suche",
+		"arrangeSearch": "Suchen nach",
+		"searchOptions": {
+			"A-Z": "A - Z",
+			"Z-A": "Z - A",
+			"newest": "Neueste",
+			"oldest": "Älteste"
+		}
+	},
+	"stockPhotoListItem": {
+		"pexelImport": "Zur Bibliothek hinzufügen"
+	},
+	"stockPhotosModal": {
+		"stockPhotos": "Stockfotos",
+		"size": "Bildgröße",
+		"search": "Suche",
+		"noResultRefine": "Keine Ergebnisse. Bitte ändern Sie Ihre Suche!",
+		"pexelChooseFrom": "Wählen Sie kostenlos aus Millionen von hochwertigen Bildern",
+		"pexelLicense": "Pexels Lizenz",
+		"pexelPoweredBy": "Unterstützt durch",
+		"pexelLicenseInfo": "Alle Bilder werden veröffentlicht unter der {license}",
+		"imageSizes": {
+			"tiny": "Winzig",
+			"landscape": "Querformat",
+			"portrait": "Porträt",
+			"small": "Klein",
+			"medium": "Mittel",
+			"large": "Groß",
+			"large2x": "Groß 2x",
+			"original": "Original"
+		}
+	},
+	"uploadModal": {
+		"uploadModalTitle": "Warnung",
+		"uploadModalText": "Sind Sie sicher, dass Sie den Hochladevorgang abbrechen wollen?",
+		"uploadModalContinue": "Weiter hochladen",
+		"uploadModalCancel": "Vorgang abbrechen",
+		"uploadingInProgress": "Hochladen von Bildern...",
+		"uploadingInFinished": "Hochladen abgeschlossen"
+	},
+	"errors": {
+		"supportedFileTypes": "Unterstützte Dateitypen: {0}, {1}, {2} und {3}!",
+		"notImage": "Das ist keine Bilddatei!",
+		"tooLargeSize": "Ihre Datei ist zu groß. Maximale Größe: {maxFileSize} MB",
+		"httpsMissing": "Ungültige URL. Bitte stellen Sie das Bild über HTTPS bereit.",
+		"invalidImageUrl": "Das ist keine gültige URL",
+		"editImage": "Fehler beim Laden eines Bildes zur Bearbeitung."
+	}
+}

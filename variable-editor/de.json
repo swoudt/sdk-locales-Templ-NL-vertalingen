@@ -1,0 +1,16 @@
+{
+	"appContent": {
+		"mobileView": "Mobil",
+		"desktopView": "Desktop"
+	},
+	"variableToolbox": {
+		"title": "Variable bearbeiten",
+		"nameLabel": "Name",
+		"valueLabel": "Wert",
+		"buttons": {
+			"save": "Speichern",
+			"cancel": "Abbrechen"
+		},
+		"inputRequired": "Eingabe ist erforderlich"
+	}
+}
