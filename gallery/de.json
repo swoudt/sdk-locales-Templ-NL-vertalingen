@@ -27,7 +27,7 @@
 		"saved": "{0} ist gespeichert"
 	},
 	"fileUploadDropZone": {
-		"dropImage": "Bilder hier einfügen zum Hochladen(Maximale Größe: {maxFileSize} MB.)",
+		"dropImage": "Bilder hier einfügen\n oder {action} zum Hochladen\n(Maximale Größe: {maxFileSize} MB.)",
 		"browseAction": "durchsuchen",
 		"or": "oder",
 		"pasteUrl": "Bild von einer URL speichern",
