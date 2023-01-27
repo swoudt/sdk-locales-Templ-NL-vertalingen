@@ -1,0 +1,633 @@
+{
+	"app": {
+		"loading": "Verzeichnis laden...",
+		"confirmDelete": "Sind Sie sicher, dass Sie dieses Element löschen möchten?"
+	},
+	"editorMain": {
+		"contentHeader": {
+			"altText": "Alternativer Text",
+			"textVariable": "Text-Variable",
+			"imageSource": "Bildquelle",
+			"addMergeTag": "Ein Merge-Tag hinzufügen",
+			"rightPanelLabel": "Details",
+			"disabled": "Einstellungen sind für dieses Element nicht verfügbar",
+			"enabled": "Einstellungen anzeigen",
+			"contentHeaderBlockLockTooltip": {
+				"lockMsg": "Sie können den Inhalt dieses Elements nicht bearbeiten, da der ausgewählte Block gesperrt ist."
+			},
+			"contentHeaderImageActions": {
+				"selectNewImage": "Neues Bild auswählen",
+				"srcVariable": "Src Variable",
+				"moreOptions": "Mehr Optionen",
+				"selectVariable": "Wählen Sie eine Variable aus",
+				"unlinkVariable": "Variable entkoppeln",
+				"editImage": "Bild bearbeiten"
+			},
+			"contentHeaderLinkInput": {
+				"linkVariable": "Link Variable",
+				"link": "Link",
+				"title": "Titel",
+				"unlinkVariable": "Variable entkoppeln",
+				"removeLink": "Link entfernen",
+				"addLink": "Link hinzufügen",
+				"protocol": "Protokoll",
+				"emailAddress": "E-Mail",
+				"subject": "Betreff",
+				"message": "Nachricht",
+				"url": "Url",
+				"addMergeTag": "Ein Merge-Tag hinzufügen",
+				"selectVariable": "Wählen Sie eine Variable aus",
+				"cancel": "Abbrechen",
+				"save": "Speichern",
+				"mandatoryField": "Verpflichtendes Feld",
+				"invalidEmail": "Ungültige E-Mail Adresse",
+				"openLinkMenu": "Öffnen Sie das Menü zum Bearbeiten des Links"
+			}
+		},
+		"newElement": {
+			"dontShow": "Zeigen Sie diesen Hinweis nicht mehr an.",
+			"blockElement": {
+				"delete": "LÖSCHEN"
+			},
+			"logicalTreeviewDrawer": {
+				"logicalStructure": "Logische Struktur",
+				"hideLogicalStructure": "Logische Struktur ausblenden",
+				"labels": {
+					"conditional": "Bedingung",
+					"block-level-conditional": "Block Bedingung",
+					"else": "Oder",
+					"emptyExpression": "Leerer Ausdruck"
+				}
+			},
+			"elements": "Elemente",
+			"brand": "Brand",
+			"body": "Body",
+			"text": "Text",
+			"image": "Bild",
+			"button": "Button",
+			"divider": "Divider",
+			"social": "Social",
+			"code": "Code",
+			"video": "Video",
+			"fullwidth": "Block",
+			"column": "Spalte",
+			"moreThanFive": "...",
+			"hidden": ".",
+			"box": "Box",
+			"BOX": "Box",
+			"multicolumn": "Mehrspaltig",
+			"COLUMNS": "SPALTEN",
+			"BLOCK": "BLOCK",
+			"columns": "SPALTEN",
+			"block": "Block",
+			"loop": "Schleife",
+			"block-level-loop": "Blockebene Schleife",
+			"conditional": "Bedingung",
+			"block-level-conditional": "Block Bedingung",
+			"dynamic-image": "Dynamisches Bild",
+			"dragAndDropElementIntoTheEditorArea": "Elemente in den Editorbereich ziehen und ablegen",
+			"advanced": "Erweitert",
+			"content": "Inhalt",
+			"structure": "Struktur",
+			"close": "Schließen",
+			"blocks": "Blöcke",
+			"search": "In Blöcken suchen",
+			"libraries": "Blockbibliotheken",
+			"hiddenWarning": "Blöcke werden vorübergehend ausgeblendet, während das Ziehen und Ablegen ausgeführt wird, um Leistungsprobleme in einer neueren fehlerhaften Google Chrome-Version zu vermeiden.",
+			"dragErrorIcon": "Fehlersymbol ziehen",
+			"blockRenamedSuccess": "Block erfolgreich umbenannt.",
+			"blockConfirmDelete": "Sind Sie sicher, dass Sie diesen Block löschen möchten?",
+			"blockDeletedSuccess": "Block erfolgreich gelöscht",
+			"noResult": "Keine Ergebnisse. :( Passen Sie Ihre Suche an. ;)",
+			"desktopMessage": "Das linke Bedienfeld wird beim Ziehen automatisch geschlossen und geöffnet.",
+			"mobileMessage": "Halten Sie das Element ein paar Sekunden lang gedrückt, um es zu verschieben."
+		},
+		"sharedComponents": {
+			"toolboxHeader": {
+				"lockMsg": "Sie können die Einstellungen dieses Elements nicht bearbeiten, da der ausgewählte Block gesperrt ist.",
+				"subscriptionLockMsg": "Um diese Funktion zu nutzen, aktualisieren Sie bitte Ihren Abonnementplan"
+			}
+		},
+		"toolboxes": {
+			"alignment": {
+				"labels": {
+					"title": "Element ausrichten",
+					"left": "Links",
+					"center": "Mitte",
+					"right": "Rechts"
+				}
+			},
+			"appliedExpressions": {
+				"title": "Angewandte Ausdrücke",
+				"else": "Oder",
+				"emptyExpression": "Leerer Ausdruck"
+			},
+			"background": {
+				"labels": {
+					"title": "Element Hintergrund",
+					"colorPickerLabel": "Hintergrundfarbe",
+					"bgImageText": "Hintergrundbild",
+					"btnSelect": "ÄNDERN",
+					"btnEdit": "BEARBEITEN",
+					"bgImagePosition": "Position",
+					"bgImageRepeat": "Wiederholen",
+					"bgImageSize": "Größe",
+					"selectVariable": "Variable auswählen",
+					"unlinkVariable": "Variable entkoppeln",
+					"bgVariable": "Hintergrundbild Variable",
+					"hoverStyling": "Hover-Styling",
+					"bgHoverColor": "Hover-Hintergrundfarbe"
+				}
+			},
+			"blockLock": {
+				"labels": {
+					"title": "Block gesperrt"
+				},
+				"editEnabled": "Bearbeitung aktiviert",
+				"editEnabledInfo": "Sowohl das Design als auch der Inhalt des Blocks sind vollständig editierbar.",
+				"lockedDesign": "Gesperrtes Design",
+				"lockedDesignInfo": "Das Design des Blocks kann nicht geändert werden, aber Texte, Bilder und URLs können aktualisiert werden.",
+				"lockedDesignContent": "Gesperrtes Design & Inhalt",
+				"lockedDesignContentInfo": "Weder das Design noch der Inhalt des Blocks können verändert werden."
+			},
+			"blockSaveDrawer": {
+				"title": "Unbenannter Block",
+				"notSaved": "BLOCK NICHT GESPEICHERT",
+				"saveTo": "Speichern unter...",
+				"save": "Speichern",
+				"folderNotSelected": "Ordner ist nicht ausgewählt! Bitte wählen Sie einen Ordner, um diesen Block zu speichern!",
+				"blockNotSelected": "Block ist nicht ausgewählt! Dies könnte ein Fehler in der Anwendung sein. Bitte kontaktieren Sie den Support!",
+				"blockSavedSuccess": "Block erfolgreich gespeichert."
+			},
+			"border": {
+				"title": "Rahmen",
+				"separate": "Separat",
+				"borderRadius": "Radius des Rahmens",
+				"top": "Oben",
+				"right": "Rechts",
+				"bottom": "Unten",
+				"left": "Links",
+				"labels": {
+					"title": "Rahmen",
+					"borderSize": "Breite",
+					"borderStyle": "Stil",
+					"borderColor": "Farbe des Randes"
+				}
+			},
+			"branchManagement": {
+				"title": "Verzweigungen",
+				"addNewBranch": "Neue Verzweigung hinzufügen",
+				"moveDownByOne": "Um einen Platz nach unten gehen",
+				"moveUpByOne": "Um einen Platz nach oben rücken",
+				"elseMustBeAtBottom": "Der Oder-Zweig muss sich am Ende befinden. Verwandeln Sie ihn in ein Entweder-Oder, um ihn zu verschieben.",    (JOEL)
+				"selectYourExpression": "Wählen Sie Ihren Ausdruck",
+				"duplicateBranch": "Verzweigung duplizieren",
+				"deleteBranch": "Verzweigung löschen",
+				"expression": "Ausdruck",
+				"types": {
+					"if": "Falls",
+					"else-if": "Entweder-Oder",
+					"else": "Oder"
+				},
+				"showLogicalStructure": "Logische Struktur anzeigen",
+				"hideLogicalStructure": "Logische Struktur ausblenden"
+			},
+			"buttonSize": {
+				"mobileFluid": "Fließend auf Mobilgerät",
+				"labels": {
+					"title": "Elementengröße",
+					"fitToText": "An den Text anpassen",
+					"fixed": "Fixiert",
+					"width": "Breite"
+				}
+			},
+			"code": {
+				"labels": {
+					"inputLabel": "Titel",
+					"inputHint": "Benutzerdefinierter Name für Ihr Code-Element",
+					"title": "Code",
+					"editHTML": "Code bearbeiten",
+					"warning": "Dieser Code wird in der exportierten E-Mail-HTML unverändert erscheinen. Die Verwendung dieser Funktion erfolgt auf eigene Gefahr, da sie sich auf andere Teile der HTML-Datei auswirken und zu Darstellungsproblemen führen kann. Zusätzlicher Hinweis: Der hier hinzugefügte Code wird nicht im Editor oder in der Vorschau angezeigt.",
+					"isAmp": "AMP-Modus",
+					"amp": {
+						"inputLabel": "Titel",
+						"inputHint": "Benutzerdefinierter Name für Ihr AMP-Code-Element",
+						"editHTML": "AMP-HTML-Code bearbeiten",
+						"editCSS": "AMP-CSS-Code bearbeiten",
+						"ampCSS": "AMP CSS",
+						"warning": "Dieser Code erscheint nur im AMP-Generatormodus und wird im exportierten E-Mail-HTML nicht verändert. Die Verwendung dieser Funktion erfolgt auf eigene Gefahr, da sie sich auf andere Teile der HTML-Datei auswirken und Rendering-Probleme verursachen kann. Zusätzlicher Hinweis: Hier hinzugefügter Code wird nicht im Editor oder in der Vorschau angezeigt."
+					},
+					"rules": {
+						"maxLength": "Maximal 25 Zeichen"
+					}
+				}
+			},
+			"column": {
+				"column": "Spalte",
+				"showMobile": "Auf dem Handy anzeigen",
+				"showMobileInfo": "Der Schalter \"Auf dem Handy anzeigen\" ist für einzelne Spalten deaktiviert, da die Stapelung auf dem übergeordneten Mehrspalten-Element \"Keine\" ist..",
+				"lockWidth": "Breite gesperrt",
+				"width": "Breite",
+				"labels": {
+					"title": "Spalte"
+				}
+			},
+			"dynamicImageSize": {
+				"title": "Elementengröße",
+				"width": "Breite",
+				"height": "Höhe",
+				"fluidOnMobile": "Fließfen auf dem Handy"
+			},
+			"expression": {
+				"titles": {
+					"loop": "Wiederholung",
+					"block-level-loop": "Block Wiederholung"
+				},
+				"inputLabel": "Ausdruck",
+				"inputHint": "Geben Sie hier Ihren Ausdruck ein",
+				"selectYourExpression": "Wählen Sie Ihren Ausdruck aus",
+				"showLogicalStructure": "Logische Struktur anzeigen",
+				"hideLogicalStructure": "Logische Struktur ausblenden",
+				"outputPreview": {
+					"output": "Ausgang",
+					"inTemplatingLanguage": "in {0}",
+					"youCanChooseDifferentIn": "Sie können eine andere Templatesprache wählen {0}",
+					"content": "Inhalt"
+				}
+			},
+			"imageSize": {
+				"title": "Elementgröße",
+				"width": "Breite",
+				"height": "Höhe",
+				"slider": "Bildgröße",
+				"fluidOnMobile": "Fließend auf dem Handy"
+			},
+			"line": {
+				"lineColor": "Linienfarbe",
+				"lineStyles": "Linienstile",
+				"labels": {
+					"title": "Linie",
+					"height": "Höhe der Linie",
+					"transparent": "Transparent"
+				}
+			},
+			"marker": {
+				"labels": {
+					"title": "Markierung",
+					"inputLabel": "Markierung",
+					"inputHint": "Geben Sie hier Ihre Markierung ein"
+				},
+				"rule": "Die Markierung sollte keine '<'- oder '>'-Zeichen enthalten, da diese in der generierten HTML-Datei entfernt werden.!"
+			},
+			"multicol": {
+				"title": "Spalten",
+				"addColumn": "Spalte hinzufügen",
+				"equalize": "Ausgleichen",
+				"desktopSpacings": "Computerabstände",
+				"left": "Links",
+				"inBetween": "Dazwischen",
+				"right": "Rechts",
+				"leftRight": "Von links nach rechts",
+				"rightLeft": "Von rechts nach links",
+				"dontReorder": "Spalten nicht neu anordnen",
+				"columnStackingMobile": "Stapelreihenfolge der Spalten auf dem Handy",
+				"mobileSpacings": "Mobile Abstände",
+				"infoLine1": "Linke und rechte Abstände werden auf mobilen Geräten nicht gerendert, um Ihren Inhalt auf kleineren Bildschirmen breiter zu machen.",
+				"infoLine2": "Wenn Sie die gleichen Abstände in der Desktop- und der mobilen Ansicht verwenden möchten, fügen Sie bitte eine Box,",
+				"infoLine3": "passen Sie die Abstände/Ränder an und legen Sie Ihre mehrspaltige Spalte in dieser Box ab.",
+				"top": "Oben",
+				"bottom": "Unten"
+			},
+			"positioningToolbox": {
+				"labels": {
+					"top": "Oben",
+					"left": "Links",
+					"bottom": "Unten",
+					"right": "Rechts",
+					"Paddings": "Padding",
+					"Margins": "Margin",
+					"separate": "Separat"
+				}
+			},
+			"social": {
+				"title": "Social",
+				"labels": {
+					"title": "Social",
+					"iconSet": "Icon-Satz",
+					"colorScheme": "Farbschema",
+					"url": "URL",
+					"addIcon": "Neues Icon hinzufügen",
+					"layout": "Layout",
+					"align": {
+						"text": "Ausrichten",
+						"left": "Links",
+						"center": "Mitte",
+						"right": "Rechts"
+					},
+					"size": {
+						"text": "Größe",
+						"s": "S",
+						"m": "M",
+						"l": "L",
+						"xl": "XL"
+					},
+					"iconSpacing": "Icon-Abstand",
+					"protocol": "Protokoll"
+				},
+				"icons": "Icons",
+				"iconTypes": {
+					"circle": "Kreis",
+					"transparentCircle": "Kreis (transparent)",
+					"flat": "flat",
+					"square": "Quadratisch",
+					"roundedSquare": "Quadratisch (gerundet)"
+				},
+				"colorSchemes": {
+					"colorful": "farbig",
+					"black": "Schwarz",
+					"grey": "grau",
+					"white": "weiß"
+				}
+			},
+			"textLink": {
+				"labels": {
+					"title": "Link",
+					"underline": "Unterstreichen",
+					"linkColor": "Link Farbe"
+				}
+			},
+			"typography": {
+				"labels": {
+					"fontFamily": "Schriftfamilie",
+					"fontSize": "Größe",
+					"lineHeight": "Höhe der Linie",
+					"fontColor": "Text-Einstellungen",
+					"startTyping": "Tippen Sie, um zu Suchen",
+					"letterSpacing": "Abstand zwischen Buchstaben",
+					"customLetterSpacing": "Benutzerdefinierte Buchstabenabstände"
+				}
+			},
+			"typographyEditor": {
+				"title": "Texteinstellungen für Inhalt",
+				"h1": "Überschrift 1",
+				"h2": "Überschrift 2",
+				"h3": "Überschrift 3"
+			},
+			"visibility": {
+				"labels": {
+					"title": "Sichtbarkeit der Elemente",
+					"showOnMobile": "Auf dem Handy anzeigen",
+					"showOnDesktop": "Auf dem Desktop anzeigen",
+					"showInAmp": "In AMP anzeigen"
+				}
+			},
+			"width": {
+				"labels": {
+					"title": "Breite"
+				},
+				"warning": "Dadurch wird die Breite des Inhalts in diesem Block geändert.",
+				"warningBox": {
+					"line1": "600 px ist heutzutage immer noch die sicherste E-Mail-Breite.",
+					"line2": "E-Mails, die breiter als 600-650 px sind, passen auf kleineren Bildschirmen (z. B. 1366x768) möglicherweise nicht in den E-Mail-Lesebereich Ihrer Abonnenten in Outlook oder Yahoo Mail."
+				}
+			},
+			"video": {
+				"labels": {
+					"title": "Video-Eigenschaften",
+					"src": "Videoquelle",
+					"altText": "Alt Text",
+					"iconColor": "Icon-Farbe",
+					"iconType": "Icon-Typ",
+					"iconSize": "Icon-Größe"
+				},
+				"rules": {
+					"src": "Nicht unterstützter Videoanbieter oder defekter Videolink"
+				}
+			},
+			"title": "Breite des E-Mail-Inhalts",
+			"bodyBackground": "Hintergrund des Inhalts",
+			"block": "Block",
+			"content": "Inhalt",
+			"blockBackGround": "Block Hintergrund",
+			"blockContentWidth": "Breite des Blockinhalts",
+			"blockContentBackground": "Blockinhalt Hintergrund",
+			"textBackground": "Text-Hintergrund",
+			"buttonProperties": "Eigenschaften der Schaltfläche",
+			"boxBackground": "Box-Hintergrund",
+			"buttonBackground": "Hintergrund der Schaltfläche",
+			"buttonAlignment": "Ausrichtung der Tasten",
+			"buttonTextSettings": "Einstellungen für Schaltflächentext",
+			"multicolumnBackground": "Mehrspaltiger Hintergrund",
+			"imageAlignment": "Bildausrichtung",
+			"thumbnailAlignment": "Ausrichtung der Vorschaubilder",
+			"imageBackground": "Bild-Hintergrund",
+			"dividerBackground": "Teiler Hintergrund",
+			"columnBackground": "Hintergrund der Spalte",
+			"dynamicImageAlignment": "Dynamische Bildausrichtung",
+			"dynamicImageBackground": "Dynamischer Bildhintergrund"
+		},
+		"codeElementEditorModal": {
+			"label": "Titel",
+			"hint": "Benutzerdefinierter Name für Ihr Code-Element",
+			"customCode": "#Benutzerdefinierter Code",
+			"pasteCodeHere": "Code hier einfügen",
+			"cancel": "Abbrechen",
+			"update": "Aktualisieren"
+		},
+		"connectionLost": "Ihr Gerät hat die Internetverbindung verloren.",
+		"welcome": "Willkommen zurück!"
+	},
+	"header": {
+		"zoom": "Vergrößern"
+	},
+	"variable": {
+		"clearVariables": "Entfernen",
+		"changeVariables": "Ändern",
+		"openVariableSelector": "Variablenauswahl öffnen",
+		"selectedVariable": "Ausgewählte Variable",
+		"variableModal": {
+			"color": "Farbe",
+			"fontStack": "Schriftart",
+			"image": "Bild",
+			"link": "Link",
+			"text": "Text",
+			"how_to_use": "Verwendung",
+			"preview": "Vorschau",
+			"editVariable": "Variable bearbeiten",
+			"changedProps": "Erfolgreich {0} Wert(e) mit der Variable ersetzt.",
+			"selectVariable": "Variable auswählen",
+			"brandVariable": "Brand Variable",
+			"actions": {
+				"use": "Verwendung",
+				"addNew": "Neu hinzufügen",
+				"save": "Speichern",
+				"update": "Aktualisierung",
+				"cancel": "Abbrechen"
+			},
+			"accept": "OK"
+		},
+		"variableList": {
+			"name": "Name",
+			"value": "Wert",
+			"size": "Größe",
+			"aspectRatio": "Seitenverhältnis",
+			"actions": "Aktionen",
+			"canEdit": "Variable aktualisieren",
+			"canNotEdit": "Sie haben nicht die Erlaubnis, diese Variable zu aktualisieren",
+			"canDelete": "Variable löschen",
+			"canNotDelete": "Sie haben nicht die Erlaubnis, diese Variable zu löschen",
+			"noVariableOfType": "Um Ihre erste {0} Variable(n) zu erstellen, klicken Sie auf die Schaltfläche \"Neu hinzufügen\".",
+			"deleteWarning": "{0} Element(e) verwenden diese Variable noch. Sind Sie sicher, dass Sie sie löschen wollen?",
+			"findAndRemove": "Entfernen Sie die Variable überall, aber behalten Sie die Werte",
+			"findAndReplace": "Finden Sie übereinstimmende Werte und ersetzen Sie sie durch die Variable"
+		},
+		"variablePreview": {
+			"selectToPreview": "Wählen Sie eine Variable aus, um eine detailliertere Vorschau zu sehen."
+		},
+		"variableInputName": {
+			"label": "Name der Variablen*",
+			"rules": {
+				"required": "Name ist erforderlich",
+				"noSpecialChar": "*|:<>[]{}()';@&$ Zeichen sind nicht erlaubt",
+				"tooShort": "Der Variablenname ist zu kurz",
+				"tooLong": "Der Variablenname ist zu lang",
+				"unique": "Variable existiert bereits als Typ {0}"
+			}
+		},
+		"variableInputDescription": {
+			"label": "Beschreibung (optional)",
+			"rules": {
+				"maxLength90": "Die Beschreibung ist zu lang"
+			}
+		},
+		"howToUse": {
+			"color": {
+				"line1": "Dank der Farbvariablen ist es ein Kinderspiel, die Farben Ihrer E-Mail zu ändern.",
+				"line2": "Als bewährtes Verfahren empfehlen wir Ihnen mindestens, Ihre am häufigsten verwendeten Brand- und Textfarben zu definieren.",
+				"line3": "Sobald Sie die Farbvariablen definiert und mit jedem gewünschten Element verknüpft haben, können Sie deren Farben gemeinsam aktualisieren."
+			},
+			"fontStack": {
+				"line1": "Typografie ist ein wesentliches Element jeder Markenidentität, und alles beginnt mit der Schriftfamilie.",
+				"line2": "Wir empfehlen Ihnen, maximal zwei verschiedene Schriftfamilien in Ihrer E-Mail zu verwenden: Eine für Überschriften und eine für Absätze.",
+				"line3": "Sobald Sie die Schriftvariablen definiert und mit jedem gewünschten Element verknüpft haben, können Sie sie gemeinsam aktualisieren."
+			},
+			"image": {
+				"line1": "Mit Hilfe der Bildvariablen können Sie markenspezifische Bildelemente in Ihrer E-Mail-Vorlage bequem ersetzen.",
+				"line2": "Wir empfehlen Ihnen, das Firmenlogo, benutzerdefinierte Icons, Bildhintergründe oder andere sich wiederholende Dekorationselemente als Bildvariablen zu definieren.",
+				"line3": "Sobald Sie die Bildvariablen definiert und mit jedem gewünschten Element verknüpft haben, können Sie sie gemeinsam aktualisieren."
+			},
+			"link": {
+				"line1": "Mit Hilfe der Link-Variablen können Sie markenspezifische Links in Ihrer E-Mail-Vorlage bequem ersetzen.",
+				"line2": "Jeder Link, der nicht über ein Merge-Tag hinzugefügt wird, aber mehrfach in einer E-Mail benötigt wird, z. B. ein Link zu Ihrer Homepage, sollte als Link-Variable anstelle einer normalen URL definiert werden.",
+				"line3": "Wenn Sie die E-Mail mit einer anderen Brand wiederverwenden möchten oder sie aktualisieren müssen, können Sie die Links in der E-Mail ersetzen."
+			},
+			"text": {
+				"line1": "Textvariablen wurden entwickelt, damit Sie den schriftlichen Inhalt mehrerer Textwerte wie Schaltflächen, ALT-Texte oder Titel gemeinsam anpassen können.",
+				"line2": "Anstatt beispielsweise \"Weiterlesen\" auf jede Schaltfläche in Ihrer E-Mail-Vorlage zu schreiben, könnten Sie eine Variable \"button-text-1\" erstellen und sie jeder Schaltfläche zuweisen.",
+				"line3": "Wenn Sie später den Aufruf zur Aktion auf den Schaltflächen ersetzen müssen, brauchen Sie den Wert Ihrer Textvariablen nur einmal zu ändern."
+			}
+		},
+		"addTextVariable": {
+			"label": "Text",
+			"modeSwitchLabel": "HTML-Formatierung verwenden",
+			"modeSwitchLabelInfo": "Speichern Sie Variablen ohne HTML-Tags und verwenden Sie sie als Alt-Text oder Link-Titel",
+			"addSimpleText": "Geben Sie hier Ihren unformatierten Text ein",
+			"rules": {
+				"required": "Dies ist ein Pflichtfeld"
+			}
+		},
+		"addLinkVariable": {
+			"label": "Link",
+			"rules": {
+				"required": "Link url ist erforderlich"
+			}
+		},
+		"addImageVariable": {
+			"label": "Bild URL",
+			"chooseFromGallery": "Wählen Sie aus der Galerie",
+			"rules": {
+				"required": "Bild URL ist erforderlich",
+				"error": "Ungültige Url"
+			}
+		},
+		"addFontStackVariable": {
+			"label": "Link"
+		},
+		"addColorVariable": {
+			"label": "Hexadezimaler Farbcode",
+			"rules": {
+				"notValidColor": "Keine gültige Farbe"
+			}
+		}
+	},
+	"cursorWrapper": {
+		"containsVariables": "Dieses Element enthält Variablen"
+	},
+	"editorDropZoneBlockLevelBottom": {
+		"move": "Verschieben {0}",
+		"new": "Neu {0}",
+		"newBlock": "Neuer Block",
+		"newBlockInside": "Neuer Block innen {0}",
+		"types": {
+			"fullwidth": "Block",
+			"loop": "Blockwiederholung",
+			"block-level-loop": "Blockwiederholung",
+			"conditional": "Blockebene Bedingung",
+			"block-level-conditional": "Blockebene Bedingung"
+		}
+	},
+	"editorDropZoneBlockLevelTop": {
+		"move": "Verschieben {0}",
+		"new": "Neu {0}",
+		"newBlock": "Neuer Block",
+		"newBlockInside": "Neuer Block innen {0}",
+		"types": {
+			"fullwidth": "Block",
+			"loop": "Blockwiederholung",
+			"block-level-loop": "Blockwiederholung",
+			"conditional": "Blockebene Bedingung",
+			"block-level-conditional": "Blockebene Bedingung"
+		}
+	},
+	"editorDropZoneRoot": {
+		"dragDrop": "Ziehen Sie ein Element per Drag & Drop hierher",
+		"dropElement": "Drop the element here"
+	},
+	"editorElementCode": {
+		"codePrefix": "#Code - "
+	},
+	"editorElementFullWidth": {
+		"blockLock": "Block gesperrt {0}",
+		"dragBlock": "Block ziehen {0}",
+		"saveBlock": "Block speichern {0}",
+		"duplicateBlock": "Block duplizieren {0}",
+		"deleteBlock": "Block löschen {0}",
+		"types": {
+			"fullwidth": "",
+			"block-level-conditional": "(Blockebene Bedingung)",
+			"block-level-loop": "(Blockwiederholung)"
+		}
+	},
+	"editorPlaceHolderEmpty": {
+		"dragDrop": "Ziehen Sie ein Element per Drag & Drop hierher",
+		"dropElement": "Das Element hier ablegen"
+	},
+	"close": "Schließen",
+	"enterApply": "Drücken Sie ENTER zum Übernehmen",
+	"errors": {
+		"supportedFileTypes": "Unterstützte Dateitypen: nur jpg, jpeg, png und gif!",
+		"httpsMissing": "Ungültige URL. Bitte liefern Sie das Bild von HTTPS.",
+		"invalidImageUrl": "Dies ist keine gültige URL"
+	},
+	"consistencyCheckPlugin": {
+		"warning": "Bei der Überprüfung der Inkonsistenz der Vorlage ist ein Fehler aufgetreten.\nDas Neuladen der Vorlage könnte das Problem beheben, aber es kann dazu führen, dass einige der letzten Aktionen verloren gehen.\nWollen Sie die Vorlage neu laden?"
+	},
+	"diffPlugin": {
+		"warning": "Es gibt 15 oder mehr Änderungen in der Vorlage, die nicht erfolgreich an den Server gesendet wurden, und Ihre Änderungen werden möglicherweise nicht gespeichert. Dies kann durch eine langsame Internetverbindung verursacht werden.",
+		"title": "Verbindungsprobleme erkannt",
+		"ok": "OK"
+	},
+	"ckEditor": {
+		"addVariable": "Variable hinzufügen"
+	}
+}
