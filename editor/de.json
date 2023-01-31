@@ -179,7 +179,7 @@
 				"addNewBranch": "Neue Verzweigung hinzufügen",
 				"moveDownByOne": "Um einen Platz nach unten gehen",
 				"moveUpByOne": "Um einen Platz nach oben rücken",
-				"elseMustBeAtBottom": "Der Oder-Zweig muss sich am Ende befinden. Verwandeln Sie ihn in ein Entweder-Oder, um ihn zu verschieben.",    (JOEL)
+				"elseMustBeAtBottom": "Der Oder-Zweig muss sich am Ende befinden. Verwandeln Sie ihn in ein Entweder-Oder, um ihn zu verschieben.",
 				"selectYourExpression": "Wählen Sie Ihren Ausdruck",
 				"duplicateBranch": "Verzweigung duplizieren",
 				"deleteBranch": "Verzweigung löschen",
