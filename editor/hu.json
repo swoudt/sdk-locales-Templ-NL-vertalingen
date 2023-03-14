@@ -488,8 +488,8 @@
 			"label": "A változó neve*",
 			"rules": {
 				"required": "A név kötelező",
+				"notEmpty": "Name shouldn't be empty",
 				"noSpecialChar": "*|:<>[]{}()';@&$ karakterek nem megengedettek.",
-				"tooShort": "Túl rövid",
 				"tooLong": "Túl hosszú",
 				"unique": "Ez a változó már létezik, mint {0}"
 			}

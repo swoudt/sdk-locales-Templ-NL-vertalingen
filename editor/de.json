@@ -488,8 +488,8 @@
 			"label": "Name der Variablen*",
 			"rules": {
 				"required": "Name ist erforderlich",
+				"notEmpty": "Name shouldn't be empty",
 				"noSpecialChar": "*|:<>[]{}()';@&$ Zeichen sind nicht erlaubt",
-				"tooShort": "Der Variablenname ist zu kurz",
 				"tooLong": "Der Variablenname ist zu lang",
 				"unique": "Variable existiert bereits als Typ {0}"
 			}
