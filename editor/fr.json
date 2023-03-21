@@ -207,7 +207,7 @@
 					"inputHint": "Nom personnalisé pour votre code",
 					"title": "Code",
 					"editHTML": "Editer Code",
-					"warning": "Ce code apparaîtra tel quel dans le HTML de l'e-mail exporté. Utilisez cette fonctionnalité à vos risques et périls, car elle peut affecter d'autres parties du code HTML et entraîner des problèmes de rendu. Remarque supplémentaire : le code ajouté ici ne s'affichera pas dans l'éditeur ou dans l'aperçu.",
+					"warning": "Ce code apparaîtra tel quel dans le HTML de l'e-mail exporté. Utilisez cette fonctionnalité à vos risques et périls, car elle peut affecter d'autres parties du code HTML et entraîner des problèmes de rendu. Remarque supplémentaire : le code ajouté ici ne s'affichera pas dans l'éditeur ou dans l'aperçu.",
 					"isAmp": "Mode AMP",
 					"amp": {
 						"inputLabel": "Titre",
@@ -215,7 +215,7 @@
 						"editHTML": "Editer le code HTML du AMP",
 						"editCSS": "Editerle CSS du",
 						"ampCSS": "CSS AMP",
-						"warning": "Ce code n'apparaîtra qu'en mode générateur AMP et il ne sera pas modifié dans le code HTML de l'e-mail exporté. Utilisez cette fonctionnalité à vos risques et périls, car elle peut affecter d'autres parties du code HTML et entraîner des problèmes de rendu. Remarque supplémentaire : le code ajouté ici ne s'affichera pas dans l'éditeur ou dans l'aperçu."
+						"warning": "Ce code n'apparaîtra qu'en mode générateur AMP et il ne sera pas modifié dans le code HTML de l'e-mail exporté. Utilisez cette fonctionnalité à vos risques et périls, car elle peut affecter d'autres parties du code HTML et entraîner des problèmes de rendu. Remarque supplémentaire : le code ajouté ici ne s'affichera pas dans l'éditeur ou dans l'aperçu."
 					},
 					"rules": {
 						"maxLength": "Max 25 characters"
@@ -488,8 +488,8 @@
 			"label": "Nom variable*",
 			"rules": {
 				"required": "Le nom est obligatoire",
+				"notEmpty": "Name shouldn't be empty",
 				"noSpecialChar": " les caractères *|:<>[]{}()';@&$ ne sont pas autorisés",
-				"tooShort": "Le nom de la variable est trop court",
 				"tooLong": "Le nom de la variable est trop long",
 				"unique": "La variable existe déjà en tant que {0}"
 			}
@@ -615,7 +615,7 @@
 	"close": "Close",
 	"enterApply": "Taper ENTRÉE pour appliquer",
 	"errors": {
-		"supportedFileTypes": "Types de fichiers pris en charge : jpg, jpeg, png and gif",
+		"supportedFileTypes": "Types de fichiers pris en charge : jpg, jpeg, png and gif",
 		"httpsMissing": "URL invalide. utiliser un lien avec le protocole HTTPS.",
 		"invalidImageUrl": "URL invalide"
 	},

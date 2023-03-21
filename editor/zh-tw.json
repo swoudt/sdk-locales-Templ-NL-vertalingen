@@ -488,8 +488,8 @@
 			"label": "變數名稱*",
 			"rules": {
 				"required": "名稱是必須",
+				"notEmpty": "Name shouldn't be empty",
 				"noSpecialChar": "不可有空格或特別字元!",
-				"tooShort": "這變數名稱太短",
 				"tooLong": "這變數名稱太長",
 				"unique": "變數已存在於類別 {0}"
 			}
